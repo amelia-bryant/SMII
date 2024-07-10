@@ -8,49 +8,26 @@
 </script>
 
 
+# Tutorial Sheet x: x
 
-# Tutorial Sheet n: xx
-
-Topics this covered are 
-- this one
-- this one
-- and this one
-
-<br>
-
-## Basic 
-
-### Question 1
-
-Problem text $f = (x) \Leftarrow \text{this is some math}$ <br>
-
-(a)
-
-### Answer
-
-Problem text $f = (x) \Leftarrow \text{this is some math}$
-
-(a)
+Topics this covered are:
+- Types of motion
+- Rotation around a fixed axis
+- Relative velocity
 
 <br>
 
-------------------
+## Question 1 
 
-## Basic 2
+At the instant shown, the disk has angular velocity is 2 rad/s counter clockwise and angular acceleration 6 rad/s $^2$. Its radius is 0.2 m. 
 
-### Question 1
+What are the magnitudes of the velocity and acceleration of point A?
 
-Problem text $f = (x) \Leftarrow \text{this is some math}$ <br>
+<img src = "figs\01_planar_kinematics\Q1.png" width="50%"> <br>
 
-<img src = "01-x\cover.png" width="50%"> <br>
-
-(a)
 
 ### Answer
 
-Problem text $f = (x) \Leftarrow \text{this is some math}$
-
-(a)
 
 
 
