@@ -214,17 +214,17 @@ At the instant shown, the piston’s velocity is $v_C = −14i$ m/s. What is the
 
 Looking at the mechanism, we can see that C is limited to only i. Also knowing that A is static, we can set up some equations.  
 
-$$ v_B=v_A +\omega_{B/A} \times r_{B/A} \\ 0+\omega_{B/A}k \times (0.05i+0.05j) \\ = -0.05 \omega_{B/A}i + 0.05 \omega_{B/A}j$$
+$$ v_B=v_A +\omega_{BA} \times r_{BA} \\ 0+\omega_{BA}k \times (0.05i+0.05j) \\ = -0.05 \omega_{BA}i + 0.05 \omega_{BA}j$$
 
-$$v_B=v_C +\omega_{B/C} \times r_{B/C} \\ -14i+\omega_{B/C}k \times (0.175i-0.05j) \\ = -14i -0.05 \omega_{B/C}i -0.175 \omega_{B/C}j$$
+$$v_B=v_C +\omega_{BC} \times r_{BC} \\ -14i+\omega_{BC}k \times (0.175i-0.05j) \\ = -14i -0.05 \omega_{BC}i -0.175 \omega_{BC}j$$
 
 Then analyse looking at each component of velocity
 
-$$(i) -0.05 \omega_{B/A}+0.05 \omega_{B/C} =-14 \\ (j) 0.05 \omega_{B/A}=-0.175 \omega_{B/C} $$ 
+$$(i) -0.05 \omega_{BA}+0.05 \omega_{BC} =-14 \\ (j) 0.05 \omega_{BA}=-0.175 \omega_{BC} $$ 
 
 And using simultaneous equations
 
-$$ \omega_{B/A}=218 \text{ rad/s} $$
+$$ \omega_{BA}=218 \text{ rad/s} $$
 
 ## Question 9
 
