@@ -11,7 +11,7 @@
 
 # Tutorial Sheet 1: Planar Kinematics Answers
 
-**Topics this covered are:**
+**Topics covered are:**
 - Types of motion
 - Rotation around a fixed axis
 - Relative velocity

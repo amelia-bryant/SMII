@@ -29,6 +29,6 @@
 ## Module leaders
 * __Kamyar__
 
-## Original tutorial sheet authors
+## tutorial sheet authors
 
 * Amelia Bryant

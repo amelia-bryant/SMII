@@ -11,7 +11,7 @@
 
 # Tutorial Sheet 1: Planar Kinematics Answers 
 
-**Topics this covered are**
+**Topics covered are**
 - Acceleration in 2D 
 - Relative accelerations
 
