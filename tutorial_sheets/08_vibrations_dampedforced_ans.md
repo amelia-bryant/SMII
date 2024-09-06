@@ -9,7 +9,7 @@
 
 
 
-# Tutorial Sheet 10: Damped and Force Vibrations
+# Tutorial Sheet 10: Damped and Forced Vibrations
 
 **Topics covered are:**
 - Damped vibrations
