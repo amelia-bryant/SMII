@@ -357,7 +357,7 @@ The radius of the circular disk is R=0.2 m, and b=0.3 m. The disk rotates with a
 
 ### Answer
 
-There's a lot of moving parts, so I'm going ot label it so algebra symbols don't get mixed up.
+There's a lot of moving parts, so I'm going to label it so algebra symbols don't get mixed up.
 
 <img src = "figs\05_3D_kinematics\Q10ans.jpg" width="50%"> <br>
 
@@ -384,7 +384,7 @@ v_M=1.2j-0.6k $$
 The velocity of P is
 
 $$
-v_P = v_M+\omega\times r_{P/C} \\
+v_P = v_M+\omega\times r_{P/M} \\
 v_P = 1.2j-0.6k + \begin{vmatrix}
 i & j & k\\
 6 & 2 & 4 \\

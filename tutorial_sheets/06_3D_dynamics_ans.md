@@ -581,7 +581,7 @@ The vertical shaft rotates with constant angular velocity $\omega_O$. The 35◦ 
 
 Draw a free body diagram with the origin at the pinned joint and labelling angles and axes
 
-<img src = "figs\06_3D_dynamics\Q8ans.jpg" width="50%"> (have this labelled with b (0,61) and h 0.31) <br>
+<img src = "figs\06_3D_dynamics\Q8ans.jpg" width="50%">  <br>
 
 We need to calculate a lot of things before we can sub into the Euler equation. First construct the inertia matrix 
 

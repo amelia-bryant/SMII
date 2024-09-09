@@ -9,7 +9,7 @@
 
 
 
-# Tutorial Sheet 1: Planar Kinematics Answers 
+# Tutorial Sheet 2: Planar Kinematics with Acceleration Answers 
 
 **Topics covered are**
 - Acceleration in 2D 

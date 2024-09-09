@@ -142,7 +142,7 @@ The bar is moving in the x–y plane and is rotating in the counterclockwise dir
 **(b)**  
 As we are dealing with vectors, we need to use the cross product. This is really important from now on so make sure you are comfortable with calculating this. I recommend the method below, but whatever works for you!
 
-<img src = "figs\01_planar_kinematics\crossmethod.jpg" width="50%"> <br>
+<img src = "figs\01_planar_kinematics\Q5ans.jpg" width="50%"> <br>
 
 To calculate velocity of B
 

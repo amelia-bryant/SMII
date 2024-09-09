@@ -17,10 +17,10 @@ Topics covered are
 - Inertia from different axes
 
 **Tips**
-- With lots of directions and taking forces from different locations, make sure you don't get mixed up
-- aka please draw them out trust me and mark on where your origin is
-- I include circle arrows to indicate which direction the moments are taken around
-- Sometimes part a and b have to be solved in different orders
+- With lots of directions and taking forces from different locations, make sure you don't get mixed up.
+- aka please draw them out trust me and mark on where your origin is.
+- I include circle arrows to indicate which direction the moments are taken around.
+- Sometimes part a and b have to be solved in different orders.
 <br>
 
 ## Question 1 
@@ -303,7 +303,7 @@ then sum
 
 $$ = \frac{17}{12}ml^2 $$
 
-(b) First we need to find the location of the CoM (from O)
+(b) First we need to find the location of the CoM 
 
 <img src = "figs\04_planar_dynamics\Q10ans.jpg" width="50%"> <br>
 

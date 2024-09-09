@@ -17,8 +17,8 @@
 - Cross product in 3D
 
 **Tips**
-- Really try to visualise these mechanisms, physically drawing on where each reference frame can help to prevent errors
-- You don't need to include all terms in your expressions if you know they are zero, however in the early questions I have included all terms for completeness
+- Really try to visualise these mechanisms, physically drawing on where each reference frame can help to prevent errors.
+- You don't need to include all terms in your expressions if you know they are zero, however in the early questions I have included all terms for completeness.
 - Remember unit vectors...
 
 <br>
