@@ -47,7 +47,7 @@ $$
 Then we can find the angular frequency
 
 $$
-\omega_d=\sqrt{{\omega^2}-{d^2}} \\
+\omega_d=\sqrt{\omega^2-{d^2}} \\
 \omega_d=\sqrt{{6^2}-{2^2}} \\
 \omega_d=5.66 \text{ rad/s}
 $$
