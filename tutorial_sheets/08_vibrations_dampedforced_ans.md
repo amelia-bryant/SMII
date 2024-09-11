@@ -110,8 +110,8 @@ $$
 Then find the angular frequency and frequency of the damped vibrations
 
 $$
-\omega_d=\sqrt{{\omega^2}-{d^2}} \\
-\omega_d=\sqrt{{6^2}-{8^2}} \\
+\omega_d=\sqrt{\omega^2-d^2} \\
+\omega_d=\sqrt{6^2-8^2} \\
 \omega_d=5.29 \text{ rad/s}
 f_d = \frac{\omega_d}{2\pi} \\
 f_d = \frac{5.29}{2\pi} \\
@@ -485,8 +485,8 @@ $$
 Find variables needed to solve
 
 $$
-\omega_d=\sqrt{{\omega^2}-{d^2}} \\
-\omega_d=\sqrt{{2^2}-{1^2}} \\
+\omega_d=\sqrt{\omega^2-d^2} \\
+\omega_d=\sqrt{2^2-1^2} \\
 \omega_d=\sqrt{3} \text{ rad/s}
 $$
 
