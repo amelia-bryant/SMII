@@ -1,7 +1,7 @@
 # SM2 Tutorial Sheets
 
 ## Original
-* __[1 - Planar Kinematics](tutorial_sheets\01_planar_kinematics.md)__
+* __[1 - Planar Kinematics](tutorial_sheets\01_planar_kinematics)__
 * __[2 - Planar Kinematics with Acceleration](tutorial_sheets\02_planar_kinematics_accel.md)__
 * __[3 - Moving Systems](tutorial_sheets\03_moving_systems.md)__
 * __[4 - Planar Dynamics](tutorial_sheets\04_planar_dynamics.md)__
@@ -11,7 +11,7 @@
 * __[8 - Vibrations, Damped and Forced](tutorial_sheets\08_vibrations_dampedforced.md)__
 
 ## With Answers
-* __[1 - Planar Kinematics](tutorial_sheets\01_planar_kinematics_ans.md)__
+* __[1 - Planar Kinematics](tutorial_sheets\01_planar_kinematics_ans)__
 * __[2 - Planar Kinematics with Acceleration](tutorial_sheets\02_planar_kinematics_accel_ans.md)__
 * __[3 - Moving Systems](tutorial_sheets\03_moving_systems_ans.md)__
 * __[4 - Planar Dynamics](tutorial_sheets\04_planar_dynamics_ans.md)__
