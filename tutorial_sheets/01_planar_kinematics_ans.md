@@ -54,7 +54,7 @@ $$ a_n=r\omega^2 = 0.2\times 2^2 \\ = 0.8 m/s^2 $$
 $$ a_t=r\alpha = 0.2\times6 \\=1.2 m/s^2 $$
 
 $$ |a|= \sqrt{a_n^2+a_t^2} \\ = \sqrt{0.8^2+1.2^2} \\ =1.44m/s^2 $$
-<br>
+
 
 ## Question 2
 
@@ -81,13 +81,13 @@ $$ a_n =\frac{v^2}{r} = \frac{4^2}{0.1} \\= 160 m/s^2 $$
 
 We need alpha to find tangential accel
 
-$$ \alpha = \frac{a}{r} = \frac{8}{0.1} = 80 rad/s^2$$
-$$ a_t = r\alpha = 0.1\times 80 \\= 8m/s^2$$
+$$ \alpha = \frac{a}{r} = \frac{8}{0.1} = 80 rad/s^2 \\
+a_t = r\alpha = 0.1\times 80 \\
+= 8m/s^2$$
 
 ## Question 3
 
-**(a)**  If the bicycle’s 120 mm radius sprocket  wheel rotates through one revolution, through how many revolutions does the 45 mm gear turn? 
-
+**(a)**  If the bicycle’s 120 mm radius sprocket  wheel rotates through one revolution, through how many revolutions does the 45 mm gear turn? <br>
 **(b)** If the angular velocity of the sprocket wheel is 1 rad/s, what is the
  angular velocity of the gear?
 
@@ -128,7 +128,8 @@ $$ \frac{100}{60}.2\pi = 10.47 rad/s = \omega $$
 
 Then using the basic $v=\omega r$ equation
 
-**Point A**
+Point A:
+
 $$ v_x=10.47\times 8=83.77 \\
 v_y=10.47\times 8=83.77 $$
 
@@ -136,7 +137,8 @@ In vector form
 
 $ v_A=83.77i+83.77j $ cm/s
 
-**Point B**
+Point B:
+
 $$ v_x=10.47\times 16=167.5 \\
 v_y=10.47\times 0=0 $$
 
@@ -246,7 +248,7 @@ $$ \omega_{BA}=218 \text{ rad/s} $$
 
 ## Question 9
 
-Points A and B of the 2-m bar slide on the plane surfaces. Point B is moving to the right at 3 m/s. What is the velocity of the midpoint G of the bar?
+Points A and B of the 2 m bar slide on the plane surfaces. Point B is moving to the right at 3 m/s. What is the velocity of the midpoint G of the bar?
 
 <img src = "figs\01_planar_kinematics\Q9.jpg" width="50%"> <br>
 
@@ -374,7 +376,7 @@ Equate terms to find the coordinates
 $$ (i) -1.83 = 4y_C \rightarrow y_C=-0.46 \\  (j) -4.27 = -4x_C \rightarrow x_C=1.07 \\ (1.07,-0.46) \text{ m}$$
 
 ## Question 13
-Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $v_B$ = 2i (m/s).
+Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $v_B$ = 2i m/s.
 
 **(a)** What are the coordinates of the instantaneous center of the bar? <br>
 **(b)** Use the instantaneous center to determine the velocity at A.
@@ -385,7 +387,7 @@ Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $
 
 Just as in Q9, the bar is constrained A in j, B in i. 
 
-**(a)** Work this out using geometry. Draw perpendiculars to the velocity vectors. at A and B.
+**(a)** Work this out using geometry. Draw perpendiculars to the velocity vectors at A and B.
 
 <img src = "figs\01_planar_kinematics\Q13ans.jpg" width="50%"> <br>
 
