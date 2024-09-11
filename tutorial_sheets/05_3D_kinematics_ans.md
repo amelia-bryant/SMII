@@ -21,8 +21,8 @@
 - Reference frames
 
 **Tips**
-- Cross products will get much larger - the order of calculation matters, and you will need to use the full version of the acceleration equations
-- Mechanisms are now in 3D, so practice visualisiing the actual movements to avoid mistakes
+- Cross products will get much larger - the order of calculation matters, and you will need to use the full version of the acceleration equations.
+- Mechanisms are now in 3D, so practice visualisiing the actual movements to avoid mistakes.
 - Some will like to use column vectors, write it how you feel works best for you!
 
 <br>
@@ -44,15 +44,18 @@ i & j & k\\
 
 ## Question 2 
 
-The angular velocity of the cube relative to the primary reference frame, expressed in terms of the body-fixed coordinate system shown is $\omega$=−6.4i+8.2j+12k(rad/s).The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32k m/s.What is the velocity of point A of the cube relative to the primary reference frame at the instant shown?
+The angular velocity of the cube relative to the primary reference frame, expressed in terms of the body-fixed coordinate system shown is $\omega$=−6.4i+8.2j+12k rad/s.The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32k m/s. What is the velocity of point A of the cube relative to the primary reference frame at the instant shown?
 
 <img src = "figs\05_3D_kinematics\Q2.jpg" width="50%"> <br>
 
 ### Answer
 
 The vector A to G is
+
 $$ i+j+k$$
+
 Then 
+
 $$ v_A=v_G+\omega \times r_{A/G} \\ v_A= 26i+14j+32k + \begin{vmatrix}
 i & j & k\\
 -6.4 & 8.2 & 12 \\
@@ -85,12 +88,10 @@ $$
 
 ## Question 4
 
-The origin of the secondary coordinate system shown is fixed to the center of mass G of the cube. The velocity of the center of mass G of the cube
-relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32 m/s. The cube is rotating relative to the secondary coordinate system with  angular velocity $\omega_{rel}$ =6.2i−5j+8.8k rad/s. The secondary coordinate system is rotating relative to the primary reference frame with angular velocity 2.2i+4j−3.6k rad/s.
+The origin of the secondary coordinate system shown is fixed to the center of mass G of the cube. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32 m/s. The cube is rotating relative to the secondary coordinate system with  angular velocity $\omega_{rel}$ =6.2i−5j+8.8k rad/s. The secondary coordinate system is rotating relative to the primary reference frame with angular velocity 2.2i+4j−3.6k rad/s.
 
-(a) What is the velocity of point A of the cube relative to the primary reference frame at the instant shown?
-
-(b) If the components of the vectors $\omega_{rel}$ and are constant, what is the cube’s angular acceleration relative to the primary reference frame?
+**(a)** What is the velocity of point A of the cube relative to the primary reference frame at the instant shown? <br>
+**(b)** If the components of the vectors $\omega_{rel}$ and are constant, what is the cube’s angular acceleration relative to the primary reference frame?
 
 <img src = "figs\05_3D_kinematics\Q2.jpg" width="50%"> <br>
 
@@ -100,7 +101,7 @@ There is a lot going on here, so annotate
 
 <img src = "figs\05_3D_kinematics\Q4ans.jpg" width="50%"> <br>
 
-(a)
+**(a)**
 
 $$\omega = \Omega+\omega_{rel} \\
 \omega = (22i+4j-3.6k)+(6.2i-5j+8.8k) \\
@@ -113,7 +114,8 @@ i & j & k\\
 \end{vmatrix} \\ 
 v_A = 19.8i+10.8j+41.4k \text{ m/s}$$
 
-(b) 
+**(b)**
+
 $$ \alpha = \frac{d\omega}{dt}+\Omega\times \omega_{rel} \\
 \alpha = 0 + \begin{vmatrix}
 i & j & k\\
@@ -207,9 +209,8 @@ $$
 
 Relative to an earth-fixed reference frame, the vertical shaft rotates about its axis with angular velocity $\omega_O$=4 rad/s. The secondary xyz coordinate system is fixed with respect to the shaft and its origin is stationary. Relative to the secondary coordinate system, the disk (radius 8 cm) rotates with constant angular velocity $\omega_d$=6 rad/s. At the instant shown, determine the velocity of point A
 
-(a) relative to the secondary reference frame.
-
-(b) relative to the earth-fixed reference frame.
+**(a)** relative to the secondary reference frame.<br>
+**(b)** relative to the earth-fixed reference frame.
 
 <img src = "figs\05_3D_kinematics\Q7.jpg" width="50%"> <br>
 
@@ -217,7 +218,8 @@ Relative to an earth-fixed reference frame, the vertical shaft rotates about its
 
 <img src = "figs\05_3D_kinematics\Q7ans.jpg" width="50%"> <br>
 
-(a)
+**(a)**
+
 $$
 v_A=v_O+\omega_{rel} \times r_{A/O} \\
 v_A=0+ \begin{vmatrix}
@@ -228,7 +230,8 @@ i & j & k\\
 v_A = -33.9j+33.9k \text{ cm/s}
 $$
 
-(b)
+**(b)**
+
 $$
 \omega = \Omega+\omega_{rel} \\
 \omega = 4j+6i \\
@@ -244,11 +247,9 @@ $$
 ## Question 8 
 The object in figure (a) is supported by bearings at A and B in figure (b). The horizontal circular disk is supported by a vertical shaft that rotates with angular velocity $\omega_O$=6 rad/s. The horizontal bar rotates with angular velocity $\omega$=10 rad/s. At the instant shown,
 
-(a) What is the velocity relative to an earth-fixed reference frame of the end C of the vertical bar?
-
-(b) What is the angular acceleration vector of the object relative to an earth-fixed reference frame?
-
-(c) What is the acceleration relative to an earth-fixed reference frame of the end C of the vertical bar?
+**(a)** What is the velocity relative to an earth-fixed reference frame of the end C of the vertical bar? <br>
+**(b)** What is the angular acceleration vector of the object relative to an earth-fixed reference frame? <br>
+**(c)** What is the acceleration relative to an earth-fixed reference frame of the end C of the vertical bar?
 
 <img src = "figs\05_3D_kinematics\Q8.jpg" width="50%"> <br>
 
@@ -256,7 +257,7 @@ The object in figure (a) is supported by bearings at A and B in figure (b). The 
 
 <img src = "figs\05_3D_kinematics\Q8ans.jpg" width="50%"> <br>
 
-(a) 
+**(a)** 
 
 $$ \omega = \Omega+\omega_{rel} \\
 \omega = 6j+10i $$
@@ -269,7 +270,7 @@ i & j & k\\
 \end{vmatrix} \\
 v_C = 0.4k \text{ m/s} $$
 
-(b)
+**(b)**
 
 $$ \alpha = \frac{dw}{dt} + \Omega\times\omega \\
 \alpha =  0+\begin{vmatrix}
@@ -279,7 +280,7 @@ i & j & k\\
 \end{vmatrix} \\
 \alpha = -60k \text{ rad/s}^2 $$
 
-(c) We've worked out the last sum in part (a) so you can shortcut it
+**(c)** We've worked out the last sum in part (a) so you can shortcut it
 
 $$ a_C = a_O+\alpha\times r_{C/O}+\omega\times(\omega\times r_{C/O}) \\
 a_C = a_O+ \begin{vmatrix}
@@ -296,20 +297,17 @@ $$
 
 ## Question 9 
 
-The point of the spinning top remains at a fixed point on the floor, which is the origin O of the secondary reference frame shown. The top’s angular velocity vector relative to the secondary reference frame, $\omega_{rel}$=50k rad/s, is constant. The angular velocity vector of the secondary reference frame relative to an earth-fixed primary reference frame is $\omega$=2j+5.6k rad/s. The components of this vector are constant. (Notice that it is expressed in terms of the secondary
-reference frame.) 
+The point of the spinning top remains at a fixed point on the floor, which is the origin O of the secondary reference frame shown. The top’s angular velocity vector relative to the secondary reference frame, $\omega_{rel}$=50k rad/s, is constant. The angular velocity vector of the secondary reference frame relative to an earth-fixed primary reference frame is $\omega$=2j+5.6k rad/s. The components of this vector are constant. (Notice that it is expressed in terms of the secondary reference frame.) 
 
-(a) Determine the velocity relative to the earth-fixed reference frame of the point of the top with coordinates (0, 20, 30) mm.
-
-(b) What is the top’s angular acceleration vector relative to the earth-fixed reference frame?
-
-(c) Determine the acceleration relative to the earth fixed reference frame of the point of the top with coordinates (0, 20, 30) mm
+**(a)** Determine the velocity relative to the earth-fixed reference frame of the point of the top with coordinates (0, 20, 30) mm. <br>
+**(b)** What is the top’s angular acceleration vector relative to the earth-fixed reference frame <br>
+**(c)** Determine the acceleration relative to the earth fixed reference frame of the point of the top with coordinates (0, 20, 30) mm
 
 <img src = "figs\05_3D_kinematics\Q9.jpg" width="50%"> <br>
 
 ### Answer
 
-(a)
+**(a)**
 
 $$ \omega = \Omega + \omega_{rel} \\
 \omega = 50k+2j+5.6k \\
@@ -325,7 +323,8 @@ i & j & k\\
 v_A = -1.05i \text{ m/s}
 $$
 
-(b)
+**(b)**
+
 $$ \alpha = \frac{dw}{dt} + \Omega\times\omega \\
 \alpha =  0+\begin{vmatrix}
 i & j & k\\
@@ -334,7 +333,7 @@ i & j & k\\
 \end{vmatrix} \\
 \alpha = 100i \text{ rad/s}^2 $$
 
-(c) Shortcut like in the previous question
+**(c)** Shortcut like in the previous question
 
 $$ a_A = a_C+\alpha\times r_{A/C}+\omega\times(\omega\times r_{A/C}) \\
 a_A = 0 + \begin{vmatrix}
@@ -353,9 +352,8 @@ a_C = -61.4j+4.1k \text{ m/s}^2 $$
 
 The radius of the circular disk is R=0.2 m, and b=0.3 m. The disk rotates with angular velocity $\omega_d$=6 rad/s relative to the horizontal bar. The horizontal bar rotates with angular velocity $\omega_b$=4 rad/s relative to the vertical shaft, and the vertical shaft rotates with angular velocity $\omega_O$=2 rad/s relative to an earth-fixed reference frame. Assume that the secondary reference frame shown is fixed with respect to the horizontal bar.
 
-(a) What is the angular velocity vector $\omega_{rel}$ of the disk relative to the secondary reference frame?
-
-(b) Determine the velocity relative to the earth-fixed reference frame of point P, which is the uppermost point of the disk.
+**(a)** What is the angular velocity vector $\omega_{rel}$ of the disk relative to the secondary reference frame? <br>
+**(b)** Determine the velocity relative to the earth-fixed reference frame of point P, which is the uppermost point of the disk.
 
 <img src = "figs\05_3D_kinematics\Q10.jpg" width="50%"> <br>
 
