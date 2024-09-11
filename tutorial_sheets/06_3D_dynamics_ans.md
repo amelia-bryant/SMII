@@ -328,15 +328,14 @@ $$
 
 The bar is stationary relative to an inertial reference frame when the force F=12k N is applied at the right end of the bar. No other forces or couples act on the bar. Determine
 
-(a) The bar’s angular acceleration relative to the inertial reference frame
-
-(b) The acceleration of the right end of the bar relative to the inertial reference frame at the instant the force is applied.
+**(a)** The bar’s angular acceleration relative to the inertial reference frame. <br>
+**(b)** The acceleration of the right end of the bar relative to the inertial reference frame at the instant the force is applied.
 
 <img src = "figs\06_3D_dynamics\Q5.jpg" width="50%"> <br>
 
 ### Answer
 
-(a) Taking the individual bar CoM distances from the reference frame labelled
+**(a)** Taking the individual bar CoM distances from the reference frame labelled
 
 <img src = "figs\06_3D_dynamics\Q5ans.jpg" width="50%"> <br>
 
@@ -381,7 +380,7 @@ d\omega_z/dt
 \alpha = 6.01i-7.5j \text{ rad/s}^2
 $$
 
-(b) We can work out the linear acceleration of the CoM with Newton's second law
+**(b)** We can work out the linear acceleration of the CoM with Newton's second law
 
 $$
 F = ma_O \\
