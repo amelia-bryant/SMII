@@ -30,17 +30,19 @@
 
 The rigid body rotates about the z axis with counterclockwise angular velocity ω = 4 rad/s and counterclockwise angular acceleration α = 2 rad/s $^2$. The distance $r_{A/B}$ = 0.6m.  
 
-**(a)** What are the rigid body’s angular velocity and angular acceleration vectors? 
- 
+**(a)** What are the rigid body’s angular velocity and angular acceleration vectors? <br> 
 **(b)** Determine the acceleration of point A relative to point B.
 
 <img src = "figs\02_planar_kinematics_accel\Q1.jpg" width="50%"> <br>
 
 ### Answer
 
-**(a)** Using the thumb rule, both are positive hence $$ \omega = 4k \\ \alpha = 6k $$
+**(a)** Using the thumb rule, both are positive hence 
+
+$$ \omega = 4k \\ \alpha = 6k $$
 
 **(b)** 
+
 $$a_{A/B}=a_B+\alpha\times r_{A/B}+\omega\times(\omega\times r_{A/B}) \\ a_{A/B}=0+2k\times 0.6i+4k\times(4k\times 0.6i) \\ a_{A/B} = -9.6i+1.2j \text{ m/s}^2 $$
 
 or 
@@ -60,6 +62,8 @@ What is the acceleration of point T?
 Draw it out
 
 <img src = "figs\02_planar_kinematics_accel\Q2ans.jpg" width="50%"> <br>
+
+It then follows
 
 $$ a_{T}=a_G+\alpha\times r_{T/G}-\omega^2 r_{T/G} \\ 
 a_{T}=2i+3j+\begin{vmatrix}
@@ -126,7 +130,7 @@ i & j & k\\
 
 ## Question 5
 
-The length of the bar is L = 4 m and the angle $\theta$ = 30 $\degree$. The bar’s angular velocity is $\omega$ = 1.8 rad/s and its angular acceleration is $\alpha$ = 6 rad/s $^2$. The endpoints of the bar slide on the plane surfaces. Determine the acceleration of the midpoint G.
+The length of the bar is L = 4 m and the angle $\theta$ = 30°. The bar’s angular velocity is $\omega$ = 1.8 rad/s and its angular acceleration is $\alpha$ = 6 rad/s $^2$. The endpoints of the bar slide on the plane surfaces. Determine the acceleration of the midpoint G.
 
 <img src = "figs\02_planar_kinematics_accel\Q5.jpg" width="50%"> <br>
 
@@ -136,7 +140,7 @@ Drawing and labelling the situation calling the top point A and bottom B
 
 <img src = "figs\02_planar_kinematics_accel\Q5ans.jpg" width="50%"> <br>
 
-Solve, taking into account the constraints of the movements imparted by the walls and floor.
+Solve, taking into account the constraints of the movements imparted by the walls and floor
 
 $$ a_{A}=a_B+\alpha\times r_{A/B}-\omega^2 r_{A/B} \\ = a_B + \begin{vmatrix}
 i & j & k\\
@@ -145,11 +149,13 @@ i & j & k\\
 \end{vmatrix} - 1.8^2(-4\cos(60)i+ 4\sin(60)j) \\ a_Aj = a_Bi - 14.28i -23.21j $$
 
 Equating components
-$$ (i) 0 = a_B -14.28 \rightarrow a_B=14.28 \text{ m/s} ^2\\ (j) a_A = -23.21 \rightarrow a_A=-23.21 \text{ m/s} ^2 $$
 
-Now we can use either to work out G
+$$ (i) 0 = a_B -14.28 \rightarrow a_B=14.28 \text{ m/s} ^2\\ 
+(j) a_A = -23.21 \rightarrow a_A=-23.21 \text{ m/s} ^2 $$
 
-$$ a_{G}=a_A+\alpha\times r_{G/A}-\omega^2 r_{G/A} \\ = -23.21j + \begin{vmatrix}
+Now we can use either points to work out G
+
+$$ a_{G}=a_A+\alpha\times r_{G/A}-\omega^2 r_{G/A} \\ a_G= -23.21j + \begin{vmatrix}
 i & j & k\\
 0 & 0 & 6 \\
 2\cos(60) & -2\sin(60) & 0
@@ -267,7 +273,8 @@ Point A of the rolling disk is moving toward the right and accelerating toward t
 
 <img src = "figs\02_planar_kinematics_accel\Q9ans.jpg" width="50%"> <br>
 
-First find the velocity of the centre of the disk. because it is rolling, it only has i component hence
+First find the velocity of the centre of the disk. because it is rolling, it only has i component, hence
+
 $$ v_a=r\omega i $$
 
 Next find velocity of C. Intruitivley this must only have j velocity component meaning the velocity must be 
@@ -275,6 +282,7 @@ Next find velocity of C. Intruitivley this must only have j velocity component m
 $$ v_C = r\omega i + r\omega j$$
 
 But we can prove it mathematically with
+
 $$
 v_C = v_A + r\times\omega \\ = r\omega i + \begin{vmatrix}
 i & j & k\\
@@ -283,7 +291,7 @@ i & j & k\\
 \end{vmatrix}  = r\omega i + r\omega j
 $$
 
-From here, we know the magnitude of velocity of C is 2 so we can calculate the angular velocity using basic absolute value vector calculations.
+From here, we know the magnitude of velocity of C is 2 so we can calculate the angular velocity using basic absolute value vector calculations
 
 
 $$ 2=  \sqrt{(r\omega)^2+(r\omega)^2} \\ 4= r^2 \omega^2+r^2 \omega^2 \\ 4 = 2r^2\omega^2 \\ 4 = 0.18\omega^2 \\ \omega = 4.71 \text{ rad/s} $$
