@@ -34,32 +34,33 @@ At the instant shown, the disk has angular velocity is 2 rad/s counter clockwise
 
 What are the magnitudes of the velocity and acceleration of point A?
 
-<img src = "figs\01_planar_kinematics\Q1.png" width="50%"> <br>
+<img src = "figs\01_planar_kinematics\Q1.jpg" width="50%"> <br>
 
 
 ### Answer
 
-It is useful to sketch the situation.
+It is useful to sketch the situation
 
-<img src = "figs\01_planar_kinematics\Q1_ans.png" width="50%"> <br>
+<img src = "figs\01_planar_kinematics\Q1ans.jpg" width="50%"> <br>
 
-Using the basic equations of motion and subbing in values, velocity can be calculated. 
+Using the basic equations of motion and subbing in values, velocity can be calculated
 
 $$ v=r \omega=0.2\times2 \\=0.4 m/s $$
 
-The magnitude of acceleration can be calculated using the normal and tangential components, then using basic pythagoras to find the magnitude.
+The magnitude of acceleration can be calculated using the normal and tangential components, then using basic pythagoras to find the magnitude
 
 $$ a_n=r\omega^2 = 0.2\times 2^2 \\ = 0.8 m/s^2 $$ 
 
 $$ a_t=r\alpha = 0.2\times6 \\=1.2 m/s^2 $$
 
-$$ |a|= \sqrt{a_n^2+a_t^2} \\ = \sqrt{0.8^2+1.2^2} \\\ =1.44m/s^2 $$
+$$ |a|= \sqrt{a_n^2+a_t^2} \\ = \sqrt{0.8^2+1.2^2} \\ =1.44m/s^2 $$
 <br>
 
 ## Question 2
 
-The mass A starts from rest at t=0 and falls with a constant acceleration of 8 m/s $^2$. When the mass has fallen one meter, determine the magnitudes of: <br>
-**(a)** The angular velocity of the pulley <br>
+The mass A starts from rest at t=0 and falls with a constant acceleration of 8 m/s $^2$. When the mass has fallen one meter, determine the magnitudes of: 
+
+**(a)** The angular velocity of the pulley. <br>
 **(b)** The tangential and normal components of acceleration of a point at the outer edge of the pulley.
 
 <img src = "figs\01_planar_kinematics\Q2.jpg" width="50%"> <br>
@@ -67,13 +68,19 @@ The mass A starts from rest at t=0 and falls with a constant acceleration of 8 m
 ### Answer
 
 **(a)** a=8, u=0 (starting from rest), s=1, calculate v in order to work out everything else. Using SUVAT
-$$ v^2=a^2 +2as \\ v=\sqrt{0^2+2\times 8\times1}\\=4m/s$$
-Use this with the given equations. 
-$$ v=r\omega \\ 4=0.1 \times \omega \\ \omega = 40 rad/s$$
-**(b)** 
-Using the given equations and v from before
+
+$$ v^2=a^2 +2as \\ v=\sqrt{0^2+2\times 8\times1}\\=4m/s $$
+
+Use this with the given equations
+
+$$ v=r\omega \\ 4=0.1 \times \omega \\ \omega = 40 rad/s $$
+
+**(b)** Using the given equations and v from before
+
 $$ a_n =\frac{v^2}{r} = \frac{4^2}{0.1} \\= 160 m/s^2 $$
-We need alpha to find tangential accel. 
+
+We need alpha to find tangential accel
+
 $$ \alpha = \frac{a}{r} = \frac{8}{0.1} = 80 rad/s^2$$
 $$ a_t = r\alpha = 0.1\times 80 \\= 8m/s^2$$
 
@@ -86,56 +93,60 @@ $$ a_t = r\alpha = 0.1\times 80 \\= 8m/s^2$$
 
 <img src = "figs\01_planar_kinematics\Q3.jpg" width="50%"> <br>
 
- ### Answer
+### Answer
 
- Sketch the situation so it's a bit more comprehensible. 
+Sketch the situation so it's a bit more comprehensible. 
 
- <img src = "figs\01_planar_kinematics\Q3_ans.jpg" width="50%"> <br>
+<img src = "figs\01_planar_kinematics\Q3_ans.jpg" width="50%"> <br>
 
- **(a)** As the gears are attached by the chain, when the large sprocket wheel rotates by a certain length, the small one must also pass that length through. Hence we can simply use ratios. 
+**(a)** As the gears are attached by the chain, when the large sprocket wheel rotates by a certain length, the small one must also pass that length through. Hence we can simply use ratios. 
 
- Circumference of wheel 
+Circumference of wheel 
 
- $$ l = \pi d = \pi \times 0.12\times 2 \\  = 0.754 \text{ m}$$
+$$ l = \pi d = \pi \times 0.12\times 2 \\  = 0.754 \text{ m}$$
 
- 'Length' passed through by gear. 
- $$0.754 = x \times \pi \times 2 \times 0.045 \\ x=2.67 \text{ revs} $$ 
+'Length' passed through by gear
 
- **(b)** The chain must be moving at a constant rate (velocity), therefore
- $$ v_s = v_g \\ r_s\omega_s = r_g\omega_g \\ 0.12\times 1 = 0.045\times \omega_g \\ \omega_g = 2.67 rad/s $$ 
+$$ 0.754 = x \times \pi \times 2 \times 0.045 \\ x=2.67 \text{ revs} $$ 
+
+**(b)** The chain must be moving at a constant rate (velocity), therefore
+
+$$ v_s = v_g \\ r_s\omega_s = r_g\omega_g \\ 0.12\times 1 = 0.045\times \omega_g \\ \omega_g = 2.67 rad/s $$ 
 
 
- ## Question 4
+## Question 4
 
 The disk is rotating about the origin with a constant clockwise angular velocity of 100 rpm. Determine the 𝑥 and 𝑦 components of velocity of points 𝐴 and 𝐵 (in cm/s).
 
- <img src = "figs\01_planar_kinematics\Q4.jpg" width="50%"> <br>
+<img src = "figs\01_planar_kinematics\Q4.jpg" width="50%"> <br>
 
- ## Answer
+### Answer
 
- First, convert rpm to rad/s, or all the calculations will be messed up. You can do this manually - or just plug it into your calculator! 
+First, convert rpm to rad/s, or all the calculations will be messed up. You can do this manually - or just plug it into your calculator! 
 
 $$ \frac{100}{60}.2\pi = 10.47 rad/s = \omega $$
 
 Then using the basic $v=\omega r$ equation
 
 **Point A**
-$$ v_x=10.47\times 8=83.77 $$
-$$ v_y=10.47\times 8=83.77 $$
+$$ v_x=10.47\times 8=83.77 \\
+v_y=10.47\times 8=83.77 $$
+
 In vector form
+
 $ v_A=83.77i+83.77j $ cm/s
 
 **Point B**
-$$ v_x=10.47\times 16=167.5 $$
-$$ v_y=10.47\times 0=0 $$
+$$ v_x=10.47\times 16=167.5 \\
+v_y=10.47\times 0=0 $$
+
 In vector form $ v_B=167.55j $ cm/s
 
 ## Question 5
 
 The bar is moving in the x–y plane and is rotating in the counterclockwise direction. The magnitude of the velocity of point A relative to point B is 8 m/s. Relative to a nonrotating referenece frame with origin A, what is the 
 
-**(a)** Angular velocity of the bar 
-
+**(a)** Angular velocity of the bar. <br>
 **(b)**  Velocity of B relative to the reference frame in vector form.
 
 
@@ -143,9 +154,11 @@ The bar is moving in the x–y plane and is rotating in the counterclockwise dir
 
 ### Answer
 
-**(a)**  $$ \omega = \frac{v}{r} = \frac{8}{2} \\ = 4 rad/s $$
-**(b)**  
-As we are dealing with vectors, we need to use the cross product. This is really important from now on so make sure you are comfortable with calculating this. I recommend the method below, but whatever works for you!
+**(a)**  
+
+$$ \omega = \frac{v}{r} = \frac{8}{2} \\ = 4 rad/s $$
+
+**(b)**  As we are dealing with vectors, we need to use the cross product. This is really important from now on so make sure you are comfortable with calculating this. I recommend the method below, but whatever works for you!
 
 <img src = "figs\01_planar_kinematics\Q5ans.jpg" width="50%"> <br>
 
@@ -160,7 +173,6 @@ i & j & k\\
 Using my cross product method
 
 $$ 0\times0i-4\times2sin(30)i+4\times2cos(30)j-0\times0j+0\times2sin(30)i-0\times2cos(30k) \\
-
 = -4i + 6.93j$$ 
 
 ## Question 6
@@ -172,9 +184,10 @@ The bar is rotating in the counterclockwise direction with angular velocity ω. 
 ### Answer
 
 The distance B from A can be simply found
+
 $$ r_{A/B}=\sqrt{(0.4+0.4)^2+(0.4+0.2)^2} $$
 
-The angular velocity of the bar is constant through the whole bar. 
+The angular velocity of the bar is constant through the whole bar
 
 $$ v_{A/B}=\omega. r_{A/B} \\ \omega= \frac{6}{1}=6 rad/s$$ 
 
@@ -192,7 +205,7 @@ The helicopter is in planar motion in  the x–y plane. At the instant shown, th
 
 ## Answer
 
-Draw the situation. 
+Draw the situation
 
 <img src = "figs\01_planar_kinematics\Q7a.jpg" width="50%"> <br>
 
@@ -251,7 +264,7 @@ Now equate i and j components
 
 $$ (i) 0=-1.88\omega +3 \rightarrow \omega=1.6 \\ (j) v_A=-0.7\omega$$
 
-Now work out the velocity of G. You can do this from point B or point A (using the above relation) but given point B's velocity is given in the question, I'd advise you to go from point B just in case you make an exam. 
+Now work out the velocity of G. You can do this from point B or point A (using the above relation) but given point B's velocity is given in the question, I'd advise you to go from point B just in case you make a mistake. 
 
 $$ v_G = v_B +\omega \times r_{G/B}  \\ v_G=3i+  \begin{vmatrix}
 i & j & k\\
@@ -274,7 +287,7 @@ First calculate $v_B$ from point A
 
 $$ v_B=v_A + \omega_{AB}\times r_{B/A} \\ =0 + 6k \times 0.32i \\ = 1.92j$$
 
-We can then need to calculate $\omega_{BD}$ (which is the same as $\omega_{BC}$). We can do this using the calculated $v_B$ and the constraints we know about C. 
+We can then need to calculate $\omega_{BD}$ (which is the same as $\omega_{BC}$). We can do this using the calculated $v_B$ and the constraints we know about C
 
 $$ v_C=v_B + \omega_{BC}\times r_{C/B} \\ = 0.48\omega_{BC} i+0.24 \omega_{BC} j+1.92j $$
 
@@ -282,7 +295,9 @@ Now analyse components
 
 $$(i) v_C=0.48\omega_{BC} \\ (j) 0=1.92+0.24 \omega_{BC} $$
 
-Solving $$ \omega_{BC}=-8k \\ v_C = 3.84i $$
+Solving 
+
+$$ \omega_{BC}=-8k \\ v_C = 3.84i $$
 
 Now to calculate velocity of D 
 
@@ -308,7 +323,7 @@ i & j & k\\
 0.31 & 0.61 & 0
 \end{vmatrix} = 0.61i-0.31j $$
 
-Then if we write multiple expressions for $v_C$ we can make simultaneous equations to solve the question.
+Then if we write multiple expressions for $v_C$ we can make simultaneous equations to solve the question
 
 $$ v_C = v_B + \omega_{BC} \times r_{C/B} \\ 0.61i-0.31j + 
 \begin{vmatrix}
@@ -342,11 +357,11 @@ The velocity of point O of the bat is $v_O$ =−1.83i− 4.27j m/s, and the bat 
 
 ### Answer
 
-Arbitrarily place the instentaneous center. It doesnt really matter where - as long as you have signs right the maths will correct itself. 
+Arbitrarily place the instentaneous center. It doesn't really matter where - as long as you have signs right the maths will correct itself. 
 
 <img src = "figs\01_planar_kinematics\Q12ans.jpg" width="50%"> <br>
 
-Say the coordinates of the instantaneous center is $(x_I, y_I)$, you then work it all out as O from I (as I has zero velocity). 
+Say the coordinates of the instantaneous center is $(x_I, y_I)$, you then work it all out as O from I (as I has zero velocity)
 
 $$ v_O=−1.83i− 4.27j=\omega\times r_{O/I} = \begin{vmatrix}
 i & j & k\\
@@ -354,15 +369,14 @@ i & j & k\\
 -x_I & -y_I & 0
 \end{vmatrix} = 4y_I i-4x_I j $$
 
-Equate terms to find the coordinates. 
+Equate terms to find the coordinates
 
 $$ (i) -1.83 = 4y_C \rightarrow y_C=-0.46 \\  (j) -4.27 = -4x_C \rightarrow x_C=1.07 \\ (1.07,-0.46) \text{ m}$$
 
 ## Question 13
 Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $v_B$ = 2i (m/s).
 
-**(a)** What are the coordinates of the instantaneous center of the bar?
-
+**(a)** What are the coordinates of the instantaneous center of the bar? <br>
 **(b)** Use the instantaneous center to determine the velocity at A.
 
 <img src = "figs\01_planar_kinematics\Q9.jpg" width="50%"> <br>
@@ -371,7 +385,7 @@ Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $
 
 Just as in Q9, the bar is constrained A in j, B in i. 
 
-**(a)** Work this out using geometry. Draw perpendiculars to the velocity vectors. at A and B. 
+**(a)** Work this out using geometry. Draw perpendiculars to the velocity vectors. at A and B.
 
 <img src = "figs\01_planar_kinematics\Q13ans.jpg" width="50%"> <br>
 
