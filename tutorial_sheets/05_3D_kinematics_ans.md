@@ -209,8 +209,8 @@ $$
 
 Relative to an earth-fixed reference frame, the vertical shaft rotates about its axis with angular velocity $\omega_O$=4 rad/s. The secondary xyz coordinate system is fixed with respect to the shaft and its origin is stationary. Relative to the secondary coordinate system, the disk (radius 8 cm) rotates with constant angular velocity $\omega_d$=6 rad/s. At the instant shown, determine the velocity of point A
 
-**(a)** relative to the secondary reference frame.<br>
-**(b)** relative to the earth-fixed reference frame.
+**(a)** Relative to the secondary reference frame.<br>
+**(b)** Relative to the earth-fixed reference frame.
 
 <img src = "figs\05_3D_kinematics\Q7.jpg" width="50%"> <br>
 
@@ -364,12 +364,11 @@ There's a lot of moving parts, so I'm going to label it so algebra symbols don't
 
 <img src = "figs\05_3D_kinematics\Q10ans.jpg" width="50%"> <br>
 
-(a) This is simply
+**(a)** This is simply
 
 $$ \omega_{rel} =  6i \text{ rad/s}$$
 
-(b) 
-The angular velocity of the disk to the primary reference frame is
+**(b)** The angular velocity of the disk to the primary reference frame is
 
 $$ \omega = \omega_{rel}+\omega_{rel}+\Omega \\
 \omega = 6i+2j+4k$$
