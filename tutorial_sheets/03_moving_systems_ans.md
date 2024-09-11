@@ -84,6 +84,7 @@ Bar AB has an angular velocity of 4 rad/s in the clockwise direction. What is th
 ### Answer
 
 Begin finding the motion of B
+
 $$ v_B = v_A + v_{Brel}+ \omega_{AB} \times r_{B/A} \\ = 0+0+\begin{vmatrix}
 i & j & k\\
 0 & 0 & -4 \\
@@ -111,7 +112,7 @@ $$
 
 ## Question 4
 
-The coordinate system is fixed relative to the ship B. At the instant shown, the ship is sailing north at 5 m/s relative to the earth, and its angular velocity is 0.26 rad/s counterclockwise. Using radar, it is determined that the position of the aeroplane is 1080i + 1220j + 6300k m and its velocity relative to the ship’s coordinate system is 870i − 45j − 21k m/s. What is the aeroplane's velocity relative to the earth?
+The coordinate system is fixed relative to the ship B. At the instant shown, the ship is sailing north at 5 m/s relative to the earth, and its angular velocity is 0.26 rad/s counterclockwise. Using radar, it is determined that the position of the aeroplane is 1080i+1220j+6300k m and its velocity relative to the ship’s coordinate system is 870i−45j−21k m/s. What is the aeroplane's velocity relative to the earth?
 
 <img src = "figs\03_moving_systems\Q4.jpg" width="50%"> <br>
 
@@ -128,7 +129,7 @@ i & j & k\\
 
 ## Question 5
 
-The space shuttle is attempting to recover a satellite for repair. At the current time, the satellite’s position relative to a coordinate system fixed to the shuttle is 50i m. The gyroscopes on the shuttle indicate that its current angular velocity is 0.05j + 0.03k rad/s. The shuttle pilot measures the velocity of the satellite relative to the body-fixed coordinate system and determines it to be −2i − 1.5j + 2.5k rad/s. What are the x, y, and z components of the satellite’s velocity relative to a nonrotating coordinate system with its origin fixed to the shuttle’s center of mass?
+The space shuttle is attempting to recover a satellite for repair. At the current time, the satellite’s position relative to a coordinate system fixed to the shuttle is 50i m. The gyroscopes on the shuttle indicate that its current angular velocity is 0.05j+0.03k rad/s. The shuttle pilot measures the velocity of the satellite relative to the body-fixed coordinate system and determines it to be −2i−1.5j+2.5k rad/s. What are the x, y, and z components of the satellite’s velocity relative to a nonrotating coordinate system with its origin fixed to the shuttle’s center of mass?
 
 <img src = "figs\03_moving_systems\Q5.jpg" width="50%"> <br>
 
@@ -137,11 +138,12 @@ The space shuttle is attempting to recover a satellite for repair. At the curren
 Also bigger cross product!
 
 $$ v_A = v_B+v_{Arel}+\omega\times r_{A/B} \\
-= 0-2i-1.5j+2.5k+ \begin{vmatrix}
+v_A = 0-2i-1.5j+2.5k+ \begin{vmatrix}
 i & j & k\\
 0 & 0.05 & 0.03 \\
 50 & 0 & 0
-\end{vmatrix} \\ = -2i \text{ m/s}$$
+\end{vmatrix} \\ 
+v_A = -2i \text{ m/s}$$
 
 ## Question 6
 
@@ -163,7 +165,8 @@ i & j & k\\
 0 & 0 & 0.1 \\
 500 & 0 & 0
 \end{vmatrix} \\
-v_{Arel} = -20j-50j-50j \\ = -120j $$
+v_{Arel} = -20j-50j-50j \\ 
+v_{Arel} = -120j $$
 
 ## Question 7 
 Suppose that the merry-go-round has counterclockwise angular velocity $\omega$ and counterclockwise angular acceleration $\alpha$. The person A is standing still on the ground. Determine A's acceleration relative to B's reference frame at the instant shown.
@@ -203,7 +206,7 @@ a_{Arel} = - \omega^2Ri - \alpha Rj $$
 
 ## Question 8 
 
-The angular velocity $\omega$ AC = 5 $\degree$ per second. Determine the angular velocity of the hydraulic actuator BC and the rate at which the actuator is extending. 
+The angular velocity $\omega$ AC=5° per second. Determine the angular velocity of the hydraulic actuator BC and the rate at which the actuator is extending. 
 
 <img src = "figs\03_moving_systems\Q8.jpg" width="50%"> <br>
 
@@ -317,11 +320,11 @@ Using the base equation (full version!)
 
 $$ a_A = a_B + a_{Arel} + 2\omega \times v_{Arel}+\alpha\times r_{A/B} +\omega \times(\omega\times r_{A/B}) \\
 -\frac{v_A^2}{R}i = -\omega_E^2R_Ei+ a_{Arel} + 2 \begin{vmatrix}
-i & j & k\\
+i & j & k \\
 0 & \omega_E & 0 \\
 0 & v_A & \omega_ER 
 \end{vmatrix} + 0 + \omega_E \times \begin{vmatrix}
-i & j & k\\
+i & j & k \\
 0 & \omega_E & 0 \\
 R-R_E & 0 & 0 
 \end{vmatrix}\\
@@ -330,10 +333,9 @@ i & j & k\\
 0 & \omega_E & 0 \\
 0 & 0 & -\omega_E(R-R_E) 
 \end{vmatrix}\\
-\\
 -\frac{v_A^2}{R}i =- \omega_E^2R_Ei + a_{Arel} + 2\omega_E^2Ri -\omega_E^2Ri+ \omega_E^2R_Ei \\
-
 a_{Arel} =-(\frac{v_A^2}{R}+\omega_E^2R)i $$
+
 <br><br>
 
 
