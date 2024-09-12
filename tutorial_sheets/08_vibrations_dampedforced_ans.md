@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
 
-# Tutorial Sheet 10: Vibrations, Damped and Forced
+# Tutorial Sheet 10: Vibrations, Damped and Forced Answers
 
 **Topics covered are:**
 - Damped vibrations

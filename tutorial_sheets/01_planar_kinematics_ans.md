@@ -252,7 +252,7 @@ Points A and B of the 2 m bar slide on the plane surfaces. Point B is moving to 
 
 <img src = "figs\01_planar_kinematics\Q9.jpg" width="50%"> <br>
 
-## Answer
+### Answer
 
 Take advantage of the constraints from the floor and wall to solve this; the velocity of A has only j component, the velocity of B has only i.
 

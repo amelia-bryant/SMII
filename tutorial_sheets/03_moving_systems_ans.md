@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
 
-# Tutorial Sheet 3: Moving Systems
+# Tutorial Sheet 3: Moving Systems Answers
 
 **Topics covered are**
 - Body fixed and moving reference frames
@@ -61,6 +61,8 @@ $$
 ## Question 2
 
 Using the same system as Question 1, the angular accelerations of the two bars are zero and the sleeve C slides at a constant velocity of 1 m/s relative to bar BD. What is the acceleration of C?
+
+### Answer
 
 $$
 a_B=a_A+\alpha\times r_{B/A}-\omega^2_{AB}r_{B/A} \\
