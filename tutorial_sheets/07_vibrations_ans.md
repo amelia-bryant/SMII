@@ -152,7 +152,7 @@ $$
 
 ## Question 4
 
-The 89 N disk rolls on the horizontal surface. Its radius is R= 152.4 mm. The spring constant is k=218.9 N/m. At 𝑡 = 0, the spring is unstretched and the disk has a clockwise angular velocity of 2 rad/s. What is the amplitude of the resulting vibrations of the center of the disk?
+The 89 N disk rolls on the horizontal surface. Its radius is R= 152.4 mm. The spring constant is k=218.9 N/m. At t=0, the spring is unstretched and the disk has a clockwise angular velocity of 2 rad/s. What is the amplitude of the resulting vibrations of the center of the disk?
 
 <img src = "figs\07_vibrations\Q3.jpg" width="50%"> <br>
 
@@ -222,9 +222,8 @@ $$
 
 The mass m=4 kg and the spring constant is k=64 N/m. For vibration of the spring-mass oscillator relative to its equilibrium position, determine
 
-(a) The frequency
-
-(b) The period
+**(a)** The frequency <br>
+**(b)** The period
 
 <img src = "figs\07_vibrations\Q5.jpg" width="50%"> <br>
 
@@ -232,7 +231,7 @@ The mass m=4 kg and the spring constant is k=64 N/m. For vibration of the spring
 
 The question asks for the values relative to the equilibrium position, hence for this question we don't need to take into account the impact of the mass itself on the object's motion.
 
-(a) 
+**(a)** 
 
 $$
 f=\frac{1}{2\pi}\sqrt{\frac{k}{m}} \\
@@ -240,7 +239,7 @@ f=\frac{1}{2\pi}\sqrt{\frac{64}{4}} \\
 f = 0.637
 $$
 
-(b)
+**(b)**
 
 $$
 T=\frac{1}{f}\\
@@ -303,40 +302,39 @@ $$
 
 ## Question 7
 
-Consider the one-degree of freedom system below (a pendulum). The slender bar is
-rotated to some angle $\theta$, released, and it oscillates back and forth.
+Consider the one-degree of freedom system below (a pendulum). The slender bar is rotated to some angle $\theta$, released, and it oscillates back and forth.
 
-(a) Draw the free-body diagram of the bar
-
-(b) Using Newton’s 2nd law write the moment balance about the centre of rotation A
-
-(c) Write the general equation to determine the frequency of a pendulum
-
-(d) Determine the frequency of the pendulum in rad/s and Hz
+**(a)** Draw the free-body diagram of the bar. <br>
+**(b)** Using Newton’s 2nd law write the moment balance about the centre of rotation A. <br>
+**(c)** Write the general equation to determine the frequency of a pendulum. <br>
+**(d)** Determine the frequency of the pendulum in rad/s and Hz.
 
 <img src = "figs\07_vibrations\Q7.jpg" width="50%"> <br>
 
 ### Answer
 
-(a)
+**(a)**
 
 <img src = "figs\07_vibrations\Q7ans.jpg" width="50%"> <br>
 
-(b) Use Newton's second law and moments of inertia formulae for a slender bar
+**(b)** Use Newton's second law and moments of inertia formulae for a slender bar
+
 $$
 M=I\alpha=\frac{L}{2}mg\sin(\theta) \\
 M=\frac{1}{3}mL^2\alpha=\frac{L}{2}mg\sin(\theta) \\
 M=\frac{2}{3}L\alpha-g\sin(\theta)
 $$
 
-(c) Under the assumption that $\theta$ remains small enough to be approximated by $\theta$, the pendulum equation of motion becomes equal to that of the spring mass oscillator (you can prove this using conservation of energy principles, differentiating, then using Taylor series approximations).
+**(c)** Under the assumption that $\theta$ remains small enough to be approximated by $\theta$, the pendulum equation of motion becomes equal to that of the spring mass oscillator (you can prove this using conservation of energy principles, differentiating, then using Taylor series approximations).
 
 Comparing the two
 
 $$
 \frac{2}{3}L\alpha-g\sin(\theta)=0, \frac{d^2x}{dt^2}+\frac{k}{m}x=0
 $$
+
 and knowing that 
+
 $$
 \omega^2=\frac{k}{m}
 $$
@@ -347,7 +345,7 @@ $$
 \omega^2=\frac{g}{L}
 $$
 
-(d) Getting our force equation from (b) into the appropriate form
+**(d)** Getting our force equation from (b) into the appropriate form
 
 $$
 \frac{2}{3}L\alpha-g\sin(\theta)=0 \\
@@ -460,7 +458,7 @@ $$
 
 ## Question 10
 
-The spring constant is k=785 𝑁/𝑚. The spring is unstretched with $x$ = 0. The radius of the pulley is 125 mm, and moment of inertia about its axis is I=0.05 kgm $^2$. The system is released from rest with $x$=0. Determine  $x$ as a function of time.
+The spring constant is k=785 N/m. The spring is unstretched with $x$=0. The radius of the pulley is 125 mm, and moment of inertia about its axis is I=0.05 kgm $^2$. The system is released from rest with $x$=0. Determine  $x$ as a function of time.
 
 <img src = "figs\07_vibrations\Q9.jpg" width="50%"> <br>
 
