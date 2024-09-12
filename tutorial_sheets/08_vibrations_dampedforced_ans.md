@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 
 
-# Tutorial Sheet 10: Damped and Forced Vibrations
+# Tutorial Sheet 10: Vibrations, Damped and Forced
 
 **Topics covered are:**
 - Damped vibrations
@@ -23,7 +23,7 @@
 
 **Tips**
 - Even though the equations are getting longer, as long as you  make sure you know what all the parameters are, you are familiar with the equations, and how to manipulate them, you shouldn't have too much of an issue.
-- Instead of calculating all the variables, you can start to recognise them directly by inspection from the equations - this can be quicker, but make you more prone to mistakes
+- Instead of calculating all the variables, you can start to recognise them directly by inspection from the equations - this can be quicker, but make you more prone to mistakes.
 
 <br>
 
@@ -31,16 +31,15 @@
 
 The mass m=2 kg, the spring constant is k=72 N/m, and the damping constant is c=8 Ns/m. The spring is unstretched when $x$=0. The mass is displaced to the position $x$=1 m and released from rest.
 
-(a) What is the frequency of the resulting damped vibrations?
-
-(b) What is the value of $x$ at t=1 s?
+**(a)** What is the frequency of the resulting damped vibrations? <br>
+**(b)** What is the value of $x$ at t=1 s?
 
 <img src = "figs\08_vibrations_dampedforced\Q1.jpg" width="50%"> <br>
 
 
 ### Answer
 
-(a) First we need to know what kind of damped the system is. This depends on d (damping coefficient) and the undamped angular frequency
+**(a)** First we need to know what kind of damped the system is. This depends on d (damping coefficient) and the undamped angular frequency
 
 $$
 \omega = \sqrt{\frac{k}{m}} \text{, } d=\frac{c}{2m} \\
@@ -65,7 +64,7 @@ f_d = \frac{5.66}{2\pi} \\
 f_d = 0.9 \text{ Hz}
 $$
 
-(b) Solve the differential equation using the subcritical damped system equation and initial conditions provided 
+**(b)** Solve the differential equation using the subcritical damped system equation and initial conditions provided 
 
 $$
 t=0,x=1,v=0
@@ -95,15 +94,14 @@ $$
 
 The mass m=2 kg, the spring constant is k=72 N/m, and the damping constant is c=32 Ns/m. The spring is unstretched when $x$=0. The mass is displaced to the position $x$=1 m and released from rest.
 
-(a) What is the frequency of the resulting damped vibrations?
-
-(b) What is the value of $x$ at t=1 s?
+**(a)** What is the frequency of the resulting damped vibrations? <br>
+**(b)** What is the value of $x$ at t=1 s?
 
 <img src = "figs\08_vibrations_dampedforced\Q1.jpg" width="50%"> <br>
 
 ### Answer
 
-(a) Calculate the type of damping
+**(a)** Calculate the type of damping
 
 $$
 \omega = \sqrt{\frac{k}{m}} \text{, } d=\frac{c}{2m} \\
@@ -123,7 +121,7 @@ f_d = \frac{5.29}{2\pi} \\
 f_d = 0.084 \text{ Hz}
 $$
 
-(b) For supercritical damping we need the variable 'h'
+**(b)** For supercritical damping we need the variable 'h'
 
 $$
 h = \sqrt{d^2-\omega^2}\\
@@ -224,9 +222,9 @@ $$
 
 A 79.8 kg test car moving with velocity $v_0$=7.33 m/s collides with a rigid barrier at t=0. As a result of the behavior of its energy-absorbing bumper, the response of the car to the collision can be simulated by the damped spring-mass oscillator shown with k=8000 N/m and c=3000 Ns/m. Assume that the mass is moving to the left with velocity $v_0$=7.33 m/s and the spring is unstretched at t=0. Determine the car’s deceleration 
 
-(a) immediately after it contacts the barrier
+**(a)** Immediately after it contacts the barrier <br>
 
-(b) at t=0.08 s.
+**(b)** At t=0.08 s.
 
 <img src = "figs\08_vibrations_dampedforced\Q4.jpg" width="50%"> <br>
 
@@ -288,23 +286,22 @@ $$
 
 Finding the accelerations at the specified times is then simple, subbing in.
 
-(a) When t=0
+**(a)** When t=0
 
 $$
 \ddot{x}=275 \text{m/s}^2
 $$
-<br><br>
 
-(b) When t=0.08
+**(b)** When t=0.08
 
 $$
 \ddot{x}=25.7 \text{m/s}^2
 $$
-<br><br>
+
 
 ## Question 5
 
-The motion of a car’s suspension shown can be modeled as a damped spring–mass oscillator with m=36 kg, k=22 kN/m, and c=2.2 kNs/m. Assume that no external forces act on the tire and wheel. At t=0, the spring is unstretched and the tire and wheel are given a velocity dx/dt=10 m/s. Determine the position x as a function of time.
+The motion of a car’s suspension shown can be modeled as a damped spring–mass oscillator with m=36 kg, k=22 kN/m, and c=2.2 kNs/m. Assume that no external forces act on the tire and wheel. At t=0, the spring is unstretched and the tire and wheel are given a velocity $\frac{dx}{dt}$=10 m/s. Determine the position $x$ as a function of time.
 
 <img src = "figs\08_vibrations_dampedforced\Q5.jpg" width="50%"> <br>
 
@@ -364,7 +361,7 @@ $$
 
 ## Question 6
 
-The mass m=2 kg and the spring constant is k=72 N/m. The spring is unstretched when x=0. The mass is initially stationary with the spring unstretched, and at t=0 the force F(t)= 10sin(4t) applied to the mass. What is the position of the mass at t=2s?
+The mass m=2 kg and the spring constant is k=72 N/m. The spring is unstretched when $x$=0. The mass is initially stationary with the spring unstretched, and at t=0 the force F(t)=10sin(4t) applied to the mass. What is the position of the mass at t=2s?
 
 <img src = "figs\08_vibrations_dampedforced\Q6.jpg" width="50%"> <br>
 
@@ -450,15 +447,14 @@ $$
 
 The damped spring–mass oscillator is initially stationary with the spring unstretched. At t=0, a constant force F(t)=6 N is applied to the mass.
 
-(a) What is the steady-state (particular) solution?
-
-(b) Determine the position of the mass as a function of time.
+**(a)** What is the steady-state (particular) solution? <br>
+**(b)** Determine the position of the mass as a function of time.
  
 <img src = "figs\08_vibrations_dampedforced\Q7.jpg" width="50%"> <br>
 
 ### Answer
 
-(a) Using Newton II
+**(a)** Using Newton II
 
 $$
 \sum F: F(t)-c\dot{x}-kx=m\ddot{x} \\
@@ -478,7 +474,7 @@ $$
 \therefore x_p=0.5
 $$
 
-(b) Because we have a damping term, we need to work out the type of damping in order too use the correct homogenous solution 
+**(b)** Because we have a damping term, we need to work out the type of damping in order too use the correct homogenous solution 
 
 $$
 \omega = \sqrt{\frac{k}{m}} \text{, } d=\frac{c}{2m} \\
@@ -610,7 +606,7 @@ $$
 
 ## Question 9
 
-A team of engineering students build the simple seismograph shown. The coordinate $x_i$ measures the local horizontal ground motion. The coordinate x measures the position of the mass relative to the frame of the seismograph. The spring is unstretched when x=0. The mass is 1 kg, k=10 N/m, and c=2 Ns/m. Suppose that the seismograph is initially stationary and that at t=0 it is subjected to an oscillatory ground motion $x_i$=10sin(2t) mm. What is the amplitude of the steady-state response of the mass? 
+A team of engineering students build the simple seismograph shown. The coordinate $x_i$ measures the local horizontal ground motion. The coordinate $x$ measures the position of the mass relative to the frame of the seismograph. The spring is unstretched when $x$=0. The mass is 1 kg, k=10 N/m, and c=2 Ns/m. Suppose that the seismograph is initially stationary and that at t=0 it is subjected to an oscillatory ground motion $x_i$=10sin(2t) mm. What is the amplitude of the steady-state response of the mass? 
 
 <img src = "figs\08_vibrations_dampedforced\Q9.jpg" width="50%"> <br>
 
@@ -681,10 +677,12 @@ Where
 $$
 d=0
 $$
+
 $$
 \omega^2=(2\pi f)^2=(10\pi)^2=100\pi^2 \\
 \therefore \omega = 31.42
 $$ 
+
 $$
 a(t)=\frac{F(t)}{m}
 $$
@@ -716,3 +714,5 @@ $$
 |0.74\sin(\omega_0t)|=\frac{F(t)}{667/9.81} \\
 F(t)=50.3 \text{ N}
 $$
+
+<br><br>
