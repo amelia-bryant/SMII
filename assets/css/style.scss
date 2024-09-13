@@ -1,16 +1,10 @@
 ---
 ---
 
-$header-bg-color: hsl(4deg, 100%, 45%);
-$header-bg-color-secondary: #e66000;
-
-$dark-header-bg-color: #bd181d;
-$dark-header-bg-color-secondary: hsl(25deg, 100%, 38%);
-
-$section-headings-color: hsl(16deg, 100%, 55%);
-$body-link-color: #bd181d;
-
+$red: #bd181d;
+$orange: #c25100;
 $light-white: #ebeced;
+$grey: #383838;
 
 @import "jekyll-theme-cayman";
 
@@ -23,12 +17,12 @@ $light-white: #ebeced;
 
   body {
     background: $light-white;
-    color: #383838;
+    color: $grey;
   }
   
   .page-header {
     background-color: $dark-header-bg-color;
-    background-image: linear-gradient(120deg, $dark-header-bg-color-secondary, $dark-header-bg-color);
+    background-image: linear-gradient(120deg, $orange, $red);
   }
   
   
@@ -38,11 +32,11 @@ $light-white: #ebeced;
   .main-content h4,
   .main-content h5,
   .main-content h6 {
-    color: #bd181d;
+    color: $orange;
   }
   
   a {
-    color: cornflowerblue;
+    color: $grey;
   }
   
   div.highlight {
