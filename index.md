@@ -27,7 +27,7 @@
 # Acknowledgements
 **Module Lead:**  Kamyar Hazeri 
 
-**Tutorial Sheet Author:** Amelia Bryant
+**Tutorial Sheet Author:** Amelia Bryant 
 
 <br><br>
 
