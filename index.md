@@ -26,12 +26,11 @@
 
 # Acknowledgements
 
-**Module Lead:**  Kamyar Hazeri [Profile](https://profiles.imperial.ac.uk/k.hazeri13)
+**Module Lead:** [Kamyar Hazeri](https://profiles.imperial.ac.uk/k.hazeri13)
 
-**Tutorial Sheet Author and Site Builder:** Amelia Bryant [LinkedIn](https://www.linkedin.com/in/ameliabry/ 'hello there :))')
+**Tutorial Sheet Author and Site Builder:** [Amelia Bryant](https://www.linkedin.com/in/ameliabry/ 'hello there :))')
 
 <br><br>
 
-Spotted any mistakes/compiling issues? Please let Amelia know (email, teams, or whatsapp if you have it!)
-
+###### Spotted any mistakes/compiling issues? Please let Amelia know (email, teams, or whatsapp if you have it!)
 ###### *Questions inspired by Bedford and Fowler*
