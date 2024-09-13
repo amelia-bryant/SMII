@@ -1,4 +1,4 @@
-# Solid Mechanics 2
+# Tutorial Sheets
 
 ## Original
 * __[1 - Planar Kinematics](tutorial_sheets\01_planar_kinematics)__

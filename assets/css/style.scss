@@ -22,7 +22,7 @@ $grey: #383838;
   
   .page-header {
     background-color: $red;
-    background-image: linear-gradient(120deg, $orange, $red);
+    background-image: linear-gradient(120deg, $red, $orange);
   }
   
   
@@ -32,7 +32,7 @@ $grey: #383838;
   .main-content h4,
   .main-content h5,
   .main-content h6 {
-    color: $orange;
+    color: $red;
   }
   
   a {
