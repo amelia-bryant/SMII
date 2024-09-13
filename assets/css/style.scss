@@ -2,26 +2,28 @@
 ---
 
 $header-bg-color: hsl(4deg, 100%, 45%);
-$header-bg-color-secondary: hsl(25deg, 100%, 45%);
+$header-bg-color-secondary: #e66000;
 
-$dark-header-bg-color: hsl(4deg, 100%, 38%);
+$dark-header-bg-color: #bd181d;
 $dark-header-bg-color-secondary: hsl(25deg, 100%, 38%);
 
 $section-headings-color: hsl(16deg, 100%, 55%);
-$body-link-color: hsl(4deg, 100%, 55%);
+$body-link-color: #bd181d;
+
+$light-white: #ebeced;
 
 @import "jekyll-theme-cayman";
 
   .project-name {
     margin-top: 0;
     margin-bottom: 0.1rem;
-    color: #fff;
+    color: $light-white;
     font-weight: bold;
   }
 
   body {
-    background: #181818;
-    color: #bac1c4;
+    background: $light-white;
+    color: #383838;
   }
   
   .page-header {
@@ -29,19 +31,6 @@ $body-link-color: hsl(4deg, 100%, 55%);
     background-image: linear-gradient(120deg, $dark-header-bg-color-secondary, $dark-header-bg-color);
   }
   
-  .btn {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-color: rgba(0, 0, 0, 0.07);
-  
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.4);
-      border-color: rgba(0, 0, 0, 0.15);
-    }
-  }
-  
-  img[src$=".svg"] {
-    filter: invert(1) hue-rotate(180deg);
-  }
   
   .main-content h1,
   .main-content h2,
@@ -49,7 +38,7 @@ $body-link-color: hsl(4deg, 100%, 55%);
   .main-content h4,
   .main-content h5,
   .main-content h6 {
-    color: #ff6a33;
+    color: #bd181d;
   }
   
   a {
@@ -60,29 +49,3 @@ $body-link-color: hsl(4deg, 100%, 55%);
     background-color: transparent;
   }
   
-  .main-content pre.highlight {
-    background-color: #333;
-    border: solid 2px;
-  }
-  
-  .main-content code {
-    color: hsl(199deg, 36%, 73%);
-    background-color: #333;
-  }
-  
-  .highlight .ge,
-  .highlight .kc,
-  .highlight .kd,
-  .highlight .kn,
-  .highlight .kp,
-  .highlight .kr,
-  .highlight .k,
-  .highlight .kv,
-  .highlight .ow,
-  .highlight .o {
-    color: #fff;
-  }
-  
-  .main-content pre > code {
-    color: hsl(199deg, 56%, 73%);
-  }
