@@ -311,7 +311,7 @@ i & j & k\\
 
 ## Question 11
 
-The horizontal member ADE supporting the scoop is stationary. If the link BD is rotating in the clockwise direction at 1 rad/s,what is the angular velocity of the scoop?
+The horizontal member ADE supporting the scoop is stationary. If the link BD is rotating in the clockwise direction at 1 rad/s, what is the angular velocity of the scoop?
 
 <img src = "figs\01_planar_kinematics\Q11.jpg" width="50%"> <br>
 
@@ -399,7 +399,7 @@ $$ (\sin(20), \cos(20))  \\ = (0.34, 0.94) $$
 
  Then the velocity of A from the instantaneous center
 
-$$ v_A = v_I+\omega \times r_{A/I} \\ = 0+2.13k\times -0.34i \\ = -0.23j \text{ m/s} $$
+$$ v_A = v_I+\omega \times r_{A/I} \\ = 0+2.13k\times -0.34i \\ = -0.724j \text{ m/s} $$
 
 <br><br>
 
