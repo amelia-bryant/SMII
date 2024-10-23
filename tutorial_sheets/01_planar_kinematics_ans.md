@@ -260,7 +260,7 @@ $$ v_A = v_B +\omega \times r_{A/B} \\ v_Aj=3i+  \begin{vmatrix}
 i & j & k\\
 0 & 0 & \omega \\
 -2\cos(70) & 2\sin(70) & 0
-\end{vmatrix}  \\ v_A=-1.88\omega i -0.7\omega j +3 i$$
+\end{vmatrix}  \\ v_Aj=-1.88\omega i -0.7\omega j +3 i$$
 
 Now equate i and j components
 
