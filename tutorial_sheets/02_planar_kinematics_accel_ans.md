@@ -39,7 +39,7 @@ The rigid body rotates about the z axis with counterclockwise angular velocity Ï
 
 **(a)** Using the thumb rule, both are positive hence 
 
-$$ \omega = 4k \\ \alpha = 6k $$
+$$ \omega = 4k \\ \alpha = 2k $$
 
 **(b)** 
 

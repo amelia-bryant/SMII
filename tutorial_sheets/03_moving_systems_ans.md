@@ -131,7 +131,7 @@ i & j & k\\
 
 ## Question 5
 
-The space shuttle is attempting to recover a satellite for repair. At the current time, the satellite’s position relative to a coordinate system fixed to the shuttle is 50i m. The gyroscopes on the shuttle indicate that its current angular velocity is 0.05j+0.03k rad/s. The shuttle pilot measures the velocity of the satellite relative to the body-fixed coordinate system and determines it to be −2i−1.5j+2.5k rad/s. What are the x, y, and z components of the satellite’s velocity relative to a nonrotating coordinate system with its origin fixed to the shuttle’s center of mass?
+The space shuttle is attempting to recover a satellite for repair. At the current time, the satellite’s position relative to a coordinate system fixed to the shuttle is 50i m. The gyroscopes on the shuttle indicate that its current angular velocity is 0.05j+0.03k rad/s. The shuttle pilot measures the velocity of the satellite relative to the body-fixed coordinate system and determines it to be −2i−1.5j+2.5k m/s. What are the x, y, and z components of the satellite’s velocity relative to a nonrotating coordinate system with its origin fixed to the shuttle’s center of mass?
 
 <img src = "figs\03_moving_systems\Q5.jpg" width="50%"> <br>
 
@@ -171,7 +171,7 @@ v_{Arel} = -20j-50j-50j \\
 v_{Arel} = -120j $$
 
 ## Question 7 
-Suppose that the merry-go-round has counterclockwise angular velocity $\omega$ and counterclockwise angular acceleration $\alpha$. The person A is standing still on the ground. Determine A's acceleration relative to B's reference frame at the instant shown.
+Suppose that the merry-go-round has counterclockwise angular velocity $\omega$ and counterclockwise angular acceleration $\alpha$. The person A is standing still on the ground directly next to the edge of the merry-go-round. Determine A's acceleration relative to B's reference frame at the instant shown.
 
 <img src = "figs\03_moving_systems\Q7.jpg" width="50%"> <br>
 
