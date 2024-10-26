@@ -35,6 +35,9 @@ Sheets will be released each week, and the answers released after the tutorial s
 
 **Tutorial Sheet Author and Site Builder:** [Amelia Bryant](https://www.linkedin.com/in/ameliabry/ 'hello there :))')
 
+**GTAs:** [Amelia Bryant](https://www.linkedin.com/in/ameliabry/ 'hello... AGAIN'), [Elena Koumantou](https://www.linkedin.com/in/elenakoumantou/ 'heyyy'), 
+
+
 <br><br>
 
 ###### Spotted any mistakes/compiling issues? Please let Amelia know (email, teams, or whatsapp if you have it!)
