@@ -105,8 +105,8 @@ a = 3.5 $$
 Then using suvat 
 
 $$s = ut+\frac{1}{2}at^2\\
-s = \frac{1}{2}(3.5)(2)^2
-s = 2 m$$
+s = \frac{1}{2}(3.5)(2)^2 \\
+s = 7 m$$
 
 **(b)** 
 
@@ -125,7 +125,6 @@ The crane moves to the right with constant acceleration, and the 800-kg load mov
 **(b)** What are the tensions in the cables attached at A and B?
 
 <img src = "figs\04_planar_dynamics\Q4.jpg" width="50%"> <br>
-
 
 ### Answer
 
@@ -205,7 +204,7 @@ s = 0.721m  $$
 
 ## Question 7
 
-Points B and C lie in the x–y plane. They axis is vertical. The center of mass of the 18 kg arm BC is at the midpoint of the line from B to C, and the moment of inertia of the arm about the axis through the center of mass that is parallel to the z axis is 1.5 kgm $^2$. At the instant shown, the angular velocity and angular acceleration vectors of arm AB are $\omega_{AB}$=0.6k rad/s and $\alpha_{AB}$=−0.3k rad/s $^2$.The angular velocity and angular acceleration vectors of arm BC are $\omega_{BC}$=0.4k rad/s and $\alpha_{BC}$=2k rad/s $^2$. Determine the force and couple exerted on arm BC at B.
+Points B and C lie in the x–y plane. The axis is vertical. The center of mass of the 18 kg arm BC is at the midpoint of the line from B to C, and the moment of inertia of the arm about the axis through the center of mass that is parallel to the z axis is 1.5 kgm $^2$. At the instant shown, the angular velocity and angular acceleration vectors of arm AB are $\omega_{AB}$=0.6k rad/s and $\alpha_{AB}$=−0.3k rad/s $^2$.The angular velocity and angular acceleration vectors of arm BC are $\omega_{BC}$=0.4k rad/s and $\alpha_{BC}$=2k rad/s $^2$. Determine the force and couple exerted on arm BC at B.
 
 <img src = "figs\04_planar_dynamics\Q7.jpg" width="50%"> <br>
 
@@ -273,9 +272,9 @@ The mass of the object is 10 kg. Its moment of inertia about L $_1$ is 10 kgm $^
 
 We can first determine MoI around L, which can be then used to find it around L $_2$
 
-$$ I_{L}= I_{L1}+d^2m  \\
-10 = I_{L1} + (0.6)^2(10) \\
-I_{L} = 6.4 $$
+$$ I_{L1}= I_{L}+d^2m  \\
+10 = I_{L} + (0.6)^2(10) \\
+I_{L1} = 6.4 $$
 
 $$ I_{L2}= I_{L}+d^2m  \\
 I_{L2}= 6.4 +(1.2)^2(10) \\
@@ -427,5 +426,4 @@ v = \sqrt{2aD} \\
 $$
 
 <br><br>
-
 
