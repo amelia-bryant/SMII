@@ -135,8 +135,7 @@ I_{xx} & -I_{xy} & -I_{xz}\\
 \end{bmatrix} \text{kgm}^2
 $$
 
-At the present instant, the casting is stationary. If the manipulator exerts a moment $\sum M$= 0.042i+0.036j+0.066k Nm about the center of mass, what is the
-angular acceleration of the casting at that instant?
+At the present instant, the casting is stationary. If the manipulator exerts a moment $\sum M$= 0.042i+0.036j+0.066k Nm about the center of mass, what is the angular acceleration of the casting at that instant?
 
 <img src = "figs\06_3D_dynamics\Q1.jpg" width="50%"> <br>
 
@@ -493,9 +492,9 @@ $$
 
 ## Question 7
 
-The thin circular disk of radius R=0.2 m and mass m=4 kg is rigidly attached to the vertical shaft. The plane of the disk is slanted at an angle  $\beta$=30◦ relative to the
-horizontal. The shaft rotates with constant angular velocity $\omega_O$=25 rad/s.
-Determine the magnitude of the couple exerted on the disk by the shaft.
+The thin circular disk of radius R=0.2 m and mass m=4 kg is rigidly attached to the vertical shaft. The plane of the disk is slanted at an angle  $\beta$=30◦ relative to the horizontal. The shaft rotates with constant angular velocity $\omega_O$=25 rad/s.
+
+Determine the couple exerted on the disk by the shaft.
 
 <img src = "figs\06_3D_dynamics\Q7.jpg" width="50%"> <br>
 

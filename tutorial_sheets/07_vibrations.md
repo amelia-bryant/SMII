@@ -33,12 +33,19 @@ The mass m=4 kg. The spring is unstretched when $x$=0. The period of vibration o
 
 <img src = "figs\07_vibrations\Q1.jpg" width="50%"> <br>
 
+### Answer
+
+$$ x = 0.0306 \text{ m} $$
 
 ## Question 2
 
 The mass m=4 kg. The spring is unstretched when $x$=0. The frequency of vibration of the mass is measured and determined to be 6 Hz. The mass is displaced to the position $x$=0.1 m and given a velocity $dx/dt$=5 m/s at t=0. Determine the amplitude of the resulting vibration.
 
 <img src = "figs\07_vibrations\Q1.jpg" width="50%"> <br>
+
+### Answer
+
+$$ 0.166 \text{ m} $$
 
 
 ## Question 3
@@ -47,12 +54,19 @@ The 89 N disk rolls on the horizontal surface.Its radius is R=152.4 mm. Determin
 
 <img src = "figs\07_vibrations\Q3.jpg" width="50%"> <br>
 
+### Answer
+
+$$ k=537 \text{N/m} $$
 
 ## Question 4
 
 The 89 N disk rolls on the horizontal surface. Its radius is R= 152.4 mm. The spring constant is k=218.9 N/m. At t=0, the spring is unstretched and the disk has a clockwise angular velocity of 2 rad/s. What is the amplitude of the resulting vibrations of the center of the disk?
 
 <img src = "figs\07_vibrations\Q3.jpg" width="50%"> <br>
+
+### Answer
+
+$$ 0.019 \text{ m} $$
 
 
 ## Question 5
@@ -64,12 +78,26 @@ The mass m=4 kg and the spring constant is k=64 N/m. For vibration of the spring
 
 <img src = "figs\07_vibrations\Q5.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ 0.637 Hz $$
+
+**(b)** 
+
+$$ T=1.57 s $$
+
 
 ## Question 6
 
 The mass m=4 kg and the spring constant is k=64 N/m. The spring is unstretched when $x$=0. At t=0, $x$=0 and the mass has a velocity of 2 m/s down the inclined surface. What is the value of $x$ at t=0.8 s?
 
 <img src = "figs\07_vibrations\Q5.jpg" width="50%"> <br>
+
+### Answer
+
+$$ 0.029 \text{ m} $$
 
 
 ## Question 7
@@ -83,6 +111,27 @@ Consider the one-degree of freedom system below (a pendulum). The slender bar is
 
 <img src = "figs\07_vibrations\Q7.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+Diagram showing all correct information
+
+**(b)** 
+
+$$ M=\frac{2}{3}L\alpha-g\sin(\theta) $$ 
+
+**(c)** 
+
+$$
+\omega^2=\frac{g}{L}
+$$
+
+**(d)** 
+
+$$ \omega=\sqrt{\frac{3g}{2L}} \text{ rad/s}, \frac{1}{2\pi}\sqrt{\frac{3g}{2L}}\text{ Hz}
+$$
+
 
 ## Question 8
 
@@ -90,6 +139,9 @@ You are asked to design a pendulum clock, and you begin with the pendulum. The m
 
 <img src = "figs\07_vibrations\Q8.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 0.193 \text{ m} $$
 
 ## Question 9
 
@@ -97,6 +149,9 @@ The spring constant is k=785  N/m. The spring is unstretched when $x$=0. Neglect
 
 <img src = "figs\07_vibrations\Q9.jpg" width="50%"> <br>
 
+### Answer
+
+$$ x=-0.2\cos(5.71t)+0.2 $$
 
 ## Question 10
 
@@ -104,6 +159,9 @@ The spring constant is k=785 N/m. The spring is unstretched with $x$=0. The radi
 
 <img src = "figs\07_vibrations\Q9.jpg" width="50%"> <br>
 
+### Answer
+
+$$ x=-0.2\cos(5.34t)+0.2 $$
 
 <br><br>
 

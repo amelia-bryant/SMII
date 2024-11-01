@@ -164,7 +164,7 @@ $$ M = I\alpha \\
 **(b)** 
 
 $$\omega=\alpha t \\
-= (2.5)(4)\\
+= (2.5)(4) \\
 = 10 \text{ rad/s} \\
 = 95.5 \text{ rpm}$$
 

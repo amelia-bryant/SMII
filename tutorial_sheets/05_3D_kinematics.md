@@ -33,6 +33,9 @@ The aeroplane’s angular velocity vector relative to an earth-fixed reference f
 
 <img src = "figs\05_3D_kinematics\Q1.jpg" width="50%"> <br>
 
+### Answer
+
+$$ -0.356i-0.084j-1.12k \text{ m/s}$$
 
 ## Question 2 
 
@@ -40,11 +43,20 @@ The angular velocity of the cube relative to the primary reference frame, expres
 
 <img src = "figs\05_3D_kinematics\Q2.jpg" width="50%"> <br>
 
+### Answer
+
+v_A = 22.2i+32.7j+17.4k \text{ m/s}$$
+
 
 ## Question 3
 
 Using the cube in Q2, the coordinate system shown is fixed with respect to the cube. The angular velocity of the cube relative to the primary reference frame, $\omega$=−6.4i+8.2j+12k rad/s, is constant.The acceleration of the center of mass G of the cube relative to the primary reference frame at the instant shown is $a_G$=136i+76j−48k m/s $^2$. What is the acceleration of point A of the cube relative to the primary reference frame at the instant shown?
 
+### Answer
+
+$$
+v_A = -204.5i-63.04j-125k \text{ m/s}
+$$
 
 ## Question 4
 
@@ -55,6 +67,16 @@ The origin of the secondary coordinate system shown is fixed to the center of ma
 
 <img src = "figs\05_3D_kinematics\Q2.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ v_A = 19.8i+10.8j+41.4k \text{ m/s}$$
+
+**(b)**
+
+$$ \alpha = 17.2i-41.7j-35.8k \text{ rad/s}^2$$ 
+
 
 ## Question 5
 
@@ -62,11 +84,19 @@ Relative to an earth-fixed reference frame, points A and B of the rigid parallel
 
 <img src = "figs\05_3D_kinematics\Q5.jpg" width="50%"> <br>
 
+### Answer
+
+$$ v_C = 4i+4k, v_D = 4i-8j $$
 
 ## Question 6
 
 Using the parallelepiped in Q5, relative to the xyz coordinate system shown, points A and B of the rigid parallelepiped are fixed and the parallelepiped rotates about the axis AB with an angular velocity of 30 rad/s. Relative to an earth fixed reference frame, point A is fixed and the xyz coordinate system rotates with angular velocity −5i+8j+6k rad/s. Determine the velocities of points C and D relative to the earth-fixed reference frame.
 
+### Answer
+
+$$ 
+v_C = 2.8i+3k, v_D = 2.8i-5.6j-4.2k
+$$
 
 ## Question 7
 
@@ -77,6 +107,15 @@ Relative to an earth-fixed reference frame, the vertical shaft rotates about its
 
 <img src = "figs\05_3D_kinematics\Q7.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)**
+
+$$ v_A = -33.9j+33.9k \text{ cm/s} $$
+
+**(b)**
+
+$$ v_A = 22.6i-33.9j+33.9k \text{ cm/s} $$
 
 ## Question 8 
 The object in figure (a) is supported by bearings at A and B in figure (b). The horizontal circular disk is supported by a vertical shaft that rotates with angular velocity $\omega_O$=6 rad/s. The horizontal bar rotates with angular velocity $\omega$=10 rad/s. At the instant shown,
@@ -87,6 +126,19 @@ The object in figure (a) is supported by bearings at A and B in figure (b). The 
 
 <img src = "figs\05_3D_kinematics\Q8.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)**
+
+$$ v_C = 0.4k \text{ m/s} $$
+
+**(b)**
+
+$$ \alpha = -60k \text{ rad/s}^2 $$
+
+**(c)**
+
+$$ a_C = 8.4i-10j \text{ m/s}^2 $$
 
 ## Question 9 
 
@@ -98,6 +150,19 @@ The point of the spinning top remains at a fixed point on the floor, which is th
 
 <img src = "figs\05_3D_kinematics\Q9.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)**
+
+$$ v_A = -1.05i \text{ m/s} $$
+
+**(b)**
+
+$$ \alpha = 100i \text{ rad/s}^2 $$
+
+**(c)**
+
+$$ a_C = -61.4j+4.1k \text{ m/s}^2 $$
 
 ## Question 10
 
@@ -108,6 +173,15 @@ The radius of the circular disk is R=0.2 m, and b=0.3 m. The disk rotates with a
 
 <img src = "figs\05_3D_kinematics\Q10.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ \omega_{rel} =  6i \text{ rad/s}$$
+
+**(b)** 
+
+$$ v_P = -0.8i+1.2j+0.6k \text{ m/s} $$
 
 <br><br>
 

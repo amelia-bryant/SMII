@@ -34,10 +34,18 @@ Sleeve C slides at 1 m/s relative to bar BD. Use the body-fixed coordinate syste
 
 <img src = "figs\03_moving_systems\Q1.jpg" width="50%"> <br>
 
+### Answer
+
+$$ -0.2i+2.8j \text{ m/s}
+$$
 
 ## Question 2
 
 Using the same system as Question 1, the angular accelerations of the two bars are zero and the sleeve C slides at a constant velocity of 1 m/s relative to bar BD. What is the acceleration of C?
+
+### Answer
+
+$$ -8.8i+5.6j \text{ m/s}^2 $$
 
 
 ## Question 3
@@ -46,6 +54,9 @@ Bar AB has an angular velocity of 4 rad/s in the clockwise direction. What is th
 
 <img src = "figs\03_moving_systems\Q3.jpg" width="50%"> <br>
 
+### Answer
+
+$$-0.548\text{ m/s} $$
 
 ## Question 4
 
@@ -53,6 +64,9 @@ The coordinate system is fixed relative to the ship B. At the instant shown, the
 
 <img src = "figs\03_moving_systems\Q4.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 553i+24j-21k \text{ m/s}$$
 
 ## Question 5
 
@@ -61,9 +75,20 @@ The space shuttle is attempting to recover a satellite for repair. At the curren
 <img src = "figs\03_moving_systems\Q5.jpg" width="50%"> <br>
 
 
+### Answer
+
+Also bigger cross product!
+
+$$ -2i \text{ m/s}$$
+
+
 ## Question 6
 
 The train on the circular track is traveling at a constant speed of 50 m/s in the direction shown. The train on the straight track is traveling at 20 m/s in the direction shown and is increasing its speed at 2 m/s $^2$. Determine the velocity of passenger A that passenger B observes relative to the given coordinate system, which is fixed to the car in which B is riding.
+
+### Answer
+
+$$ v_{Arel} = -120j $$
 
 <img src = "figs\03_moving_systems\Q6.jpg" width="50%"> <br>
 
@@ -73,12 +98,19 @@ Suppose that the merry-go-round has counterclockwise angular velocity $\omega$ a
 
 <img src = "figs\03_moving_systems\Q7.jpg" width="50%"> <br>
 
+### Answer
+
+$$ a_{Arel} = - \omega^2Ri - \alpha Rj $$
 
 ## Question 8 
 
 The angular velocity $\omega$ AC=5° per second. Determine the angular velocity of the hydraulic actuator BC and the rate at which the actuator is extending. 
 
 <img src = "figs\03_moving_systems\Q8.jpg" width="50%"> <br>
+
+### Answer
+
+$$ \omega_{BC} = 0.108 \text{ rad/s, and the velocity of the actuator, } v_{Crel} = 0.109 \text{ m/s} $$
 
 
 ## Question 9
@@ -87,6 +119,9 @@ The sleeve at A slides upward at a constant velocity of 10 m/s. Bar AC slides th
 
 <img src = "figs\03_moving_systems\Q9.jpg" width="50%"> <br>
 
+### Answer
+
+$$ \omega_{AC} = 8.66 \text{ rad/s, and velocity of B towards A, } v_{Arel} = 5 \text{ m/s} $$
 
 ## Question 10
 
@@ -94,6 +129,11 @@ The satellite A is in a circular polar orbit (that intersects the earth’s axis
 
 <img src = "figs\03_moving_systems\Q10.jpg" width="50%"> <br>
 
+### Answer
+
+$$ v_{Arel} = v_Aj+\omega_E Rk $$ 
+
+$$ a_{Arel} =-(\frac{v_A^2}{R}+\omega_E^2R)i $$
 
 <br><br>
 

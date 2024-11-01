@@ -42,11 +42,13 @@ I_{xx} & -I_{xy} & -I_{xz}\\
 \end{bmatrix} \text{kgm}^2
 $$
 
-At the present instant, the angular velocity and angular acceleration of the casting are $\omega$=1.2i+0.8j−0.4k rad/s and $\alpha$=0.26i−0.07j+0.13k
-rad/s $^2$. What moment is exerted about the center of mass of the casting by the manipulator?
+At the present instant, the angular velocity and angular acceleration of the casting are $\omega$=1.2i+0.8j−0.4k rad/s and $\alpha$=0.26i−0.07j+0.13k rad/s $^2$. What moment is exerted about the center of mass of the casting by the manipulator?
 
 <img src = "figs\06_3D_dynamics\Q1.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 0.0135i+0.0086j+0.01k \text{ Nm} $$
 
 ## Question 2
 
@@ -68,6 +70,10 @@ angular acceleration of the casting at that instant?
 
 <img src = "figs\06_3D_dynamics\Q1.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 1.43i+0.987j+1.65k \text{ rad/s}^2 $$
+
 
 ## Question 3
 
@@ -84,9 +90,13 @@ I_{xx} & -I_{xy} & -I_{xz}\\
 \end{bmatrix} \text{kgm}^2
 $$
 
-At the present instant, the rigid body’s angular velocity is $\omega$=6i+6j−4k rad/s and its angular acceleration is zero. What total moment about 𝑂 is being exerted on the rigid body?
+At the present instant, the rigid body’s angular velocity is $\omega$=6i+6j−4k rad/s and its angular acceleration is zero. What total moment about O is being exerted on the rigid body?
 
 <img src = "figs\06_3D_dynamics\Q3.jpg" width="50%"> <br>
+
+### Answer
+
+$$ -76i+36j-60k \text{ Nm} $$
 
 
 ## Question 4
@@ -108,6 +118,9 @@ At the present instant, the rigid body’s angular velocity is $\omega$=6i+6j−
 
 <img src = "figs\06_3D_dynamics\Q3.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 16.2i-5.6j+13.1k \text{ rad/s}^2 $$ 
 
 ## Question 5
 
@@ -131,6 +144,16 @@ The bar is stationary relative to an inertial reference frame when the force F=1
 
 <img src = "figs\06_3D_dynamics\Q5.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ 6.01i-7.5j \text{ rad/s}^2 $$
+
+**(b)**
+
+$$ 11k \text{ m/s}^2 $$
+
 
 ## Question 6
 
@@ -138,15 +161,22 @@ The dimensions of the 20 kg thin plate are h=0.4 m and b=0.6 m. The plate is sta
 
 <img src = "figs\06_3D_dynamics\Q6.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 2.5k \text{ m/s}^2 $$
+
 
 ## Question 7
 
-The thin circular disk of radius R=0.2 m and mass m=4 kg is rigidly attached to the vertical shaft. The plane of the disk is slanted at an angle  $\beta$=30◦ relative to the
-horizontal. The shaft rotates with constant angular velocity $\omega_O$=25 rad/s.
-Determine the magnitude of the couple exerted on the disk by the shaft.
+The thin circular disk of radius R=0.2 m and mass m=4 kg is rigidly attached to the vertical shaft. The plane of the disk is slanted at an angle  $\beta$=30◦ relative to the horizontal. The shaft rotates with constant angular velocity $\omega_O$=25 rad/s.
+
+Determine the couple exerted on the disk by the shaft.
 
 <img src = "figs\06_3D_dynamics\Q7.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 12.8i \text{ Nm} $$
 
 ## Question 8
 
@@ -154,6 +184,10 @@ The vertical shaft rotates with constant angular velocity $\omega_O$. The 35◦ 
 
 <img src = "figs\06_3D_dynamics\Q8.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 7.04 \text{ rad/s}
+$$
 
 <br><br>
 

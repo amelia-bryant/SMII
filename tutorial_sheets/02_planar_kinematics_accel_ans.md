@@ -341,7 +341,7 @@ a_A = -0.1j+0-1^2(0.4j) \\ a_A=-0.5j\text{ m/s}^2  $$
 And B
 
 $$ a_B = a_O+\alpha\times r_{B/O}-\omega^2 r_{B/O} \\  
-a_A = -0.1j+0-1^2(-0.4j) \\ a_A=0.3j\text{ m/s}^2  $$
+a_B = -0.1j+0-1^2(-0.4j) \\ a_B=0.3j\text{ m/s}^2  $$
 
 <br><br>
 

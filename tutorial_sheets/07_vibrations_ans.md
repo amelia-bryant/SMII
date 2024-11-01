@@ -236,7 +236,7 @@ The question asks for the values relative to the equilibrium position, hence for
 $$
 f=\frac{1}{2\pi}\sqrt{\frac{k}{m}} \\
 f=\frac{1}{2\pi}\sqrt{\frac{64}{4}} \\
-f = 0.637
+f = 0.637 Hz
 $$
 
 **(b)**
@@ -244,7 +244,7 @@ $$
 $$
 T=\frac{1}{f}\\
 T=\frac{1}{0.637} \\
-T=1.57
+T=1.57 s
 $$
 
 ## Question 6

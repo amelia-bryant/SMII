@@ -35,6 +35,16 @@ The rigid body rotates about the z axis with counterclockwise angular velocity �
 
 <img src = "figs\02_planar_kinematics_accel\Q1.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ \alpha = 2k $$
+
+**(b)** 
+
+$$ a_{A/B} = -9.6i+1.2j \text{ m/s}^2 $$
+
 
 ## Question 2
 
@@ -44,6 +54,10 @@ What is the acceleration of point T?
 
 <img src = "figs\02_planar_kinematics_accel\Q2.jpg" width="50%"> <br>
 
+### Answer
+
+$$ a_T= 2.02i+2.37j \text{ m/s}^2 $$
+
 
 ## Question 3
 
@@ -51,6 +65,9 @@ The bar rotates with a counterclockwise angular velocity of 5 rad/s and a counte
 
 <img src = "figs\02_planar_kinematics_accel\Q3.jpg" width="50%"> <br>
 
+### Answer
+
+$$ -73.3i+27j \text{ m/s}^2 $$
 
 ## Question 4
 
@@ -58,6 +75,9 @@ If $\omega_{AB}$=2rad/s, $\alpha_{AB}$=2rad/s $^2$, $\omega_{BC}$=−1rad/s, and
 
 <img src = "figs\02_planar_kinematics_accel\Q4.jpg" width="50%"> <br>
 
+### Answer
+
+$$ -24.1i-18.3j \text{ m/s} ^2 $$
 
 ## Question 5
 
@@ -65,6 +85,9 @@ The length of the bar is L = 4 m and the angle $\theta$ = 30°. The bar’s angu
 
 <img src = "figs\02_planar_kinematics_accel\Q5.jpg" width="50%"> <br>
 
+### Answer
+
+$$ a_G = 7.15i-11.6 \text{ m/s} ^2 $$
 
 ## Question 6
 
@@ -72,6 +95,9 @@ The angular velocity's magnitude $\omega_{AB}$ = 6 rad/s. If the acceleration of
 
 <img src = "figs\02_planar_kinematics_accel\Q6.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 19\text{ m/s} ^2 \text{ clockwise}$$
 
 ## Question 7
 
@@ -79,12 +105,19 @@ At the instant shown, the piston’s velocity and acceleration are $v_C$ =−14i
 
 <img src = "figs\02_planar_kinematics_accel\Q7.jpg" width="50%"> <br>
 
+### Answer
+
+AB rotates 3580 rad/s $^2 $ clockwise
 
 ## Question 8
 
 If arm AB has a constant clockwise angular velocity of 0.8 rad/s, arm BC has a constant angular velocity of 0.2 rad/s, and arm CD remains vertical, what is the acceleration of part D?
 
 <img src = "figs\02_planar_kinematics_accel\Q8.jpg" width="50%"> <br>
+
+### Answer
+
+$$ -0.135i-0.144j \text{ m/s}^2$$
 
 
 ## Question 9
@@ -93,6 +126,9 @@ Point A of the rolling disk is moving toward the right and accelerating toward t
 
 <img src = "figs\02_planar_kinematics_accel\Q9.jpg" width="50%"> <br>
 
+### Answer 
+
+$$ \alpha = 20 \text{ m/s}^2 \text { in the negative direction} $$
 
 ## Question 10
 
@@ -100,6 +136,9 @@ The disk rolls on the circular surface with a constant clockwise angular velocit
 
 <img src = "figs\02_planar_kinematics_accel\Q10.jpg" width="50%"> <br>
 
+### Answer
+$$ a_A=-0.5j\text{ m/s}^2  $$
 
+$$ a_B=0.3j\text{ m/s}^2  $$
 <br><br>
 

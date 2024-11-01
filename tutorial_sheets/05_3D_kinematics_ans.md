@@ -241,7 +241,7 @@ i & j & k\\
 6 & 4 & 0 \\
 0 & 8\sin(45) & 8\cos(45) 
 \end{vmatrix} \\
-v_A = -33.9j+33.9k \text{ cm/s}
+v_A = 22.6i-33.9j+33.9k \text{ cm/s}
 $$
 
 ## Question 8 

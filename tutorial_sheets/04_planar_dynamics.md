@@ -37,11 +37,29 @@ A horizontal force F=133.4N is applied to the 1023N refrigerator as shown. Frict
 
 <img src = "figs\04_planar_dynamics\Q1.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)**  
+
+$$ a= 1.27 $$
+
+**(b)** 
+
+$$A = 359N, B=664N $$
 
 ## Question 2
 
 Solve Q1 if the coefficient of kinetic friction at A and B is $\mu_k$=0.1.
 
+### Answer
+
+**(a)**  
+
+$$ a=0.3 $$
+
+**(b)** 
+
+$$ A = 256.7N, B=766.3N $$
 
 ## Question 3
 
@@ -52,6 +70,15 @@ As the 2800 N airplane begins its take off run at t=0, its propeller exerts a ho
 
 <img src = "figs\04_planar_dynamics\Q3.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)**  
+
+$$ s = 7 m $$
+
+**(b)** 
+
+$$ A=942.9N, B=1857N$$
 
 ## Question 4 
 
@@ -62,6 +89,15 @@ The crane moves to the right with constant acceleration, and the 800-kg load mov
 
 <img src = "figs\04_planar_dynamics\Q4.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)**  
+
+$$ a = 0.858 \text{ m/s}^2 $$
+
+**(b)** 
+
+$$ A = 3709N, B=4169N $$
 
 ## Question 5
 
@@ -72,6 +108,15 @@ The moment of inertia of the disk about O is I=20 kgm $^2$.At t=0, the stationar
 
 <img src = "figs\04_planar_dynamics\Q5.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)**  
+
+$$ \alpha=2.5 \text{ rad/s}^2 $$
+
+**(b)** 
+
+$$ 95.5 \text{ rpm} $$
 
 ## Question 6
 
@@ -79,6 +124,10 @@ The radius of the pulley is 125 mm and the moment of inertia about its axis is I
 
 <img src = "figs\04_planar_dynamics\Q6.jpg" width="50%"> <br>
 
+### Answer
+
+$$ s = 0.721m  $$
+$$ 80.8N \text{ tension in rope }, \alpha=46.2 $$
 
 ## Question 7
 
@@ -86,6 +135,15 @@ Points B and C lie in the x–y plane. They axis is vertical. The center of mass
 
 <img src = "figs\04_planar_dynamics\Q7.jpg" width="50%"> <br>
 
+### Answer
+
+
+
+Then use dynamic equations
+
+$$ B_x=-19.1N, B_y = 183.3N$$
+
+$$ M_B=62.6Nm  $$
 
 ## Question 8
 
@@ -93,6 +151,9 @@ An engineer gathering data for the design of a maneuvering unit determines that 
 
 <img src = "figs\04_planar_dynamics\Q8.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 20.27 kgm^2$$
 
 ## Question 9
 
@@ -100,6 +161,11 @@ The mass of the object is 10 kg. Its moment of inertia about L $_1$ is 10 kgm $^
 
 <img src = "figs\04_planar_dynamics\Q9.jpg" width="50%"> <br>
 
+### Answer
+
+We can first determine MoI around L, which can be then used to find it around L $_2$
+
+$$ 20.8 kgm^2 $$
 
 ## Question 10
 
@@ -110,6 +176,16 @@ Two homogenous slender bars, each of mass m and length l, are welded together to
 
 <img src = "figs\04_planar_dynamics\Q10.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ = \frac{17}{12}ml^2 $$
+
+**(b)** 
+
+$$ \frac{7}{24}ml^2 $$
+
 
 ## Question 11
 
@@ -117,13 +193,21 @@ The rocket is used for atmospheric research. Its weight and its moment of inerti
 
 <img src = "figs\04_planar_dynamics\Q11.jpg" width="50%"> <br>
 
+### Answer
+
+$$
+5186 kgm^2
+$$
 
 ## Question 12
 
-Model the arm ABC as a single rigid body. Its mass is 320 kg, and the moment of inertia
-about its center of mass is I=360 kgm $^2$. Point A is stationary. If the hydraulic piston exerts a 14 kN force on the arm at B what is the arm’s angular acceleration?
+Model the arm ABC as a single rigid body. Its mass is 320 kg, and the moment of inertia about its center of mass is I=360 kgm $^2$. Point A is stationary. If the hydraulic piston exerts a 14 kN force on the arm at B what is the arm’s angular acceleration?
 
 <img src = "figs\04_planar_dynamics\Q12.jpg" width="50%"> <br>
+
+### Answer
+
+$$ 0.59 rad/s^2 \text{ anticlockwise} $$
 
 
 ## Question 13
@@ -132,6 +216,9 @@ A thin ring and a homogeneous circular disk, each of mass m and radius R, are re
 
 <img src = "figs\04_planar_dynamics\Q13.jpg" width="50%"> <br>
 
+### Answer
+$$ \sqrt{\frac{3}{4}}
+$$
 
 <br><br>
 

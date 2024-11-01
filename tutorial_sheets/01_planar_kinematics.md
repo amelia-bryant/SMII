@@ -37,6 +37,10 @@ What are the magnitudes of the velocity and acceleration of point A?
 <img src = "figs\01_planar_kinematics\Q1.jpg" width="50%"> <br>
 
 
+### Answer
+
+$$1.44m/s^2 $$
+
 ## Question 2
 
 The mass A starts from rest at t=0 and falls with a constant acceleration of 8 m/s $^2$. When the mass has fallen one meter, determine the magnitudes of: 
@@ -46,6 +50,15 @@ The mass A starts from rest at t=0 and falls with a constant acceleration of 8 m
 
 <img src = "figs\01_planar_kinematics\Q2.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ 40 rad/s $$
+
+**(b)** 
+
+$$ 8m/s^2 $$
 
 ## Question 3
 
@@ -55,6 +68,15 @@ The mass A starts from rest at t=0 and falls with a constant acceleration of 8 m
 
 <img src = "figs\01_planar_kinematics\Q3.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ x=2.67 \text{ revs} $$ 
+
+**(b)** 
+
+$$ 67 rad/s $$ 
 
 ## Question 4
 
@@ -62,6 +84,9 @@ The disk is rotating about the origin with a constant clockwise angular velocity
 
 <img src = "figs\01_planar_kinematics\Q4.jpg" width="50%"> <br>
 
+### Answer
+
+$$ v_B=167.55j  cm/s $$
 
 ## Question 5
 
@@ -72,6 +97,15 @@ The bar is moving in the x–y plane and is rotating in the counterclockwise dir
 
 <img src = "figs\01_planar_kinematics\Q5.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ 4 rad/s $$
+
+**(b)** 
+
+$$ -4i + 6.93j$$ 
 
 ## Question 6
 
@@ -79,6 +113,9 @@ The bar is rotating in the counterclockwise direction with angular velocity ω. 
 
 <img src = "figs\01_planar_kinematics\Q6.jpg" width="50%"> <br>
 
+### Answer
+
+$$ v_B = 1.2i+2.4j \text{ m/s} $$
 
 ## Question 7
 
@@ -86,6 +123,9 @@ The helicopter is in planar motion in  the x–y plane. At the instant shown, th
 
 <img src = "figs\01_planar_kinematics\Q7.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 12.4i+5.1j \text{ m/s}  $$
 
 ## Question 8
 
@@ -93,6 +133,9 @@ At the instant shown, the piston’s velocity is $v_C = −14i$ m/s. What is the
 
 <img src = "figs\01_planar_kinematics\Q8.jpg" width="50%"> <br>
 
+### Answer
+
+$$ \omega_{BA}=218 \text{ rad/s} $$
 
 ## Question 9
 
@@ -100,6 +143,9 @@ Points A and B of the 2 m bar slide on the plane surfaces. Point B is moving to 
 
 <img src = "figs\01_planar_kinematics\Q9.jpg" width="50%"> <br>
 
+### Answer
+
+$$ 1.5i- 0.547j \text{ m/s}$$
 
 ## Question 10
 
@@ -107,12 +153,19 @@ Bar AB rotates in the counterclockwise direction at 6 rad/s. Determine the angul
 
 <img src = "figs\01_planar_kinematics\Q10.jpg" width="50%"> <br>
 
+### Answer
+
+$$ v_D=6.4i-1.28j $$
 
 ## Question 11
 
 The horizontal member ADE supporting the scoop is stationary. If the link BD is rotating in the clockwise direction at 1 rad/s,what is the angular velocity of the scoop?
 
 <img src = "figs\01_planar_kinematics\Q11.jpg" width="50%"> <br>
+
+### Answer
+
+$$ \omega_{CE}=-1.47 \text{ rad/s} $$
 
 
 ## Question 12
@@ -121,6 +174,9 @@ The velocity of point O of the bat is $v_O$ =−1.83i− 4.27j m/s, and the bat 
 
 <img src = "figs\01_planar_kinematics\Q12.jpg" width="50%"> <br>
 
+### Answer
+
+$$ (1.07,-0.46) \text{ m}$$
 
 ## Question 13
 Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $v_B$ = 2i m/s.
@@ -130,6 +186,15 @@ Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $
 
 <img src = "figs\01_planar_kinematics\Q9.jpg" width="50%"> <br>
 
+### Answer
+
+**(a)** 
+
+$$ (0.34, 0.94) m$$
+
+**(b)** 
+
+$$ -0.724j \text{ m/s} $$
 
 <br><br>
 
