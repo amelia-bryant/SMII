@@ -127,7 +127,7 @@ $$ v_A = v_B+v_{Arel}+\omega\times r_{A/B} \\
 i & j & k\\
 0 & 0 & 0.26 \\
 1080 & 1220 & 6300
-\end{vmatrix} \\ = 553i+24j-21k \text{ m/s}$$
+\end{vmatrix} \\ = 553i+240j-21k \text{ m/s}$$
 
 ## Question 5
 
