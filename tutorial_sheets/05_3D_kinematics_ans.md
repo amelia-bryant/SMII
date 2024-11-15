@@ -276,7 +276,7 @@ $$ \alpha = \frac{dw}{dt} + \Omega\times\omega \\
 \alpha =  0+\begin{vmatrix}
 i & j & k\\
 0 & 6 & 0 \\
-10 & 0 & 0 
+10 & 6 & 0 
 \end{vmatrix} \\
 \alpha = -60k \text{ rad/s}^2 $$
 
@@ -329,7 +329,7 @@ $$ \alpha = \frac{dw}{dt} + \Omega\times\omega \\
 \alpha =  0+\begin{vmatrix}
 i & j & k\\
 0 & 2 & 5.6 \\
-0 & 0 & 50 
+0 & 2 & 55.6 
 \end{vmatrix} \\
 \alpha = 100i \text{ rad/s}^2 $$
 
