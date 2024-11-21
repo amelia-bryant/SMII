@@ -325,7 +325,7 @@ I_{xx} & -I_{xy} & -I_{xz}\\
 \end{bmatrix} \text{kgm}^2
 $$
 
-The bar is stationary relative to an inertial reference frame when the force F=12k N is applied at the right end of the bar. No other forces or couples act on the bar. Determine
+The bar is stationary relative to an inertial reference frame when the force F=12k (Newtons) is applied at the right end of the bar. No other forces or couples act on the bar. Determine
 
 **(a)** The bar’s angular acceleration relative to the inertial reference frame. <br>
 **(b)** The acceleration of the right end of the bar relative to the inertial reference frame at the instant the force is applied.
@@ -522,7 +522,7 @@ The disk's angular velocity needs to be written in terms of the 'new' body-fixed
 $$
 \Omega = \omega_O\sin(\beta)j+\omega_O\cos(\beta)k \\
 \Omega = 25\sin(30)j+25\cos(30)k \\
-\Omega = 12.5k+21.65k
+\Omega = 12.5j+21.65k
 $$
 
 The angular acceleration is zero (constant velocity) so the Euler equation simplifies to 

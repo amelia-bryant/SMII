@@ -124,7 +124,7 @@ $$ 16.2i-5.6j+13.1k \text{ rad/s}^2 $$
 
 ## Question 5
 
-In terms of the coordinate system shown, the inertia matrix of the 6-kg slender bar is
+In terms of the coordinate system shown, the inertia matrix of the 6 kg slender bar is
 
 $$ \begin{bmatrix}
 I_{xx} & -I_{xy} & -I_{xz}\\
@@ -137,7 +137,7 @@ I_{xx} & -I_{xy} & -I_{xz}\\
 \end{bmatrix} \text{kgm}^2
 $$
 
-The bar is stationary relative to an inertial reference frame when the force F=12k N is applied at the right end of the bar. No other forces or couples act on the bar. Determine
+The bar is stationary relative to an inertial reference frame when the force F=12k (Newtons) is applied at the right end of the bar. No other forces or couples act on the bar. Determine
 
 **(a)** The bar’s angular acceleration relative to the inertial reference frame. <br>
 **(b)** The acceleration of the right end of the bar relative to the inertial reference frame at the instant the force is applied.
