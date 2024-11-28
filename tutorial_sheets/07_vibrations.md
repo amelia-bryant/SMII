@@ -50,7 +50,7 @@ $$ 0.166 \text{ m} $$
 
 ## Question 3
 
-The 89 N disk rolls on the horizontal surface.Its radius is R=152.4 mm. Determine the spring constant k so that the frequency of vibration of the system relative to its equilibrium position is f=1 Hz.
+The 89 N disk rolls on the horizontal surface.Its radius is R=0.125 mm. Determine the spring constant k so that the frequency of vibration of the system relative to its equilibrium position is f=1 Hz.
 
 <img src = "figs\07_vibrations\Q3.jpg" width="50%"> <br>
 
@@ -60,7 +60,7 @@ $$ k=537 \text{N/m} $$
 
 ## Question 4
 
-The 89 N disk rolls on the horizontal surface. Its radius is R= 152.4 mm. The spring constant is k=218.9 N/m. At t=0, the spring is unstretched and the disk has a clockwise angular velocity of 2 rad/s. What is the amplitude of the resulting vibrations of the center of the disk?
+The 89 N disk rolls on the horizontal surface. Its radius is R=0.125 mm. The spring constant is k=218.9 N/m. At t=0, the spring is unstretched and the disk has a clockwise angular velocity of 2 rad/s. What is the amplitude of the resulting vibrations of the center of the disk?
 
 <img src = "figs\07_vibrations\Q3.jpg" width="50%"> <br>
 
@@ -97,7 +97,7 @@ The mass m=4 kg and the spring constant is k=64 N/m. The spring is unstretched w
 
 ### Answer
 
-$$ 0.029 \text{ m} $$
+$$ 0.039 \text{ m} $$
 
 
 ## Question 7
