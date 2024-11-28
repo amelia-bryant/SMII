@@ -152,7 +152,7 @@ $$
 
 ## Question 4
 
-The 89 N disk rolls on the horizontal surface. Its radius is R= 152.4 mm. The spring constant is k=218.9 N/m. At t=0, the spring is unstretched and the disk has a clockwise angular velocity of 2 rad/s. What is the amplitude of the resulting vibrations of the center of the disk?
+The 89 N disk rolls on the horizontal surface. Its radius is R=152.4 mm. The spring constant is k=218.9 N/m. At t=0, the spring is unstretched and the disk has a clockwise angular velocity of 2 rad/s. What is the amplitude of the resulting vibrations of the center of the disk?
 
 <img src = "figs\07_vibrations\Q3.jpg" width="50%"> <br>
 
