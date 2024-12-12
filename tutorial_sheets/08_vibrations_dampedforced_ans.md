@@ -533,10 +533,10 @@ The disk with moment of inertia I=3 kgm $^2$ rotates about a fixed shaft and is 
 Though movement is now rotational, the equation of motion is similar to the one we have seen with terms altered
 
 $$
-I\ddot{\theta}+k\dot{\theta}=M(t) \\
-\ddot{\theta}+\frac{k}{I}\dot{\theta}=\frac{M(t)}{I} \\
-\ddot{\theta}+\frac{20}{3}\dot{\theta}=\frac{10\sin(2t)}{3} \\
-\ddot{\theta}+6.67\dot{\theta}=3.33\sin(2t) \\
+I\ddot{\theta}+k\theta=M(t) \\
+\ddot{\theta}+\frac{k}{I}\theta=\frac{M(t)}{I} \\
+\ddot{\theta}+\frac{20}{3}\theta=\frac{10\sin(2t)}{3} \\
+\ddot{\theta}+6.67\theta=3.33\sin(2t) \\
 $$
 
 By inspection
