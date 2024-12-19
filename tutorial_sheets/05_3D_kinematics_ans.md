@@ -61,7 +61,7 @@ i & j & k\\
 -6.4 & 8.2 & 12 \\
 1 & 1 & 1
 \end{vmatrix} \\ 
-v_A = 22.2i+32.7j+17.4k \text{ m/s}$$
+v_A = 22.2i+32.4j+17.4k \text{ m/s}$$
 
 ## Question 3
 

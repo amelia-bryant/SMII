@@ -116,7 +116,7 @@ $$ \begin{bmatrix}
 0.8\\
 -0.4
 \end{bmatrix} \\
-= 0.0135i+0.0086j+0.01k \text{ Nm}
+= 0.0135i-0.0086j+0.01k \text{ Nm}
 $$
 
 

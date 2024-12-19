@@ -45,7 +45,7 @@ The angular velocity of the cube relative to the primary reference frame, expres
 
 ### Answer
 
-v_A = 22.2i+32.7j+17.4k \text{ m/s}$$
+v_A = 22.2i+32.4j+17.4k \text{ m/s}$$
 
 
 ## Question 3

@@ -48,7 +48,7 @@ At the present instant, the angular velocity and angular acceleration of the cas
 
 ### Answer
 
-$$ 0.0135i+0.0086j+0.01k \text{ Nm} $$
+$$ 0.0135i-0.0086j+0.01k \text{ Nm} $$
 
 ## Question 2
 
