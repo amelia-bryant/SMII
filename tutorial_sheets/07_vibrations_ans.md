@@ -174,8 +174,8 @@ Find the natural frequency
 
 $$
 \omega = \sqrt{\frac{k}{m}}\\
-\omega = \sqrt{\frac{218.9}{13.61}}
-\omega = 16.09
+\omega = \sqrt{\frac{218.9}{13.61}}\\
+\omega = 4.04
 $$
 
 We need to convert angular velocity to linear velocity so it can be used with the initial conditions
@@ -194,28 +194,28 @@ $$
 
 $$
 x=A\sin(\omega t)+B\cos(\omega t) + x_0\\
-0 = A\sin(16.09t)+B\cos(16.09t) \\
+0 = A\sin(4.04t)+B\cos(4.04t) \\
 B=0
 $$
 
 $$
 v=\omega A\cos(\omega t)-\omega B\sin(\omega t) \\
-0.305=16.09A\cos(16.09t)-16.09(0)\sin(16.09t) \\
-A=0.019
+0.305=4.04A\cos(4.04t)-4.04(0)\sin(4.04t) \\
+A=0.075
 $$
 
 Hence
 
 $$
-x=0.019\sin(16.09t)
+x=0.075\sin(4.04t)
 $$
 
 The amplitude is then 
 
 $$
 E = \sqrt{A^2+B^2} \\
-E = \sqrt{0.019^2} \\
-E = 0.019 \text{ m}
+E = \sqrt{0.075^2} \\
+E = 0.075 \text{ m}
 $$
 
 ## Question 5

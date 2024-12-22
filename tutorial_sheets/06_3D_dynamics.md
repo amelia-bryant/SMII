@@ -176,7 +176,7 @@ Determine the couple exerted on the disk by the shaft.
 
 ### Answer
 
-$$ 12.8i \text{ Nm} $$
+$$ 10.8i \text{ Nm} $$
 
 ## Question 8
 

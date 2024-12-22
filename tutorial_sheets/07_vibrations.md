@@ -66,7 +66,7 @@ The 89 N disk rolls on the horizontal surface. Its radius is R=152.4 mm. The spr
 
 ### Answer
 
-$$ 0.019 \text{ m} $$
+$$ 0.075 \text{ m} $$
 
 
 ## Question 5

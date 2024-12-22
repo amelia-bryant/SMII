@@ -240,12 +240,12 @@ i & j & k\\
 0 & 0 & \omega_{BC} \\
 1.2 & 2.4 & 0
 \end{vmatrix} \\
--0.21i+0.227j  = (0.45v_{Crel}-2.4\omega_{BC})i + (0.86v_{Crel}+1.2\omega_{BC})i $$
+-0.21i+0.227j  = (0.45v_{Crel}-2.4\omega_{BC})i + (0.89v_{Crel}+1.2\omega_{BC})i $$
 
 Equate components and solve as simultaneous equations
 
 $$ (i) -0.21 = 0.45v_{Crel}-2.4\omega_{BC} \\
-(j) 0.227 = 0.86v_{Crel}+1.2\omega_{BC} \\
+(j) 0.227 = 0.89v_{Crel}+1.2\omega_{BC} \\
 \omega_{BC} = 0.108 \text{ rad/s, and the velocity of the actuator, } v_{Crel} = 0.109 \text{ m/s} $$
 
 ## Question 9

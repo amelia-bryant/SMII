@@ -571,7 +571,7 @@ $$ \begin{bmatrix}
 12.5\\
 21.65
 \end{bmatrix} \\
-M = 12.8i \text{ Nm}
+M = 10.8i \text{ Nm}
 $$
 
 ## Question 8
