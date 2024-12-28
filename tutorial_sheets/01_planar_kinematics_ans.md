@@ -139,8 +139,8 @@ $ v_A=83.77i+83.77j $ cm/s
 
 Point B:
 
-$$ v_x=10.47\times 16=167.5 \\
-v_y=10.47\times 0=0 $$
+$$ v_x=10.47\times 0=0 \\
+v_y=10.47\times 16=167.5 $$
 
 In vector form $ v_B=167.55j $ cm/s
 
