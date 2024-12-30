@@ -236,7 +236,7 @@ Looking at the mechanism, we can see that C is limited to only i. Also knowing t
 
 $$ v_B=v_A +\omega_{BA} \times r_{BA} \\ 0+\omega_{BA}k \times (0.05i+0.05j) \\ = -0.05 \omega_{BA}i + 0.05 \omega_{BA}j$$
 
-$$v_B=v_C +\omega_{BC} \times r_{BC} \\ -14i+\omega_{BC}k \times (0.175i-0.05j) \\ = -14i -0.05 \omega_{BC}i -0.175 \omega_{BC}j$$
+$$v_B=v_C +\omega_{BC} \times r_{BC} \\ -14i+\omega_{BC}k \times (-0.175i+0.05j) \\ = -14i -0.05 \omega_{BC}i -0.175 \omega_{BC}j$$
 
 Then analyse looking at each component of velocity
 
