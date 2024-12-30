@@ -291,7 +291,7 @@ $$ v_B=v_A + \omega_{AB}\times r_{B/A} \\ =0 + 6k \times 0.32i \\ = 1.92j$$
 
 We can then need to calculate $\omega_{BD}$ (which is the same as $\omega_{BC}$). We can do this using the calculated $v_B$ and the constraints we know about C
 
-$$ v_C=v_B + \omega_{BC}\times r_{C/B} \\ = 0.48\omega_{BC} i+0.24 \omega_{BC} j+1.92j $$
+$$ v_C=v_B + \omega_{BC}\times r_{C/B} \\ = -0.48\omega_{BC} i+0.24 \omega_{BC} j+1.92j $$
 
 Now analyse components
 

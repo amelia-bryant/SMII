@@ -413,7 +413,7 @@ First we need to construct the inertia matrix. Referring to the formula sheet (t
 
 $$ \begin{bmatrix}
 \frac{1}{12}mh^2 & 0 & 0\\
-0 & \frac{1}{12}mh^2 & 0\\
+0 & \frac{1}{12}mb^2 & 0\\
 0 & 0 & \frac{1}{12}m(b^2+h^2)
 \end{bmatrix} = \begin{bmatrix}
 0.267 & 0 & 0\\
