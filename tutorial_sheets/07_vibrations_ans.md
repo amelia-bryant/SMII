@@ -297,7 +297,7 @@ Hence
 
 $$
 x=0.5\sin(4t)-0.21\cos(4t)+0.21 , \text{ when }t=0.8\\
-x=0.039 \text{ m}
+x=0.39 \text{ m}
 $$
 
 ## Question 7
