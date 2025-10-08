@@ -30,7 +30,7 @@ Sheets will be released each week, and the answers released after the tutorial s
 
 # Acknowledgements
 
-**Module Lead:** [Kamyar Hazeri](https://profiles.imperial.ac.uk/k.hazeri13)
+**Module Lead:** [Claire Baker](https://profiles.imperial.ac.uk/c.baker17)
 
 **Tutorial Sheet Author and Site Builder:** [Amelia Bryant](https://www.linkedin.com/in/ameliabry/ 'hello there :))')
 
