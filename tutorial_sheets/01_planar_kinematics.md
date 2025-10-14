@@ -76,7 +76,7 @@ $$ x=2.67 \text{ revs} $$
 
 **(b)** 
 
-$$ 67 rad/s $$ 
+$$ 2.67 rad/s $$ 
 
 ## Question 4
 
