@@ -86,11 +86,11 @@ The disk is rotating about the origin with a constant clockwise angular velocity
 
 ### Answer
 
-$$ v_B=167.55j  cm/s $$
+$$ v_B=-167.55j  cm/s $$
 
 ## Question 5
 
-The bar is moving in the x–y plane and is rotating in the counterclockwise direction. The magnitude of the velocity of point A relative to point B is 8 m/s. Relative to a nonrotating referenece frame with origin A, what is the 
+The bar is moving in the x–y plane and is rotating in the counterclockwise direction. The magnitude of the velocity of point A relative to point B is 8 m/s, and the velocity of point A relative to the origin is 0. Relative to a nonrotating reference frame with origin A, what is the 
 
 **(a)** Angular velocity of the bar. <br>
 **(b)**  Velocity of B relative to the reference frame in vector form.

@@ -139,14 +139,14 @@ $ v_A=83.77i+83.77j $ cm/s
 
 Point B:
 
-$$ v_x=10.47\times 0=0 \\
-v_y=10.47\times 16=167.5 $$
+$$ v_x=10.47\times 16= 167.55 \\
+v_y=10.47\times 0 =0 $$
 
-In vector form $ v_B=167.55j $ cm/s
+Given the direction of rotation, in vector form $ v_B=-167.55j $ cm/s
 
 ## Question 5
 
-The bar is moving in the x–y plane and is rotating in the counterclockwise direction. The magnitude of the velocity of point A relative to point B is 8 m/s. Relative to a nonrotating referenece frame with origin A, what is the 
+The bar is moving in the x–y plane and is rotating in the counterclockwise direction. The magnitude of the velocity of point A relative to point B is 8 m/s, and the velocity of point A relative to the origin is 0. Relative to a nonrotating reference frame with origin A, what is the 
 
 **(a)** Angular velocity of the bar. <br>
 **(b)**  Velocity of B relative to the reference frame in vector form.
