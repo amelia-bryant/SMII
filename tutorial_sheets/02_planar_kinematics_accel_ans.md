@@ -178,7 +178,7 @@ $$ v_C = v_B + \omega_{BC} \times r_{C/B} \\ = 0.24i-0.24j + \omega_{BC} k\times
 
 Component analysis (remember C cannot move in i)
 
-$$ (j) 0 = 0.24 + 0.1\omega_{BC} \rightarrow \omega_{BC}=-2.4 \text{ m/s}$$
+$$ (j) 0 = 0.24 + 0.1\omega_{BC} \rightarrow \omega_{BC}=-2.4 \text{ rad/s}$$
 
 From here we can find the acceleration by finding two different expressions for the movement of B; note becuase of the diagram we have put $\alpha_{AB}$ as negative
 
