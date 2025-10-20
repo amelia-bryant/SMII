@@ -180,7 +180,7 @@ Component analysis (remember C cannot move in i)
 
 $$ (j) 0 = 0.24 + 0.1\omega_{BC} \rightarrow \omega_{BC}=-2.4 \text{ rad/s}$$
 
-From here we can find the acceleration by finding two different expressions for the movement of B; note becuase of the diagram we have put $\alpha_{AB}$ as negative
+From here we can find the acceleration by finding two different expressions for the movement of B; note because of the diagram we have put $\alpha_{AB}$ as negative
 
 $$ a_{B}=a_A+\alpha_{AB}\times r_{B/A}-\omega_{AB}^2 r_{B/A} \\ 
 = 0- \alpha_{AB}k\times(0.04i+0.04j)-6^2(0.04i+0.04j) \\ a_{B}= (0.04 \alpha_{AB}-1.44)i+(-0.04\alpha_{AB}-1.44)j $$
@@ -277,7 +277,7 @@ First find the velocity of the centre of the disk. because it is rolling, it onl
 
 $$ v_a=r\omega i $$
 
-Next find velocity of C. Intruitivley this must only have j velocity component meaning the velocity must be 
+Next find velocity of C. Intuitively this must only have j velocity component meaning the velocity must be 
 
 $$ v_C = r\omega i + r\omega j$$
 

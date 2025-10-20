@@ -359,7 +359,7 @@ The velocity of point O of the bat is $v_O$ =−1.83i− 4.27j m/s, and the bat 
 
 ### Answer
 
-Arbitrarily place the instentaneous center. It doesn't really matter where - as long as you have signs right the maths will correct itself. 
+Arbitrarily place the instantaneous center. It doesn't really matter where - as long as you have signs right the maths will correct itself. 
 
 <img src = "figs\01_planar_kinematics\Q12ans.jpg" width="50%"> <br>
 
