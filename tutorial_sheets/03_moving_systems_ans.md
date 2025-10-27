@@ -46,7 +46,7 @@ i & j & k\\
 \end{vmatrix} \\ 
 = -1.2i+1.2j m/s $$
 
-Then work out the velocity of C, taking into account relative acceleration of C from the new body fixed reference frame (shown in red)
+Then work out the velocity of C, taking into account relative velocity of C from the new body fixed reference frame (shown in red)
 
 <img src = "figs\03_moving_systems\Q1ans.jpg" width="50%"> <br>
 

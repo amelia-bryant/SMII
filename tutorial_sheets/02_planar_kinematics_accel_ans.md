@@ -208,7 +208,7 @@ Similar to the last question, we can use the fact C can only move in i and that 
 
 $$ v_B=v_A +\omega_{AB} \times r_{B/A} \\ 0+\omega_{AB}k \times (0.05i+0.05j) \\ = -0.05 \omega_{AB}i + 0.05 \omega_{AB}j$$
 
-$$v_B=v_C +\omega_{BC} \times r_{B/C} \\ -14i+\omega_{BC}k \times (0.175i-0.05j) \\ = -14i -0.05 \omega_{BC}i -0.175 \omega_{BC}j$$
+$$v_B=v_C +\omega_{BC} \times r_{B/C} \\ -14i+\omega_{BC}k \times (-0.175i+0.05j) \\ = -14i -0.05 \omega_{BC}i -0.175 \omega_{BC}j$$
 
 Then analyse looking at each component of velocity
 
