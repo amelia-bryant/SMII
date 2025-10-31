@@ -30,7 +30,7 @@ Topics covered are
 
 ## Question 1 
 
-A horizontal force F=133.4N is applied to the 1023N refrigerator as shown. Friction is negligible.
+A horizontal force F=133.4N is applied to the 1023N refrigerator as shown, and the fridge does not tip over. Friction is negligible.
 
 **(a)** What is the magnitude of the refrigerator’s acceleration? <br>
 **(b)** What normal forces are exerted on the refrigerator by the floor at A and B?
@@ -127,7 +127,7 @@ The radius of the pulley is 125 mm and the moment of inertia about its axis is I
 ### Answer
 
 $$ s = 0.721m  $$
-$$ 80.8N \text{ tension in rope }, \alpha=46.2 $$
+$$ 80.8N \text{ tension in rope }, \alpha=46.2 rad/s^2$$
 
 ## Question 7
 
@@ -171,8 +171,8 @@ $$ 20.8 kgm^2 $$
 
 Two homogenous slender bars, each of mass m and length l, are welded together to form the T-shaped object. Use the parallel-axis theorem to determine the moment of inertia of the object about the axis
 
-**(a)** through point O that is perpendicular to the bars.
-**(b)** through the center of mass of the object that is perpendicular to the two bars.
+**(a)** through point O that is perpendicular to the plane formed by the bars.
+**(b)** through the center of mass of the object that is perpendicular to the plane formed by the bars.
 
 <img src = "figs\04_planar_dynamics\Q10.jpg" width="50%"> <br>
 

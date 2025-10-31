@@ -30,7 +30,7 @@ Topics covered are
 
 ## Question 1 
 
-A horizontal force F=133.4N is applied to the 1023N refrigerator as shown. Friction is negligible.
+A horizontal force F=133.4N is applied to the 1023N refrigerator as shown, and the fridge does not tip over. Friction is negligible.
 
 **(a)** What is the magnitude of the refrigerator’s acceleration? <br>
 **(b)** What normal forces are exerted on the refrigerator by the floor at A and B?
@@ -194,7 +194,7 @@ $$ ((20g-20a)-(4a+4g))0.125=0.05\frac{a}{0.125}\\
 
 then
 
-$$ a=5.77, T_1=62.32, T_2=80.8N \text{ (tension in rope) }, \alpha=46.2 $$
+$$ a=5.77 m/s^2, T_1=62.32N, T_2=80.8N \text{ (tension in rope) }, \alpha=46.2 rad/s^2 $$
 
 Using suvat, we can find the distance
 
@@ -284,8 +284,8 @@ I_{L2}= 20.8 kgm^2 $$
 
 Two homogenous slender bars, each of mass m and length l, are welded together to form the T-shaped object. Use the parallel-axis theorem to determine the moment of inertia of the object about the axis
 
-**(a)** through point O that is perpendicular to the bars.
-**(b)** through the center of mass of the object that is perpendicular to the two bars.
+**(a)** through point O that is perpendicular to the plane formed by the bars.
+**(b)** through the center of mass of the object that is perpendicular to the plane formed by the bars.
 
 <img src = "figs\04_planar_dynamics\Q10.jpg" width="50%"> <br>
 
@@ -377,7 +377,7 @@ $$ \theta = \tan^{-1} (\frac{1.5}{1.4}) = 46.97 $$
 
 The moment can then be found with
 
-$$\circlearrowright \sum M_A: (1.4)1499\sin(46.97) - (0.8)14000\cos(46.97)-(1.8)320g+1784\alpha \\ \alpha = -0.59 rad/s^2 \\
+$$\circlearrowright \sum M_A: (1.4)14000\sin(46.97) - (0.8)14000\cos(46.97)-(1.8)320g=1784\alpha \\ \alpha = -0.59 rad/s^2 \\
 \text{therefore }0.59 rad/s^2 \text{ anticlockwise} $$
 
 ## Question 13
