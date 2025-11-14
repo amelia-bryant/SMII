@@ -88,7 +88,7 @@ $$
 
 ## Question 4
 
-The origin of the secondary coordinate system shown is fixed to the center of mass G of the cube. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32 m/s. The cube is rotating relative to the secondary coordinate system with  angular velocity $\omega_{rel}$ =6.2i−5j+8.8k rad/s. The secondary coordinate system is rotating relative to the primary reference frame with angular velocity 2.2i+4j−3.6k rad/s.
+The origin of the secondary coordinate system shown is fixed to the center of mass G of the cube. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32 m/s. The cube is rotating relative to the secondary coordinate system with  angular velocity $\omega_{rel}$ =6.2i−5j+8.8k rad/s. The secondary coordinate system is rotating relative to the primary reference frame with angular velocity $\omega$ = 2.2i+4j−3.6k rad/s.
 
 **(a)** What is the velocity of point A of the cube relative to the primary reference frame at the instant shown? <br>
 **(b)** If the components of the vectors $\omega_{rel}$ and are constant, what is the cube’s angular acceleration relative to the primary reference frame?
