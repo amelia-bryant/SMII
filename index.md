@@ -20,7 +20,7 @@ Sheets will be released each week, and the answers released after the tutorial s
 * __[3 - Moving Systems](tutorial_sheets\03_moving_systems_ans)__
 * __[4 - Planar Dynamics](tutorial_sheets\04_planar_dynamics_ans)__
 * __[5 - 3D Kinematics](tutorial_sheets\05_3D_kinematics_ans)__
-__[6 - 3D Dynamics](tutorial_sheets\06_3D_dynamics_ans)__
+* __[6 - 3D Dynamics](tutorial_sheets\06_3D_dynamics_ans)__
 * __[7 - Vibrations](tutorial_sheets\07_vibrations_ans)__
 
 <!--* * __[8 - Vibrations, Damped and Forced](tutorial_sheets\08_vibrations_dampedforced_ans)__  -->
