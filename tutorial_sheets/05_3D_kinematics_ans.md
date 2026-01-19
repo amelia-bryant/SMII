@@ -235,7 +235,7 @@ $$
 $$
 \omega = \Omega+\omega_{rel} \\
 \omega = 4j+6i \\
-v_A=v_O+\omega_{rel} \times r_{A/G} \\ 
+v_A=v_O+\omega \times r_{A/G} \\ 
 v_A=0+ \begin{vmatrix}
 i & j & k\\
 6 & 4 & 0 \\
