@@ -319,7 +319,7 @@ i.e. 19.0 rad/s $^2$ clockwise.
 
 ## Question 7
 
-The crank AB rotates about the fixed point A (A does not move), and the piston C slides horizontally along the x axis. At the instant shown, the piston’s velocity and acceleration are $v_C = -14i + 0j + 0k \;\;\text{m/s}$ and $a_C = -2200i + 0j + 0k \;\;\text{m/s}^2$. What is the angular acceleration of the crank AB?
+The crank AB rotates about the fixed point A, and the piston C slides horizontally along the x axis. At the instant shown, the piston’s velocity and acceleration are $v_C = -14i + 0j + 0k \;\;\text{m/s}$ and $a_C = -2200i + 0j + 0k \;\;\text{m/s}^2$. What is the angular acceleration of the crank AB?
 
 <img src = "figs\02_planar_kinematics_accel\Q7.jpg" width="50%"> <br>
 
