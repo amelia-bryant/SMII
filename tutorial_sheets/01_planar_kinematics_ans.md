@@ -189,7 +189,7 @@ The bar is rotating in the counterclockwise direction with angular velocity ω. 
 
 The distance B from A can be simply found
 
-$$ r_{A/B}=\sqrt{(0.4+0.4)^2+(0.4+0.2)^2} $$
+$$ r_{A/B}=\sqrt{(0.4+0.4)^2+(0.4+0.2)^2} =1$$
 
 All points on the bar share the same angular velocity.
 
@@ -301,7 +301,7 @@ $$(i) v_C=-0.48\omega_{BC} \\ (j) 0=1.92+0.24 \omega_{BC} $$
 
 Solving 
 
-$$ \omega_{BC}=\omega_{BD}=-8k \\ v_C = 3.84i $$
+$$ \omega_{BC}=\omega_{BD}=-8k \\ v_C = 3.84i \text{ m/s}$$
 
 Now to calculate velocity of D 
 
@@ -309,7 +309,7 @@ $$ v_D=v_B + \omega_{BD}\times r_{D/B} \\ = 1.92j + \begin{vmatrix}
 i & j & k\\
 0 & 0 & -8 \\
 0.4 & 0.8 & 0
-\end{vmatrix} \\ v_D=6.4i-1.28j$$
+\end{vmatrix} \\ v_D=6.4i-1.28j \text{ m/s}$$
 
 ## Question 11
 
