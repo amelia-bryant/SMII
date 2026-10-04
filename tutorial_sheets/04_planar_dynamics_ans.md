@@ -48,10 +48,10 @@ Take forces and moments
 
 $$\sum F_x: F = ma\\
 133.4 = \frac{1023}{9.81}a \\
-a= 1.27 \text{ m/s, part (a) solved} $$
+a= 1.27 \text{ m/s$^2$, part (a) solved} $$
 
 $$\sum F_y: A+B-1023 = 0 \\
-b = 1023-A $$
+B = 1023-A $$
 
 $$\circlearrowright \sum M_o: (0.8128)(133.4)+(0.3556)A=(0.3556)B $$
 
@@ -59,7 +59,7 @@ Solving
 
 $$ 108.43+0.3556A=0.3556(1023-A) \\
 255.35=0.7112A\\
-A = 359N, B=664N \text{, solving part (b)}$$
+A = 359 \text{ N}, B=664\text{ N}\text{, solving part (b)}$$
 
 ## Question 2
 
@@ -81,7 +81,7 @@ $$\sum F_y: A+B-1023 = 0 $$
 $$\circlearrowright \sum M_o: (0.8128)(133.4)+(0.3556)A-(0.3556)B+0.7112(0.1B)+0.7112(0.1)A=0\\
 108.43+0.3556A-0.3556(1023-A)+0.07112(1023-A)+0.07112(A)=0\\
 -182.59+0.7112A=0 \\
-A = 256.7N, B=766.3N \text{, solving part (b), and } a=0.3 \text{ m/s, solving (a)}$$ 
+A = 256.7 \text{ N}, B=766.3 \text{ N} \text{, solving part (b), and } a=0.3 \text{ m/s$^2$, solving (a)}$$ 
 
 ## Question 3
 
@@ -98,15 +98,15 @@ As the 2800 N airplane begins its take off run at t=0, its propeller exerts a ho
 
 **(a)** 
 
-$$\sum F_x: F = ma \\
+$$\sum F_x: T = ma \\
 1000 = \frac{2800}{9.81}a \\
-a = 3.5 $$
+a = 3.5 \text{ m/s}^2$$
 
 Then using suvat 
 
 $$s = ut+\frac{1}{2}at^2\\
 s = \frac{1}{2}(3.5)(2)^2 \\
-s = 7 m$$
+s = 7 \text{ m}$$
 
 **(b)** 
 
@@ -204,7 +204,7 @@ s = 0.721m  $$
 
 ## Question 7
 
-Points B and C lie in the x–y plane. The axis is vertical. The center of mass of the 18 kg arm BC is at the midpoint of the line from B to C, and the moment of inertia of the arm about the axis through the center of mass that is parallel to the z axis is 1.5 kgm $^2$. At the instant shown, the angular velocity and angular acceleration vectors of arm AB are $\omega_{AB}$=0.6k rad/s and $\alpha_{AB}$=−0.3k rad/s $^2$.The angular velocity and angular acceleration vectors of arm BC are $\omega_{BC}$=0.4k rad/s and $\alpha_{BC}$=2k rad/s $^2$. Determine the force and couple exerted on arm BC at B.
+Points B and C lie in the x–y plane. The axis is vertical. The center of mass of the 18 kg arm BC is at the midpoint of the line from B to C, and the moment of inertia of the arm about the axis through the center of mass that is parallel to the z axis is 1.5 kgm $^2$. At the instant shown, the angular velocity and angular acceleration vectors of arm AB are $\omega_{AB}$=0.6k rad/s and $\alpha_{AB}$=−0.3k rad/s $^2$. The angular velocity and angular acceleration vectors of arm BC are $\omega_{BC}$=0.4k rad/s and $\alpha_{BC}$=2k rad/s $^2$. Determine the force and couple exerted on arm BC at B.
 
 <img src = "figs\04_planar_dynamics\Q7.jpg" width="50%"> <br>
 
@@ -225,10 +225,10 @@ $$
 
 Denote the CoM of the arm BC as G. The acceleration of G is
 
-$$ a_G = a_B + \alpha_{BC}\times r_{G/B} - \omega_{BC}^2 r_{G/b} \\
+$$ a_G = a_B + \alpha_{BC}\times r_{G/B} - \omega_{BC}^2 r_{G/B} \\
 a_B=-0.323i-0.149j+\begin{vmatrix}
 i & j & k\\
-0 & 0 & -0.3 \\
+0 & 0 & 2 \\
 0.45\cos(50) & 0.45\sin(50) & 0 
 \end{vmatrix} - 0.4^2(0.45\cos(50)i +0.45\sin(50)j) \\
 a_B=-1.059i+0.374j\text{ m/s}^2
@@ -239,7 +239,7 @@ Then use dynamic equations
 $$ \sum F: B_xi+(B_y-18g)j = 18(-1.059i+0.374j)\\
 B_x=-19.1N, B_y = 183.3N$$
 
-$$\sum M=I_{BC}\alpha_{BC} = Fd \\
+$$\sum M=I_{BC}\alpha_{BC} \\
 (1.5)(2) = 0.45\sin(50)(-19.1)-0.45\cos(50)(183.3)+M_B \\
 M_B=62.6Nm  $$
 
@@ -255,12 +255,12 @@ The distance z' to z can be found
 
 $$ d=\sqrt{d_x^2+d_y^2}
 = \sqrt{1.01^2+0.16^2} \\
-d=1.02257 $$
+d=1.02257 \text{ m}$$
 
 Then inertia is
 
 $$ I_{zz}= I_{z'z'}+d^2m \\ 
-I_{z'z'} =  105.6-(1.02257)(81.6) \\ I_{z'z'} =  20.27 kgm^2$$
+I_{z'z'} =  105.6-(1.02257)^2(81.6) \\ I_{z'z'} =  20.27 \text{ kgm}^2$$
 
 ## Question 9
 
@@ -274,11 +274,11 @@ We can first determine MoI around L, which can be then used to find it around L 
 
 $$ I_{L1}= I_{L}+d^2m  \\
 10 = I_{L} + (0.6)^2(10) \\
-I_{L1} = 6.4 $$
+I_{L} = 6.4 \text{ kgm}^2$$
 
 $$ I_{L2}= I_{L}+d^2m  \\
 I_{L2}= 6.4 +(1.2)^2(10) \\
-I_{L2}= 20.8 kgm^2 $$
+I_{L2}= 20.8 \text{ kgm}^2 $$
 
 ## Question 10
 
@@ -341,7 +341,7 @@ $$ I_R = I_E+d_E^2m_E + I_F+d_F^2m_F$$
 
 The weight of the empty rocket is evidently
 
-$$ 44480-26688 \\ = 17792N $$
+$$ 44480-26688 \\ = 17792 \text{ N} $$
 
 The full rocket CoM can be found with
 
@@ -352,7 +352,7 @@ MoI of the empty rocket is then
 
 $$
 13826 = I_E+1.37^2(\frac{17792}{9.81})+2983+(-0.91)^2(\frac{26688}{9.81}) \\
-I_E = 5186 kgm^2
+I_E = 5186 \text{ kgm}^2
 $$
 
 ## Question 12
@@ -373,16 +373,16 @@ $$
 
 The angle between B and the horizontal is
 
-$$ \theta = \tan^{-1} (\frac{1.5}{1.4}) = 46.97 $$
+$$ \theta = \tan^{-1} (\frac{1.5}{1.4}) = 46.97 ^\circ$$
 
 The moment can then be found with
 
-$$\circlearrowright \sum M_A: (1.4)14000\sin(46.97) - (0.8)14000\cos(46.97)-(1.8)320g=1784\alpha \\ \alpha = -0.59 rad/s^2 \\
-\text{therefore }0.59 rad/s^2 \text{ anticlockwise} $$
+$$\circlearrowright \sum M_A: (1.4)14000\sin(46.97) - (0.8)14000\cos(46.97)-(1.8)320g=1784\alpha \\ \alpha = 0.59 rad/s^2 \\
+\text{therefore }0.59 \text{ rad/s}^2 \text{ anticlockwise} $$
 
 ## Question 13
 
-A thin ring and a homogeneous circular disk, each of mass m and radius R, are released from rest on an inclined surface. Determine the ratio $v_{ring}/v_{disk}$ of the velocities of the their centers when they have rolled a distance D.
+A thin ring and a homogeneous circular disk, each of mass m and radius R, are released from rest on an inclined surface. Determine the ratio $v_{ring}/v_{disk}$ of the velocities of their centers when they have rolled a distance D.
 
 <img src = "figs\04_planar_dynamics\Q13.jpg" width="50%"> <br>
 
@@ -414,14 +414,14 @@ a = \frac{R^2mg\sin(\theta)}{mR^2+mR^2} = \frac{g\sin(\theta)}{2}$$
 
 Disk:
 
-$$ I_{ring} = \frac{1}{2}mR^2 \\
+$$ I_{disk} = \frac{1}{2}mR^2 \\
 a = \frac{R^2mg\sin(\theta)}{\frac{1}{2}mR^2+mR^2} = \frac{2g\sin(\theta)}{3}$$
 
 Velocity ratio can then be calculated
 
 $$ 
 v = \sqrt{2aD} \\
-\sqrt{\frac{v_{ring}}{v_{disk}}} = \sqrt{\frac{\frac{(2)g\sin(\theta)D}{2}}{\frac{(2)2g\sin(\theta)D}{3}}} \\
+\frac{v_{ring}}{v_{disk}} = \sqrt{\frac{\frac{(2)g\sin(\theta)D}{2}}{\frac{(2)2g\sin(\theta)D}{3}}} \\
 = \sqrt{\frac{3}{4}}
 $$
 

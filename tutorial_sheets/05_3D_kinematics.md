@@ -22,7 +22,7 @@
 
 **Tips**
 - Cross products will get much larger - the order of calculation matters, and you will need to use the full version of the acceleration equations.
-- Mechanisms are now in 3D, so practice visualisiing the actual movements to avoid mistakes.
+- Mechanisms are now in 3D, so practice visualising the actual movements to avoid mistakes.
 - Some will like to use column vectors, write it how you feel works best for you!
 
 <br>
@@ -39,18 +39,17 @@ $$ -0.356i-0.084j-1.12k \text{ m/s}$$
 
 ## Question 2 
 
-The angular velocity of the cube relative to the primary reference frame, expressed in terms of the body-fixed coordinate system shown is $\omega$=−6.4i+8.2j+12k rad/s.The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32k m/s. What is the velocity of point A of the cube relative to the primary reference frame at the instant shown?
+The angular velocity of the cube relative to the primary reference frame, expressed in terms of the body-fixed coordinate system shown is $\omega$=−6.4i+8.2j+12k rad/s. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32k m/s. What is the velocity of point A of the cube relative to the primary reference frame at the instant shown?
 
 <img src = "figs\05_3D_kinematics\Q2.jpg" width="50%"> <br>
 
 ### Answer
 
-v_A = 22.2i+32.4j+17.4k \text{ m/s}$$
-
+$$ v_A = 22.2i+32.4j+17.4k \text{ m/s}$$
 
 ## Question 3
 
-Using the cube in Q2, the coordinate system shown is fixed with respect to the cube. The angular velocity of the cube relative to the primary reference frame, $\omega$=−6.4i+8.2j+12k rad/s, is constant.The acceleration of the center of mass G of the cube relative to the primary reference frame at the instant shown is $a_G$=136i+76j−48k m/s $^2$. What is the acceleration of point A of the cube relative to the primary reference frame at the instant shown?
+Using the cube in Q2, the coordinate system shown is fixed with respect to the cube. The angular velocity of the cube relative to the primary reference frame, $\omega$=−6.4i+8.2j+12k rad/s, is constant. The acceleration of the center of mass G of the cube relative to the primary reference frame at the instant shown is $a_G$=136i+76j−48k m/s $^2$. What is the acceleration of point A of the cube relative to the primary reference frame at the instant shown?
 
 ### Answer
 
@@ -60,7 +59,7 @@ $$
 
 ## Question 4
 
-The origin of the secondary coordinate system shown is fixed to the center of mass G of the cube. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32 m/s. The cube is rotating relative to the secondary coordinate system with  angular velocity $\omega_{rel}$ =6.2i−5j+8.8k rad/s. The secondary coordinate system is rotating relative to the primary reference frame with angular velocity $\omega$ = 2.2i+4j−3.6k rad/s.
+The origin of the secondary coordinate system shown is fixed to the center of mass G of the cube. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32k m/s. The cube is rotating relative to the secondary coordinate system with angular velocity $\omega_{rel}$ =6.2i−5j+8.8k rad/s. The secondary coordinate system is rotating relative to the primary reference frame with angular velocity $\omega$ = 2.2i+4j−3.6k rad/s.
 
 **(a)** What is the velocity of point A of the cube relative to the primary reference frame at the instant shown? <br>
 **(b)** If the components of the vectors $\omega_{rel}$ and $\omega$ are constant, what is the cube’s angular acceleration relative to the primary reference frame?
@@ -86,7 +85,7 @@ Relative to an earth-fixed reference frame, points A and B of the rigid parallel
 
 ### Answer
 
-$$ v_C = 4i+4k, v_D = 4i-8j $$
+$$ v_C = 4i+4k, v_D = 4i-8j \text{ m/s} $$ 
 
 ## Question 6
 
@@ -95,7 +94,7 @@ Using the parallelepiped in Q5, relative to the xyz coordinate system shown, poi
 ### Answer
 
 $$ 
-v_C = 2.8i+3k, v_D = 2.8i-5.6j-4.2k
+v_C = 2.8i+3k, v_D = 2.8i-5.6j-4.2k \text{ m/s}
 $$
 
 ## Question 7

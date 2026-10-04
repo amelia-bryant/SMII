@@ -39,21 +39,21 @@ Sleeve C slides at 1 m/s relative to bar BD. Use the body-fixed coordinate syste
 
 Find the velocity of B
 
-$$ v_B = v_A+ \omega_{AB} \times r_{A/B} \\ = 0+\begin{vmatrix}
+$$ v_B = v_A+ \omega_{AB} \times r_{B/A} \\ = 0+\begin{vmatrix}
 i & j & k\\
 0 & 0 & 2 \\
 0.6 & 0.6 & 0
 \end{vmatrix} \\ 
-= -1.2i+1.2j m/s $$
+= -1.2i+1.2j \text{ m/s} $$
 
 Then work out the velocity of C, taking into account relative velocity of C from the new body fixed reference frame (shown in red)
 
 <img src = "figs\03_moving_systems\Q1ans.jpg" width="50%"> <br>
 
-$$ v_C = v_B + v_{Crel} + \omega_{BD} \times r_{C/B} \\ -1.2i+1.2j+1i+\begin{vmatrix}
+$$ v_C = v_B + v_{Crel} + \omega_{BD} \times r_{C/B} \\ =-1.2i+1.2j+1i+\begin{vmatrix}
 i & j & k\\
 0 & 0 & 4 \\
-0.4 & + 0 & 0
+0.4 & 0 & 0
 \end{vmatrix} \\ 
 = -0.2i+2.8j \text{ m/s}
 $$
@@ -65,11 +65,11 @@ Using the same system as Question 1, the angular accelerations of the two bars a
 ### Answer
 
 $$
-a_B=a_A+\alpha\times r_{B/A}-\omega^2_{AB}r_{B/A} \\
-= 0+0-2^2(0.6i+0.6j) \\ = -2.4i-2.4j \text{ m/s}
+a_B=a_A+\alpha_{AB}\times r_{B/A}-\omega^2_{AB}r_{B/A} \\
+= 0+0-2^2(0.6i+0.6j) \\ = -2.4i-2.4j \text{ m/s}^2
 $$
 
-$$ a_c = a_B+a_{Crel}+2\omega_{BD}\times v_{Crel}+\alpha\times r_{C/B}-\omega^2_{BD} r_{C/B} \\ 
+$$ a_C = a_B+a_{Crel}+2\omega_{BD}\times v_{Crel}+\alpha_{BD}\times r_{C/B}-\omega^2_{BD} r_{C/B} \\ 
 = -2.4i-2.4j+2\begin{vmatrix}
 i & j & k\\
 0 & 0 & 4 \\
@@ -94,7 +94,7 @@ i & j & k\\
 \end{vmatrix} \\ 
 = 0.24i-0.46j m/s $$
 
-The slot is on the body CB, so to find B relative to the slot, find v relative to CB (a second expression for $v_B$) 
+Here, B is fixed to AB, so the relative velovity was 0. The slot is on the body BC, so to find B relative to the slot, find v relative to BC (a second expression for $v_B$) 
 
 $$ v_B = v_C + v_{Brel} + \omega_{BC} \times r_{B/C} \\ = 0+v_{Brel}+\begin{vmatrix}
 i & j & k\\
@@ -127,7 +127,7 @@ $$ v_A = v_B+v_{Arel}+\omega\times r_{A/B} \\
 i & j & k\\
 0 & 0 & 0.26 \\
 1080 & 1220 & 6300
-\end{vmatrix} \\ = 553i+240j-21k \text{ m/s}$$
+\end{vmatrix} \\ = 553i+241j-21k \text{ m/s}$$
 
 ## Question 5
 
@@ -145,11 +145,11 @@ i & j & k\\
 0 & 0.05 & 0.03 \\
 50 & 0 & 0
 \end{vmatrix} \\ 
-v_A = -2i \text{ m/s}$$
+v_A = -2i+0j+0k \text{ m/s}$$
 
 ## Question 6
 
-The train on the circular track is traveling at a constant speed of 50 m/s in the direction shown. The train on the straight track is traveling at 20 m/s in the direction shown and is increasing its speed at 2 m/s $^2$. Determine the velocity of passenger A that passenger B observes relative to the given coordinate system, which is fixed to the car in which B is riding.
+The train on the circular track is traveling at a constant speed of 50 m/s in the direction shown. The train on the straight track is traveling at 20 m/s in the direction shown and is increasing its speed at 2 m/s$^2$. Determine the velocity of passenger A that passenger B observes relative to the given coordinate system, which is fixed to the car in which B is riding.
 
 <img src = "figs\03_moving_systems\Q6.jpg" width="50%"> <br>
 
@@ -157,7 +157,7 @@ The train on the circular track is traveling at a constant speed of 50 m/s in th
 
 The angular velocity of B can be found
 
-$$ \omega = \frac{v}{r} = \frac{50}{500} \\ = 0.1 \text{ m/s}$$
+$$ \omega = \frac{v}{r} = \frac{50}{500} \\ = 0.1 \text{ rad/s}$$
 
 Then simply find the velocity using info provided in the question and diagram
 
@@ -168,7 +168,7 @@ i & j & k\\
 500 & 0 & 0
 \end{vmatrix} \\
 v_{Arel} = -20j-50j-50j \\ 
-v_{Arel} = -120j $$
+v_{Arel} = -120j \text{ m/s} $$
 
 ## Question 7 
 Suppose that the merry-go-round has counterclockwise angular velocity $\omega$ and counterclockwise angular acceleration $\alpha$. The person A is standing still on the ground directly next to the edge of the merry-go-round. Determine A's acceleration relative to B's reference frame at the instant shown.
@@ -208,7 +208,7 @@ a_{Arel} = - \omega^2Ri - \alpha Rj $$
 
 ## Question 8 
 
-The angular velocity $\omega$ AC=5° per second. Determine the angular velocity of the hydraulic actuator BC and the rate at which the actuator is extending. 
+The angular velocity $\omega_{AC}$=5° per second. Determine the angular velocity of the hydraulic actuator BC and the rate at which the actuator is extending. 
 
 <img src = "figs\03_moving_systems\Q8.jpg" width="50%"> <br>
 
@@ -226,13 +226,13 @@ i & j & k\\
 0 & 0 & 0.087 \\
 2.6 & 2.4 & 0
 \end{vmatrix} \\
-= 0.21i + 0.2269j $$
+= -0.21i + 0.2269j $$
 
-Only a certain component ('amount') of the velocity of C will be due to the actuator BC extending. To find the proportion of movement caused by the actuator movement itself, we can use unit vectors. Unit vector BC (call it e) is
+Only a certain component ('amount') of the velocity of C will be due to the actuator BC extending (only the component of C’s velocity parallel to actuator BC is caused by actuator extension). To find the proportion of movement caused by the actuator movement itself, we can use unit vectors. Unit vector BC (call it e) is
 
 $$ e = \frac{1.2i+2.4j}{\sqrt{1.2^2+2.4^2}} = 0.45i+0.89j $$
 
-Velocity fo C in terms of the actuator is then 
+Velocity of C in terms of the actuator is then 
 
 $$ v_C = v_B + v_{Crel}e + \omega_{BC}\times r_{C/B} \\
 -0.21i+0.227j = 0+v_{Crel}(0.45i+0.89j)+\begin{vmatrix}
@@ -240,7 +240,7 @@ i & j & k\\
 0 & 0 & \omega_{BC} \\
 1.2 & 2.4 & 0
 \end{vmatrix} \\
--0.21i+0.227j  = (0.45v_{Crel}-2.4\omega_{BC})i + (0.89v_{Crel}+1.2\omega_{BC})i $$
+-0.21i+0.227j  = (0.45v_{Crel}-2.4\omega_{BC})i + (0.89v_{Crel}+1.2\omega_{BC})j $$
 
 Equate components and solve as simultaneous equations
 
@@ -270,13 +270,13 @@ i & j & k\\
 0 & 0 & \omega_{AC} \\
 0.866 & 0.5 & 0
 \end{vmatrix} \\
-10j = (-0.5\omega_{AC} +0.866 v_{Arel})i+ (0.866\omega_{AC} + 0.5 v_{Arel}) $$
+10j = (-0.5\omega_{AC} +0.866 v_{Arel})i+ (0.866\omega_{AC} + 0.5 v_{Arel})j $$
 
 Equate components and solve as simultaneous equations
 
 $$ (i) 0 = -0.5\omega_{AC} +0.866 v_{Arel} \\
 (j) 10 = 0.866\omega_{AC} + 0.5 v_{Arel} \\
-\omega_{AC} = 8.66 \text{ rad/s, and velocity of B towards A, } v_{Arel} = 5 \text{ m/s} $$
+\omega_{AC} = 8.66 \text{ rad/s, and the bar slides through sleeve B towards A at } v_{Arel} = 5 \text{ m/s} $$
 
 ## Question 10
 
@@ -300,7 +300,7 @@ R_E & 0 & 0
 
 The velocity of A relative to B can then be found
 
-$$ v_A = v_B+v_{Arel}+\omega_{AC}\times r_{A/B} \\
+$$ v_A = v_B+v_{Arel}+\omega_{E}\times r_{A/B} \\
 v_Aj = -\omega_E R_Ek + v_{Arel} + \begin{vmatrix}
 i & j & k\\
 0 & \omega_E & 0 \\
@@ -320,7 +320,7 @@ $$ a_B = r\omega^2 = -\omega_E^2R_Ei $$
 
 Using the base equation (full version!)
 
-$$ a_A = a_B + a_{Arel} + 2\omega \times v_{Arel}+\alpha\times r_{A/B} +\omega \times(\omega\times r_{A/B}) \\
+$$ a_A = a_B + a_{Arel} + 2\omega_E \times v_{Arel}+\alpha_E\times r_{A/B} +\omega_E \times(\omega_E\times r_{A/B}) \\
 -\frac{v_A^2}{R}i = -\omega_E^2R_Ei+ a_{Arel} + 2 \begin{vmatrix}
 i & j & k \\
 0 & \omega_E & 0 \\

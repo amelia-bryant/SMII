@@ -60,7 +60,7 @@ The mass m=2 kg, the spring constant is k=72 N/m, and the damping constant is c=
 
 **(a)** 
 
-$$ f_d = 0.084 \text{ Hz} $$
+$$ None $$
 
 **(b)** 
 
@@ -93,13 +93,13 @@ A 79.8 kg test car moving with velocity $v_0$=7.33 m/s collides with a rigid bar
 **(a)** 
 
 $$
-275 \text{m/s}^2
+275 \text{ m/s}^2
 $$
 
 **(b)** 
 
 $$
-25.7 \text{m/s}^2
+25.7 \text{ m/s}^2
 $$
 
 
@@ -167,7 +167,7 @@ A team of engineering students build the simple seismograph shown. The coordinat
 <img src = "figs\08_vibrations_dampedforced\Q9.jpg" width="50%"> <br>
 
 ### Answer
-$$ 5.55 \text{ m} $$
+$$ 5.55 \text{ mm} $$
 
 
 ## Question 10

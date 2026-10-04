@@ -189,11 +189,11 @@ The bar is rotating in the counterclockwise direction with angular velocity ω. 
 
 The distance B from A can be simply found
 
-$$ r_{A/B}=\sqrt{(0.4+0.4)^2+(0.4+0.2)^2} =1$$
+$$ r_{A/B}=\sqrt{(0.4+0.4)^2+(0.4+0.2)^2} =1 \text{ m}$$
 
 All points on the bar share the same angular velocity.
 
-$$ v_{A/B}=\omega \times r_{A/B} \\ \omega= \frac{6}{1}=6 \text{ rad/s}$$ 
+$$ |v_{A/B}|=\omega \times |r_{A/B}| \\ \omega= \frac{6}{1}=6 \text{ rad/s}$$ 
 
 From there, velocity of B can be calculated as normal
 
@@ -236,9 +236,13 @@ At the instant shown, the piston’s velocity is $v_C = −14i$ m/s. What is the
 
 Looking at the mechanism, we can see that C is limited to only i. Also knowing that A is static, we can set up some equations.  
 
-$$ v_B=v_A +\omega_{BA} \times r_{BA} \\ 0+\omega_{BA}k \times (0.05i+0.05j) \\ = -0.05 \omega_{BA}i + 0.05 \omega_{BA}j$$
+$$ v_B=v_A +\omega_{BA} \times r_{BA} \\
+= 0+\omega_{BA}k \times (0.05i+0.05j) \\ 
+= -0.05 \omega_{BA}i + 0.05 \omega_{BA}j$$
 
-$$v_B=v_C +\omega_{BC} \times r_{BC} \\ -14i+\omega_{BC}k \times (-0.175i+0.05j) \\ = -14i -0.05 \omega_{BC}i -0.175 \omega_{BC}j$$
+$$v_B=v_C +\omega_{BC} \times r_{BC} \\ 
+=-14i+\omega_{BC}k \times (-0.175i+0.05j) \\ 
+= -14i -0.05 \omega_{BC}i -0.175 \omega_{BC}j$$
 
 Then analyse looking at each component of velocity
 
@@ -262,7 +266,7 @@ $$ v_A = v_B +\omega \times r_{A/B} \\ v_Aj=3i+  \begin{vmatrix}
 i & j & k\\
 0 & 0 & \omega \\
 -2\cos(70) & 2\sin(70) & 0
-\end{vmatrix}  \\ v_Aj=-1.88\omega i -0.7\omega j +3 i$$
+\end{vmatrix}  \\ v_Aj=3i -1.88\omega i -0.7\omega j $$
 
 Now equate i and j components
 
@@ -301,7 +305,7 @@ $$(i) v_C=-0.48\omega_{BC} \\ (j) 0=1.92+0.24 \omega_{BC} $$
 
 Solving 
 
-$$ \omega_{BC}=\omega_{BD}=-8k \\ v_C = 3.84i \text{ m/s}$$
+$$ \omega_{BC}=\omega_{BD}=-8k \text{ rad/s}\\ v_C = 3.84i \text{ m/s}$$
 
 Now to calculate velocity of D 
 
@@ -329,14 +333,14 @@ i & j & k\\
 
 Then if we write multiple expressions for $v_C$ we can make simultaneous equations to solve the question
 
-$$ v_C = v_B + \omega_{BC} \times r_{C/B} \\ 0.61i-0.31j + 
+$$ v_C = v_B + \omega_{BC} \times r_{C/B} \\= 0.61i-0.31j + 
 \begin{vmatrix}
 i & j & k\\
 0 & 0 & \omega_{BC} \\
 0.76 & -0.15 & 0
 \end{vmatrix} \\ = 0.61i-0.31j +0.15\omega_{BC}i+0.76\omega_{BC}j $$
 
-$$ v_C = v_E + \omega_{CE} \times r_{C/E} \\ 0 + 
+$$ v_C = v_E + \omega_{CE} \times r_{C/E} \\= 0 + 
 \begin{vmatrix}
 i & j & k\\
 0 & 0 & \omega_{CE} \\

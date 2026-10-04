@@ -22,7 +22,7 @@
 
 **Tips**
 - Cross products will get much larger - the order of calculation matters, and you will need to use the full version of the acceleration equations.
-- Mechanisms are now in 3D, so practice visualisiing the actual movements to avoid mistakes.
+- Mechanisms are now in 3D, so practice visualising the actual movements to avoid mistakes.
 - Some will like to use column vectors, write it how you feel works best for you!
 
 <br>
@@ -44,13 +44,13 @@ i & j & k\\
 
 ## Question 2 
 
-The angular velocity of the cube relative to the primary reference frame, expressed in terms of the body-fixed coordinate system shown is $\omega$=−6.4i+8.2j+12k rad/s.The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32k m/s. What is the velocity of point A of the cube relative to the primary reference frame at the instant shown?
+The angular velocity of the cube relative to the primary reference frame, expressed in terms of the body-fixed coordinate system shown is $\omega$=−6.4i+8.2j+12k rad/s. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32k m/s. What is the velocity of point A of the cube relative to the primary reference frame at the instant shown?
 
 <img src = "figs\05_3D_kinematics\Q2.jpg" width="50%"> <br>
 
 ### Answer
 
-The vector A to G is
+The vector A from G is
 
 $$ i+j+k$$
 
@@ -65,11 +65,11 @@ v_A = 22.2i+32.4j+17.4k \text{ m/s}$$
 
 ## Question 3
 
-Using the cube in Q2, the coordinate system shown is fixed with respect to the cube. The angular velocity of the cube relative to the primary reference frame, $\omega$=−6.4i+8.2j+12k rad/s, is constant.The acceleration of the center of mass G of the cube relative to the primary reference frame at the instant shown is $a_G$=136i+76j−48k m/s $^2$. What is the acceleration of point A of the cube relative to the primary reference frame at the instant shown?
+Using the cube in Q2, the coordinate system shown is fixed with respect to the cube. The angular velocity of the cube relative to the primary reference frame, $\omega$=−6.4i+8.2j+12k rad/s, is constant. The acceleration of the center of mass G of the cube relative to the primary reference frame at the instant shown is $a_G$=136i+76j−48k m/s $^2$. What is the acceleration of point A of the cube relative to the primary reference frame at the instant shown?
 
 ### Answer
 
-There is constant angular velocity so alpha is 0. The acceleration can be found
+There is constant angular velocity so $\alpha$ is 0. The acceleration can be found
 
 $$
 a_A=a_G+\alpha \times r_{A/G}+ \omega \times(\omega\times r_{A/G}) \\
@@ -83,15 +83,15 @@ i & j & k\\
 -6.4 & 8.2 & 12 \\
 -3.8 & 18.4 & -14.6
 \end{vmatrix} \\
-v_A = -204.5i-63.04j-135k \text{ m/s}
+a_A = -204.5i-63.04j-135k \text{ m/s}^2
 $$
 
 ## Question 4
 
-The origin of the secondary coordinate system shown is fixed to the center of mass G of the cube. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32 m/s. The cube is rotating relative to the secondary coordinate system with  angular velocity $\omega_{rel}$ =6.2i−5j+8.8k rad/s. The secondary coordinate system is rotating relative to the primary reference frame with angular velocity $\omega$ = 2.2i+4j−3.6k rad/s.
+The origin of the secondary coordinate system shown is fixed to the center of mass G of the cube. The velocity of the center of mass G of the cube relative to the primary reference frame at the instant shown is $v_G$=26i+14j+32k m/s. The cube is rotating relative to the secondary coordinate system with angular velocity $\omega_{rel}$ =6.2i−5j+8.8k rad/s. The secondary coordinate system is rotating relative to the primary reference frame with angular velocity $\omega$ = 2.2i+4j−3.6k rad/s.
 
 **(a)** What is the velocity of point A of the cube relative to the primary reference frame at the instant shown? <br>
-**(b)** If the components of the vectors $\omega_{rel}$ and are constant, what is the cube’s angular acceleration relative to the primary reference frame?
+**(b)** If the components of the vectors $\omega_{rel}$ and $\omega$ are constant, what is the cube’s angular acceleration relative to the primary reference frame?
 
 <img src = "figs\05_3D_kinematics\Q2.jpg" width="50%"> <br>
 
@@ -104,7 +104,7 @@ There is a lot going on here, so annotate
 **(a)**
 
 $$\omega = \Omega+\omega_{rel} \\
-\omega = (22i+4j-3.6k)+(6.2i-5j+8.8k) \\
+\omega = (2.2i+4j-3.6k)+(6.2i-5j+8.8k) \\
 \omega = 8.4i-j+5.2k$$
 
 $$ v_A=v_G+\omega \times r_{A/G} \\ v_A= 26i+14j+32k + \begin{vmatrix}
@@ -136,7 +136,7 @@ We need to know the vector $\omega$ as we only know the overall magnitude. This 
 
 $$
 (30)\frac{0.4i + 0.2j - 0.4k}{\sqrt{0.4^2+0.2^2+0.4^2}} \\
-= 20i+10j-20k
+= 20i+10j-20k \text{ rad/s}
 $$
 
 Then solving for velocity of C and D
@@ -148,17 +148,17 @@ i & j & k\\
 20 & 10 & -20 \\
 0 & 0.2 & 0
 \end{vmatrix} \\
-v_C = 4i+4k
+v_C = 4i+4k \text{ m/s}
 $$
 
 $$ 
-v_D = v_A+\omega\times r_{C/A} \\
+v_D = v_A+\omega\times r_{D/A} \\
 v_D = 0 + \begin{vmatrix}
 i & j & k\\
 20 & 10 & -20 \\
 0.4 & 0.2 & 0
 \end{vmatrix} \\
-v_D = 4i-8j
+v_D = 4i-8j\text{ m/s}
 $$
 
 ## Question 6
@@ -171,7 +171,7 @@ Again, we need to find $\omega$, but this time it becomes $\omega_{rel}$ as the 
 
 $$
 (30)\frac{0.4i + 0.2j - 0.4k}{\sqrt{0.4^2+0.2^2+0.4^2}} \\
-\omega_{rel}= 20i+10j-20k
+\omega_{rel}= 20i+10j-20k \text{ rad/s}
 $$
 
 $\omega$ is then
@@ -179,7 +179,7 @@ $\omega$ is then
 $$
 \omega = \Omega+\omega_{rel} \\
 \omega = (-5i+8j+6k)+(20i+10j-20k) \\
-\omega = 15i+18j-14k
+\omega = 15i+18j-14k \text{ rad/s}
 $$
 
 Then solving for velocity of C and D
@@ -191,17 +191,17 @@ i & j & k\\
 15 & 18 & -14 \\
 0 & 0.2 & 0
 \end{vmatrix} \\
-v_C = 2.8i+3k
+v_C = 2.8i+3k \text{ m/s}
 $$
 
 $$ 
-v_D = v_A+\omega\times r_{C/A} \\
+v_D = v_A+\omega\times r_{D/A} \\
 v_D = 0 + \begin{vmatrix}
 i & j & k\\
 15 & 18 & -14 \\
 0.4 & 0.2 & 0
 \end{vmatrix} \\
-v_D = 2.8i-5.6j-4.2k
+v_D = 2.8i-5.6j-4.2k \text{ m/s}
 $$
 
 
@@ -235,7 +235,7 @@ $$
 $$
 \omega = \Omega+\omega_{rel} \\
 \omega = 4j+6i \\
-v_A=v_O+\omega \times r_{A/G} \\ 
+v_A=v_O+\omega \times r_{A/O} \\ 
 v_A=0+ \begin{vmatrix}
 i & j & k\\
 6 & 4 & 0 \\
@@ -335,7 +335,7 @@ i & j & k\\
 
 **(c)** Shortcut like in the previous question
 
-$$ a_A = a_C+\alpha\times r_{A/C}+\omega\times(\omega\times r_{A/C}) \\
+$$ a_A = a_O+\alpha\times r_{A/O}+\omega\times(\omega\times r_{A/O}) \\
 a_A = 0 + \begin{vmatrix}
 i & j & k\\
 100 & 0 & 0 \\
@@ -345,7 +345,7 @@ i & j & k\\
 0 & 2 & 55.6 \\
 -1.05 & 0 & 0 
 \end{vmatrix} \\
-a_C = -61.4j+4.1k \text{ m/s}^2 $$
+a_A = -61.4j+4.1k \text{ m/s}^2 $$
 
 
 ## Question 10
@@ -371,17 +371,18 @@ $$ \omega_{rel} =  6i \text{ rad/s}$$
 **(b)** The angular velocity of the disk to the primary reference frame is
 
 $$ \omega = \omega_{rel}+\omega_{rel}+\Omega \\
-\omega = 6i+2j+4k$$
+\omega = \omega_{d}+\omega_{b}+\omega_{O} \\
+\omega = 6i+2j+4k \text{ rad/s}$$
 
 The velocity of M (middle of the disk) is
 
-$$ v_M = v_O+\Omega\times r_{C/O} \\
+$$ v_M = v_O+\Omega\times r_{M/O} \\
 v_M = 0 + \begin{vmatrix}
 i & j & k\\
 0 & 2 & 4 \\
 0.3 & 0 & 0 
 \end{vmatrix} \\ 
-v_M=1.2j-0.6k $$
+v_M=1.2j-0.6k \text{ m/s}$$
 
 The velocity of P is
 

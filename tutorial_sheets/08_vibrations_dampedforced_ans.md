@@ -110,16 +110,8 @@ $$
 d > \omega \therefore \text{supercritical damping}
 $$
 
-Then find the angular frequency and frequency of the damped vibrations
+The system does not undergo vibrations, hence there is no damped vibration frequency. Usually you would find $\omega_d$ then divide by $2\pi$.
 
-$$
-\omega_d=\sqrt{\omega^2-d^2} \\
-\omega_d=\sqrt{6^2-8^2} \\
-\omega_d=5.29 \text{ rad/s}
-f_d = \frac{\omega_d}{2\pi} \\
-f_d = \frac{5.29}{2\pi} \\
-f_d = 0.084 \text{ Hz}
-$$
 
 **(b)** For supercritical damping we need the variable 'h'
 
@@ -153,7 +145,7 @@ $$
 Hence
 
 $$
-x=1.26e^{-2.71t}+-0.26e^{-13.3t}\text{, when t=1}\\
+x=1.26e^{-2.71t}-0.26e^{-13.3t}\text{, when t=1}\\
 x=0.0837 \text{ m}
 $$
 
@@ -289,13 +281,13 @@ Finding the accelerations at the specified times is then simple, subbing in.
 **(a)** When t=0
 
 $$
-\ddot{x}=275 \text{m/s}^2
+\ddot{x}=275 \text{ m/s}^2
 $$
 
 **(b)** When t=0.08
 
 $$
-\ddot{x}=25.7 \text{m/s}^2
+\ddot{x}=15.7 \text{ m/s}^2
 $$
 
 
@@ -427,7 +419,7 @@ x = A\sin(6 t) + B\cos(6 t) + 0.25\sin(4t) \\
 $$
 
 $$
-\dot{x} = 6A\cos(6t) - 6B\sin(6t) + \sin(4t) \\
+\dot{x} = 6A\cos(6t) - 6B\sin(6t) + \cos(4t) \\
 0 = 6A+1 \\
 A = -0.167
 $$
@@ -491,13 +483,13 @@ $$
 \omega_d=\sqrt{3} \text{ rad/s}
 $$
 
-Then solve using initial conditions provided
+Then solve using initial conditions provided (remember to include the particular solution!)
 $$
 t=0,x=0,\dot{x}=0
 $$
 
 $$
-x=e^{-dt}(A\sin(\omega_dt)+B\cos(\omega_dt))\\
+x_h=e^{-dt}(A\sin(\omega_dt)+B\cos(\omega_dt))\\
 0=e^{-t}(A\sin(\sqrt{3}t)+B\cos(\sqrt{3}t))+0.5\\
 0=B+0.5 \\
 B=-0.5
@@ -551,7 +543,7 @@ $$
 \theta = \theta_h+\theta_p
 $$
 
-To find the particular solution $x_p$
+To find the particular solution $\theta_p$
 
 $$
 A_p=\frac{(\omega^2-\omega_0^2)a_0+2d\omega_0b_0}{(\omega^2-\omega_0^2)^2+4d^2\omega_0^2} \\
@@ -589,7 +581,7 @@ $$
 $$
 
 $$
-\dot{\theta} = 2.58A\cos(2.58t) - 2.58B\sin(2.58t) + 2.5\sin(2t) \\
+\dot{\theta} = 2.58A\cos(2.58t) - 2.58B\sin(2.58t) + 2.5\cos(2t) \\
 4 = 2.58A+2.5 \\
 A = 0.58
 $$
@@ -618,20 +610,30 @@ $$
 \ddot{x}+2\dot{x}+10x=F(t)
 $$
 
-To complete the equation, F(t) needs to be calculated. Given the initial displacement provided
+To complete the equation, F(t) needs to be calculated. Given the displacement of the ground,
+$$
+x_i = 10\sin(2t)\text{ mm}
+=0.01\sin(2t)\text{ m}\\
+\dot{x}_i=0.02\cos(2t)\text{ m/s}\\
+\ddot{x}_i=-0.04\sin(2t)\text{ m/s}^2
+$$
+
+However, since $x$ is the mass's position relative to the frame, the ground acceleration acts on the relative coordinate with an opposite sign. The absolute position of the mass is $x_i+x$. Therefore, the equation of motion for the relative displacement is
 
 $$
-x = 10\sin(2t)\\
-\frac{dx}{dt} = 20\cos(2t)\\
-\frac{dx^2}{dt^2} = -40\sin(2t) =a(t)\\
+m\ddot{x}+c\dot{x}+kx=-m\ddot{x}_i.
 $$
+
+so
+
+$$F(t)=-m\ddot{x_i}=-1(-0.04\sin(2t))$$ 
 
 Which you will notice is the oscillatory forcing function. 
 
 Given F=ma and m=1, the full equation is
 
 $$
-\ddot{x}+2\dot{x}+10x= -40\sin(2t)
+\ddot{x}+2\dot{x}+10x= 0.04\sin(2t)
 $$
 
 Calculating terms needed 
@@ -639,16 +641,16 @@ Calculating terms needed
 $$
 \omega=\sqrt{\frac{k}{m}}=\sqrt{\frac{10}{1}}=\sqrt{10}\\
 d=\frac{c}{2m}=\frac{2}{2(1)}=1\\
-a(t)=a_0\sin(\omega_0t)+b_0\cos(\omega_0t)= -40\sin(2t)\\
-\therefore a_0=-40, b_0=0, \omega_0=2
+a(t)=a_0\sin(\omega_0t)+b_0\cos(\omega_0t)= 0.04\sin(2t) \\
+\therefore a_0=0.04, b_0=0, \omega_0=2
 $$
 
 From here, calculating the amplitude of the steady state response is simple 
 
 $$
 E_p = \frac{\sqrt{a_0^2+b_0^2}}{\sqrt{(\omega^2-\omega_0^2)^2+4d^2\omega_0^2}} \\
-E_p = \frac{\sqrt{(-40)^2}}{\sqrt{(\sqrt{10}^2-2^2)^2+4(1)^2(2)^2}} \\
-E_p=5.55 \text{ m}
+E_p = \frac{\sqrt{(0.04)^2}}{\sqrt{(\sqrt{10}^2-2^2)^2+4(1)^2(2)^2}} \\
+E_p=5.55 \text{ mm}
 $$
 
 ## Question 10
@@ -708,11 +710,14 @@ E_p = \frac{\sqrt{a_0^2+b_0^2}}{\sqrt{(\omega^2-\omega_0^2)^2+4d^2\omega_0^2}} \
 a_0=-0.74
 $$
 
-Finally calculate the magnitude of the force
+Finally calculate the magnitude of the force 
 
 $$
-|0.74\sin(\omega_0t)|=\frac{F(t)}{667/9.81} \\
-F(t)=50.3 \text{ N}
+|-0.74\sin(\omega_0t)|=\frac{F(t)}{667/9.81} \\
+F(t)=50.3\sin(\omega_0t) \text{ N}
 $$
 
+therefore the oscillatory force is
+
+$$F_0=50.3 \text{ N}$$
 <br><br>

@@ -41,11 +41,11 @@ A horizontal force F=133.4N is applied to the 1023N refrigerator as shown, and t
 
 **(a)**  
 
-$$ a= 1.27 $$
+$$ a= 1.27 \text{ m/s}^$$
 
 **(b)** 
 
-$$A = 359N, B=664N $$
+$$A = 359\text{ N} , B=664\text{ N}  $$
 
 ## Question 2
 
@@ -59,7 +59,7 @@ $$ a=0.3 $$
 
 **(b)** 
 
-$$ A = 256.7N, B=766.3N $$
+$$ A = 256.7 \text{ N}, B=766.3 \text{ N} $$
 
 ## Question 3
 
@@ -74,11 +74,11 @@ As the 2800 N airplane begins its take off run at t=0, its propeller exerts a ho
 
 **(a)**  
 
-$$ s = 7 m $$
+$$ s = 7 \text{ m} $$
 
 **(b)** 
 
-$$ A=942.9N, B=1857N$$
+$$ A=942.9 \text{ N}, B=1857 \text{ N}$$
 
 ## Question 4 
 
@@ -97,7 +97,7 @@ $$ a = 0.858 \text{ m/s}^2 $$
 
 **(b)** 
 
-$$ A = 3709N, B=4169N $$
+$$ A = 3709N, B=4169 \text{ N} $$
 
 ## Question 5
 
@@ -126,8 +126,8 @@ The radius of the pulley is 125 mm and the moment of inertia about its axis is I
 
 ### Answer
 
-$$ s = 0.721m  $$
-$$ 80.8N \text{ tension in rope }, \alpha=46.2 rad/s^2$$
+$$ s = 0.721 \text{ m}  $$
+$$ 80.8N \text{ tension in rope }, \alpha=46.2 \text{ rad/s}^2$$
 
 ## Question 7
 
@@ -141,9 +141,9 @@ Points B and C lie in the x–y plane. They axis is vertical. The center of mass
 
 Then use dynamic equations
 
-$$ B_x=-19.1N, B_y = 183.3N$$
+$$ B_x=-19.1 \text{ N}, B_y = 183.3 \text{ N}$$
 
-$$ M_B=62.6Nm  $$
+$$ M_B=62.6 \text{ Nm}  $$
 
 ## Question 8
 
@@ -153,7 +153,7 @@ An engineer gathering data for the design of a maneuvering unit determines that 
 
 ### Answer
 
-$$ 20.27 kgm^2$$
+$$ 20.27 \text{ kgm}^2$$
 
 ## Question 9
 
@@ -165,7 +165,7 @@ The mass of the object is 10 kg. Its moment of inertia about L $_1$ is 10 kgm $^
 
 We can first determine MoI around L, which can be then used to find it around L $_2$
 
-$$ 20.8 kgm^2 $$
+$$ 20.8 \text{ kgm}^2 $$
 
 ## Question 10
 
@@ -196,7 +196,7 @@ The rocket is used for atmospheric research. Its weight and its moment of inerti
 ### Answer
 
 $$
-5186 kgm^2
+5186 \text{ kgm}^2
 $$
 
 ## Question 12
@@ -207,12 +207,12 @@ Model the arm ABC as a single rigid body. Its mass is 320 kg, and the moment of 
 
 ### Answer
 
-$$ 0.59 rad/s^2 \text{ anticlockwise} $$
+$$ 0.59 \text{ rad/s}^2 \text{ anticlockwise} $$
 
 
 ## Question 13
 
-A thin ring and a homogeneous circular disk, each of mass m and radius R, are released from rest on an inclined surface. Determine the ratio $v_{ring}/v_{disk}$ of the velocities of the their centers when they have rolled a distance D.
+A thin ring and a homogeneous circular disk, each of mass m and radius R, are released from rest on an inclined surface. Determine the ratio $v_{ring}/v_{disk}$ of the velocities of their centers when they have rolled a distance D.
 
 <img src = "figs\04_planar_dynamics\Q13.jpg" width="50%"> <br>
 

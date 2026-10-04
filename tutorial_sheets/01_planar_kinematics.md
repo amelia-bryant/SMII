@@ -39,7 +39,7 @@ What are the magnitudes of the velocity and acceleration of point A?
 
 ### Answer
 
-$$1.44m/s^2 $$
+$$1.44 \text{ m/s}^2 $$
 
 ## Question 2
 
@@ -54,11 +54,11 @@ The mass A starts from rest at t=0 and falls with a constant acceleration of 8 m
 
 **(a)** 
 
-$$ 40 rad/s $$
+$$ 40 \text{ rad/s} $$
 
 **(b)** 
 
-$$ 8m/s^2 $$
+$$ 8 \text{ m/s}^2 $$
 
 ## Question 3
 
@@ -76,7 +76,7 @@ $$ x=2.67 \text{ revs} $$
 
 **(b)** 
 
-$$ 2.67 rad/s $$ 
+$$ 2.67 \text{ rad/s} $$ 
 
 ## Question 4
 
@@ -86,7 +86,7 @@ The disk is rotating about the origin with a constant clockwise angular velocity
 
 ### Answer
 
-$$ v_B=-167.55j  cm/s $$
+$$ v_B=-167.55j  \text{ cm/s} $$
 
 ## Question 5
 
@@ -101,11 +101,11 @@ The bar is moving in the x–y plane and is rotating in the counterclockwise dir
 
 **(a)** 
 
-$$ 4 rad/s $$
+$$ 4 \text{ rad/s} $$
 
 **(b)** 
 
-$$ -4i + 6.93j$$ 
+$$ -4i + 6.93j \text{ m/s}$$ 
 
 ## Question 6
 
@@ -155,8 +155,8 @@ Bar AB rotates in the counterclockwise direction at 6 rad/s. Determine the angul
 
 ### Answer
 
-$$ v_D=6.4i-1.28j \\
-\omega_{BD}=-8k $$
+$$ v_D=6.4i-1.28j \text{ m/s}\\
+\omega_{BD}=-8k \text{ rad/s}$$
 ## Question 11
 
 The horizontal member ADE supporting the scoop is stationary. If the link BD is rotating in the clockwise direction at 1 rad/s,what is the angular velocity of the scoop?
@@ -190,7 +190,7 @@ Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $
 
 **(a)** 
 
-$$ (0.34, 0.94) m$$
+$$ (0.34, 0.94) \text{ m}$$
 
 **(b)** 
 

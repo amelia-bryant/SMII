@@ -88,19 +88,19 @@ The train on the circular track is traveling at a constant speed of 50 m/s in th
 
 ### Answer
 
-$$ v_{Arel} = -120j $$
+$$ v_{Arel} = -120j \text{ m/s}$$
 
 <img src = "figs\03_moving_systems\Q6.jpg" width="50%"> <br>
 
 
 ## Question 7 
-Suppose that the merry-go-round has counterclockwise angular velocity $\omega$ and counterclockwise angular acceleration $\alpha$. The person A is standing still on the ground. Determine A's acceleration relative to B's reference frame at the instant shown.
+Suppose that the merry-go-round has counterclockwise angular velocity $\omega$ and counterclockwise angular acceleration $\alpha$. The person A is standing still on the ground directly next to the edge of the merry-go-round. Determine A's acceleration relative to B's reference frame at the instant shown.
 
 <img src = "figs\03_moving_systems\Q7.jpg" width="50%"> <br>
 
 ### Answer
 
-$$ a_{Arel} = - \omega^2Ri - \alpha Rj $$
+$$ a_{Arel} = - \omega^2Ri - \alpha Rj \text{ rad/s}^2$$
 
 ## Question 8 
 
