@@ -30,7 +30,7 @@
 
 ## Question 1 
 
-At the instant shown, the disk has angular velocity is 2 rad/s counter clockwise and angular acceleration 6 rad/s $^2$. Its radius is 0.2 m. 
+At the instant shown, the disk has angular velocity 2 rad/s counter clockwise and angular acceleration 6 rad/s $^2$. It rotates around O, and has radius 0.2 m. 
 
 What are the magnitudes of the velocity and acceleration of point A?
 
@@ -45,15 +45,15 @@ It is useful to sketch the situation
 
 Using the basic equations of motion and subbing in values, velocity can be calculated
 
-$$ v=r \omega=0.2\times2 \\=0.4 m/s $$
+$$ v=r \omega=0.2\times2 \\=0.4 \text{ m/s} $$
 
 The magnitude of acceleration can be calculated using the normal and tangential components, then using basic pythagoras to find the magnitude
 
-$$ a_n=r\omega^2 = 0.2\times 2^2 \\ = 0.8 m/s^2 $$ 
+$$ a_n=r\omega^2 = 0.2\times 2^2 \\ = 0.8 \text{ m/s}^2  $$ 
 
-$$ a_t=r\alpha = 0.2\times6 \\=1.2 m/s^2 $$
+$$ a_t=r\alpha = 0.2\times6 \\=1.2 \text{ m/s}^2  $$
 
-$$ |a|= \sqrt{a_n^2+a_t^2} \\ = \sqrt{0.8^2+1.2^2} \\ =1.44m/s^2 $$
+$$ |a|= \sqrt{a_n^2+a_t^2} \\ = \sqrt{0.8^2+1.2^2} \\ =1.44 \text{ m/s}^2 $$
 
 
 ## Question 2
@@ -69,21 +69,21 @@ The mass A starts from rest at t=0 and falls with a constant acceleration of 8 m
 
 **(a)** a=8, u=0 (starting from rest), s=1, calculate v in order to work out everything else. Using SUVAT
 
-$$ v^2=a^2 +2as \\ v=\sqrt{0^2+2\times 8\times1}\\=4m/s $$
+$$ v^2=u^2 +2as \\ v=\sqrt{0^2+2\times 8\times1}\\=4\text{ m/s} $$
 
 Use this with the given equations
 
-$$ v=r\omega \\ 4=0.1 \times \omega \\ \omega = 40 rad/s $$
+$$ v=r\omega \\ 4=0.1 \times \omega \\ \omega = 40 \text{ rad/s} $$
 
 **(b)** Using the given equations and v from before
 
-$$ a_n =\frac{v^2}{r} = \frac{4^2}{0.1} \\= 160 m/s^2 $$
+$$ a_n =\frac{v^2}{r} = \frac{4^2}{0.1} \\= 160 \text{ m/s}^2  $$
 
 We need alpha to find tangential accel
 
-$$ \alpha = \frac{a}{r} = \frac{8}{0.1} = 80 rad/s^2 \\
+$$ \alpha = \frac{a}{r} = \frac{8}{0.1} = 80 \text{ rad/s}^2  \\
 a_t = r\alpha = 0.1\times 80 \\
-= 8m/s^2$$
+= 8\text{ m/s}^2 $$
 
 ## Question 3
 
@@ -111,7 +111,7 @@ $$ 0.754 = x \times \pi \times 2 \times 0.045 \\ x=2.67 \text{ revs} $$
 
 **(b)** The chain must be moving at a constant rate (velocity), therefore
 
-$$ v_s = v_g \\ r_s\omega_s = r_g\omega_g \\ 0.12\times 1 = 0.045\times \omega_g \\ \omega_g = 2.67 rad/s $$ 
+$$ v_s = v_g \\ r_s\omega_s = r_g\omega_g \\ 0.12\times 1 = 0.045\times \omega_g \\ \omega_g = 2.67 \text{ rad/s} $$ 
 
 
 ## Question 4
@@ -124,7 +124,7 @@ The disk is rotating about the origin with a constant clockwise angular velocity
 
 First, convert rpm to rad/s, or all the calculations will be messed up. You can do this manually - or just plug it into your calculator! 
 
-$$ \frac{100}{60}.2\pi = 10.47 rad/s = \omega $$
+$$ \frac{100}{60}\times2\pi = 10.47 \text{ rad/s} = \omega $$
 
 Then using the basic $v=\omega r$ equation
 
@@ -135,14 +135,14 @@ v_y=10.47\times 8=83.77 $$
 
 In vector form
 
-$ v_A=83.77i+83.77j $ cm/s
+$v_A=83.77i+83.77j$ cm/s
 
-Point B:
+Point B
 
-$$ v_x=10.47\times 16= 167.55 \\
-v_y=10.47\times 0 =0 $$
+$$ v_x=10.47\times 0 =0 \\
+v_y=10.47\times 16= 167.55 $$
 
-Given the direction of rotation, in vector form $ v_B=-167.55j $ cm/s
+Given the direction of rotation, in vector form $v_B=-167.55j$ cm/s
 
 ## Question 5
 
@@ -158,7 +158,7 @@ The bar is moving in the x–y plane and is rotating in the counterclockwise dir
 
 **(a)**  
 
-$$ \omega = \frac{v}{r} = \frac{8}{2} \\ = 4 rad/s $$
+$$ \omega = \frac{v}{r} = \frac{8}{2} \\ = 4 \text{ rad/s} $$
 
 **(b)**  As we are dealing with vectors, we need to use the cross product. This is really important from now on so make sure you are comfortable with calculating this. I recommend the method below, but whatever works for you!
 
@@ -174,7 +174,9 @@ i & j & k\\
 
 Using my cross product method
 
-$$ 0\times0i-4\times2sin(30)i+4\times2cos(30)j-0\times0j+0\times2sin(30)i-0\times2cos(30k) \\
+$$ 0\times0i -4\times2sin(30)i 
++4\times2cos(30)j -0\times0j
++0\times2sin(30)k-0\times2cos(30)k \\
 = -4i + 6.93j$$ 
 
 ## Question 6
@@ -189,9 +191,9 @@ The distance B from A can be simply found
 
 $$ r_{A/B}=\sqrt{(0.4+0.4)^2+(0.4+0.2)^2} $$
 
-The angular velocity of the bar is constant through the whole bar
+All points on the bar share the same angular velocity.
 
-$$ v_{A/B}=\omega. r_{A/B} \\ \omega= \frac{6}{1}=6 rad/s$$ 
+$$ v_{A/B}=\omega \times r_{A/B} \\ \omega= \frac{6}{1}=6 \text{ rad/s}$$ 
 
 From there, velocity of B can be calculated as normal
 
@@ -205,7 +207,7 @@ The helicopter is in planar motion in  the x–y plane. At the instant shown, th
 
 <img src = "figs\01_planar_kinematics\Q7.jpg" width="50%"> <br>
 
-## Answer
+### Answer
 
 Draw the situation
 
@@ -244,7 +246,7 @@ $$(i) -0.05 \omega_{BA}+0.05 \omega_{BC} =-14 \\ (j) 0.05 \omega_{BA}=-0.175 \om
 
 And using simultaneous equations
 
-$$ \omega_{BA}=218 \text{ rad/s} $$
+$$ \omega_{BA}=218 \text{ rad/s (anti clockwise)} $$ 
 
 ## Question 9
 
@@ -289,17 +291,17 @@ First calculate $v_B$ from point A
 
 $$ v_B=v_A + \omega_{AB}\times r_{B/A} \\ =0 + 6k \times 0.32i \\ = 1.92j$$
 
-We can then need to calculate $\omega_{BD}$ (which is the same as $\omega_{BC}$). We can do this using the calculated $v_B$ and the constraints we know about C
+We then need to calculate $\omega_{BD}$ (which is the same as $\omega_{BC}$). We can do this using the calculated $v_B$ and the constraints we know about C
 
 $$ v_C=v_B + \omega_{BC}\times r_{C/B} \\ = -0.48\omega_{BC} i+0.24 \omega_{BC} j+1.92j $$
 
 Now analyse components
 
-$$(i) v_C=0.48\omega_{BC} \\ (j) 0=1.92+0.24 \omega_{BC} $$
+$$(i) v_C=-0.48\omega_{BC} \\ (j) 0=1.92+0.24 \omega_{BC} $$
 
 Solving 
 
-$$ \omega_{BC}=-8k \\ v_C = 3.84i $$
+$$ \omega_{BC}=\omega_{BD}=-8k \\ v_C = 3.84i $$
 
 Now to calculate velocity of D 
 
@@ -338,16 +340,16 @@ $$ v_C = v_E + \omega_{CE} \times r_{C/E} \\ 0 +
 \begin{vmatrix}
 i & j & k\\
 0 & 0 & \omega_{CE} \\
-0 & 0.46 & 0
-\end{vmatrix} \\ = -0.46\omega_{CE}i $$
+0 & 0.45 & 0
+\end{vmatrix} \\ = -0.45\omega_{CE}i $$
 
 Equating $v_C$ expressions in terms of i and j components
 
-$$ (i) -0.46\omega_{CE} = 0.61+0.15\omega_{BC} \\(j) 0 = 0.31+0.76\omega_{BC} $$
+$$ (i) -0.45\omega_{CE} = 0.61+0.15\omega_{BC} \\(j) 0 = -0.31+0.76\omega_{BC} $$
 
 Hence
 
-$$ \omega_{BC}=0.4 \text{ rad/s} \\\omega_{CE}=-1.47 \text{ rad/s} $$
+$$ \omega_{BC}=0.41 \text{ rad/s} \\\omega_{CE}=-1.49 \text{ rad/s} $$
 
 Where CE is the scoop!
 
@@ -373,7 +375,7 @@ i & j & k\\
 
 Equate terms to find the coordinates
 
-$$ (i) -1.83 = 4y_C \rightarrow y_C=-0.46 \\  (j) -4.27 = -4x_C \rightarrow x_C=1.07 \\ (1.07,-0.46) \text{ m}$$
+$$ (i) -1.83 = 4y_I \rightarrow y_I=-0.46 \\  (j) -4.27 = -4x_I \rightarrow x_I=1.07 \\ (1.07,-0.46) \text{ m}$$
 
 ## Question 13
 Points A and B of the 1m bar slide on the plane surfaces. The velocity of B is $v_B$ = 2i m/s.
@@ -391,11 +393,11 @@ Just as in Q9, the bar is constrained A in j, B in i.
 
 <img src = "figs\01_planar_kinematics\Q13ans.jpg" width="50%"> <br>
 
-$$ (\sin(20), \cos(20))  \\ = (0.34, 0.94) $$
+$$ (\sin(20), \cos(20))  \\ = (0.34, 0.94) \text{ m} $$
 
 **(b)** Find the angular velocity of the bar
 
- $$ v_B=2i = v_I+\omega \times r_{O/I} \\ 2 = 0.94\omega \rightarrow \omega=2.13 \text{ rad/s} $$
+ $$ v_B=2i = v_I+\omega \times r_{B/I} \\ 2 = 0.94\omega \rightarrow \omega=2.13 \text{ rad/s} $$
 
  Then the velocity of A from the instantaneous center
 

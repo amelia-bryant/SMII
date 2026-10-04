@@ -30,7 +30,7 @@
 
 ## Question 1 
 
-At the instant shown, the disk has angular velocity is 2 rad/s counter clockwise and angular acceleration 6 rad/s $^2$. Its radius is 0.2 m. 
+At the instant shown, the disk has angular velocity 2 rad/s counter clockwise and angular acceleration 6 rad/s $^2$. It rotates around O, and has radius 0.2 m. 
 
 What are the magnitudes of the velocity and acceleration of point A?
 
@@ -155,8 +155,8 @@ Bar AB rotates in the counterclockwise direction at 6 rad/s. Determine the angul
 
 ### Answer
 
-$$ v_D=6.4i-1.28j $$
-
+$$ v_D=6.4i-1.28j \\
+\omega_{BD}=-8k $$
 ## Question 11
 
 The horizontal member ADE supporting the scoop is stationary. If the link BD is rotating in the clockwise direction at 1 rad/s,what is the angular velocity of the scoop?
