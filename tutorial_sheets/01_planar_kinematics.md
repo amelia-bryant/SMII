@@ -58,7 +58,7 @@ $$ 40 \text{ rad/s} $$
 
 **(b)** 
 
-$$ 8 \text{ m/s}^2 $$
+$$ a_n= 160 \text{ m/s}^2\\ a_t=8 \text{ m/s}^2 $$
 
 ## Question 3
 
