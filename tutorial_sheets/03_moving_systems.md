@@ -100,7 +100,7 @@ Suppose that the merry-go-round has counterclockwise angular velocity $\omega$ a
 
 ### Answer
 
-$$ a_{Arel} = - \omega^2Ri - \alpha Rj \text{ rad/s}^2$$
+$$ a_{Arel} = - \omega^2Ri - \alpha Rj$$
 
 ## Question 8 
 
