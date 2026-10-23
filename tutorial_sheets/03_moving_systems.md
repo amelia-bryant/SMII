@@ -66,11 +66,11 @@ The coordinate system is fixed relative to the ship B. At the instant shown, the
 
 ### Answer
 
-$$ 553i+24j-21k \text{ m/s}$$
+$$ 553i+241j-21k \text{ m/s}$$
 
 ## Question 5
 
-The space shuttle is attempting to recover a satellite for repair. At the current time, the satellite’s position relative to a coordinate system fixed to the shuttle is 50i m. The gyroscopes on the shuttle indicate that its current angular velocity is 0.05j+0.03k rad/s. The shuttle pilot measures the velocity of the satellite relative to the body-fixed coordinate system and determines it to be −2i−1.5j+2.5k rad/s. What are the x, y, and z components of the satellite’s velocity relative to a nonrotating coordinate system with its origin fixed to the shuttle’s center of mass?
+The space shuttle is attempting to recover a satellite for repair. At the current time, the satellite’s position relative to a coordinate system fixed to the shuttle is 50i m. The gyroscopes on the shuttle indicate that its current angular velocity is 0.05j+0.03k rad/s. The shuttle pilot measures the velocity of the satellite relative to the body-fixed coordinate system and determines it to be −2i−1.5j+2.5k m/s. What are the x, y, and z components of the satellite’s velocity relative to a nonrotating coordinate system with its origin fixed to the shuttle’s center of mass?
 
 <img src = "figs\03_moving_systems\Q5.jpg" width="50%"> <br>
 
