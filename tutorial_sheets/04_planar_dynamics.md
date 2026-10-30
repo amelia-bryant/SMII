@@ -41,7 +41,7 @@ A horizontal force F=133.4N is applied to the 1023N refrigerator as shown, and t
 
 **(a)**  
 
-$$ a= 1.27 \text{ m/s}^$$
+$$ a= 1.279 \text{ m/s}^2$$
 
 **(b)** 
 
@@ -55,7 +55,7 @@ Solve Q1 if the coefficient of kinetic friction at A and B is $\mu_k$=0.1.
 
 **(a)**  
 
-$$ a=0.3 $$
+$$ a=0.3 \text{ m/s}^2$$
 
 **(b)** 
 

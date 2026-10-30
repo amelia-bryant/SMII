@@ -48,7 +48,7 @@ Take forces and moments
 
 $$\sum F_x: F = ma\\
 133.4 = \frac{1023}{9.81}a \\
-a= 1.27 \text{ m/s$^2$, part (a) solved} $$
+a= 1.279 \text{ m/s$^2$, part (a) solved} $$
 
 $$\sum F_y: A+B-1023 = 0 \\
 B = 1023-A $$
