@@ -33,7 +33,7 @@ Topics covered are
 A horizontal force F=133.4N is applied to the 1023N refrigerator as shown, and the fridge does not tip over. Friction is negligible.
 
 **(a)** What is the magnitude of the refrigerator’s acceleration? <br>
-**(b)** What normal forces are exerted on the refrigerator by the floor at A and B?
+**(b)** What normal forces are exerted on the refrigerator by the floor at A and B, where B is the bottom right fridge corner?
 
 <img src = "figs\04_planar_dynamics\Q1.jpg" width="50%"> <br>
 
@@ -131,7 +131,7 @@ $$ 80.8N \text{ tension in rope }, \alpha=46.2 \text{ rad/s}^2$$
 
 ## Question 7
 
-Points B and C lie in the x–y plane. They axis is vertical. The center of mass of the 18 kg arm BC is at the midpoint of the line from B to C, and the moment of inertia of the arm about the axis through the center of mass that is parallel to the z axis is 1.5 kgm $^2$. At the instant shown, the angular velocity and angular acceleration vectors of arm AB are $\omega_{AB}$=0.6k rad/s and $\alpha_{AB}$=−0.3k rad/s $^2$.The angular velocity and angular acceleration vectors of arm BC are $\omega_{BC}$=0.4k rad/s and $\alpha_{BC}$=2k rad/s $^2$. Determine the force and couple exerted on arm BC at B.
+Points B and C lie in the x–y plane. The axis is vertical. The center of mass of the 18 kg arm BC is at the midpoint of the line from B to C, and the moment of inertia of the arm about the axis through the center of mass that is parallel to the z axis is 1.5 kgm $^2$. At the instant shown, the angular velocity and angular acceleration vectors of arm AB are $\omega_{AB}$=0.6k rad/s and $\alpha_{AB}$=−0.3k rad/s $^2$. The angular velocity and angular acceleration vectors of arm BC are $\omega_{BC}$=0.4k rad/s and $\alpha_{BC}$=2k rad/s $^2$. Determine the force and couple exerted on arm BC at B.
 
 <img src = "figs\04_planar_dynamics\Q7.jpg" width="50%"> <br>
 
@@ -196,7 +196,7 @@ The rocket is used for atmospheric research. Its weight and its moment of inerti
 ### Answer
 
 $$
-5186 \text{ kgm}^2
+5211 \text{ kgm}^2
 $$
 
 ## Question 12
@@ -207,12 +207,12 @@ Model the arm ABC as a single rigid body. Its mass is 320 kg, and the moment of 
 
 ### Answer
 
-$$ 0.59 \text{ rad/s}^2 \text{ anticlockwise} $$
+$$ 0.58 \text{ rad/s}^2 \text{ anticlockwise} $$
 
 
 ## Question 13
 
-A thin ring and a homogeneous circular disk, each of mass m and radius R, are released from rest on an inclined surface. Determine the ratio $v_{ring}/v_{disk}$ of the velocities of their centers when they have rolled a distance D.
+A thin ring and a homogeneous circular disk, each of mass m and radius R, are released from rest on an inclined surface and roll without slipping. Determine the ratio $v_{ring}/v_{disk}$ of the velocities of their centers when they have rolled a distance D.
 
 <img src = "figs\04_planar_dynamics\Q13.jpg" width="50%"> <br>
 

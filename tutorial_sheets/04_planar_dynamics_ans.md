@@ -33,7 +33,7 @@ Topics covered are
 A horizontal force F=133.4N is applied to the 1023N refrigerator as shown, and the fridge does not tip over. Friction is negligible.
 
 **(a)** What is the magnitude of the refrigerator’s acceleration? <br>
-**(b)** What normal forces are exerted on the refrigerator by the floor at A and B?
+**(b)** What normal forces are exerted on the refrigerator by the floor at A and B, where B is the bottom right fridge corner?
 
 <img src = "figs\04_planar_dynamics\Q1.jpg" width="50%"> <br>
 
@@ -346,13 +346,13 @@ $$ 44480-26688 \\ = 17792 \text{ N} $$
 The full rocket CoM can be found with
 
 $$ \frac{(-0.91)(26688)+x(17792)}{44480} =0 \\
-x = 1.37 $$
+x = 1.365 $$
 
-MoI of the empty rocket is then 
+MoI of the empty rocket is then
 
 $$
-13826 = I_E+1.37^2(\frac{17792}{9.81})+2983+(-0.91)^2(\frac{26688}{9.81}) \\
-I_E = 5186 \text{ kgm}^2
+13826 = I_E+1.365^2\left(\frac{17792}{9.81}\right)+2983+(-0.91)^2\left(\frac{26688}{9.81}\right) \\
+I_E = 5211 \text{ kgm}^2
 $$
 
 ## Question 12
@@ -373,16 +373,16 @@ $$
 
 The angle between B and the horizontal is
 
-$$ \theta = \tan^{-1} (\frac{1.5}{1.4}) = 46.97 ^\circ$$
+$$ \theta = \tan^{-1} (\frac{1.5}{1.4}) = 46.975 ^\circ$$
 
 The moment can then be found with
 
-$$\circlearrowright \sum M_A: (1.4)14000\sin(46.97) - (0.8)14000\cos(46.97)-(1.8)320g=1784\alpha \\ \alpha = 0.59 rad/s^2 \\
-\text{therefore }0.59 \text{ rad/s}^2 \text{ anticlockwise} $$
+$$\circlearrowright \sum M_A: (1.4)14000\sin(46.975) - (0.8)14000\cos(46.975)-(1.8)320g=1784\alpha \\ \alpha = 0.58 rad/s^2 \\
+\text{therefore }0.58 \text{ rad/s}^2 \text{ anticlockwise} $$
 
 ## Question 13
 
-A thin ring and a homogeneous circular disk, each of mass m and radius R, are released from rest on an inclined surface. Determine the ratio $v_{ring}/v_{disk}$ of the velocities of their centers when they have rolled a distance D.
+A thin ring and a homogeneous circular disk, each of mass m and radius R, are released from rest on an inclined surface and roll without slipping. Determine the ratio $v_{ring}/v_{disk}$ of the velocities of their centers when they have rolled a distance D.
 
 <img src = "figs\04_planar_dynamics\Q13.jpg" width="50%"> <br>
 
