@@ -50,41 +50,7 @@ At the present instant, the angular velocity and angular acceleration of the cas
 
 ### Answer
 
-The Euler equation on the formula sheet is
-
-$$ \begin{bmatrix}
-\sum M_x \\
-\sum M_y\\
-\sum M_z
-\end{bmatrix} 
-= \begin{bmatrix}
-I_{xx} & -I_{xy} & -I_{xz}\\
--I_{yx} & I_{yy} & -I_{yz}\\
--I_{zx} & -I_{zy} & I_{zz}
-\end{bmatrix} 
-\begin{bmatrix}
-d\omega_x/dt \\
-d\omega_y/dt\\
-d\omega_z/dt
-\end{bmatrix} 
-+ \begin{bmatrix}
-0 & -\Omega_z & \Omega_y\\
-\Omega_z & 0 & -\Omega_x\\
--\Omega_y & \Omega_x & 0
-\end{bmatrix}
-\begin{bmatrix}
-I_{xx} & -I_{xy} & -I_{xz}\\
--I_{yx} & I_{yy} & -I_{yz}\\
--I_{zx} & -I_{zy} & I_{zz}
-\end{bmatrix}
-\begin{bmatrix}
-\omega_x \\
-\omega_y\\
-\omega_z
-\end{bmatrix}
-$$
-
-The axes are fixed to the casting, so they turn with it: their angular velocity $\Omega$ is the casting's angular velocity $\omega$, and the $d\omega/dt$ terms are the components of $\alpha$. The matrix of $\Omega$ components is just the cross product $\omega \times$ written as a matrix, so the equation reads
+The axes are fixed to the casting, so they turn with it. In Euler's equation on the formula sheet this makes $\Omega = \omega$, and the $d\omega/dt$ terms are the components of $\alpha$, so the equation reads
 
 $$ \sum M = [I]\alpha + \omega \times ([I]\omega) $$
 
@@ -290,9 +256,21 @@ $$ \begin{bmatrix}
 60
 \end{bmatrix} $$
 
-The first row gives $\alpha_x = 19 + 0.5\alpha_y$ and the third gives $\alpha_z = 12 - 0.2\alpha_y$. Substituting both into the second row gives $-26 + 1.8\alpha_y = -36$, so $\alpha_y = -5.56$ rad/s$^2$, and then
+Rows 1 and 3 give $\alpha_x$ and $\alpha_z$ in terms of $\alpha_y$, and substituting both into row 2 gives $\alpha_y$:
 
-$$ \alpha = 16.2i-5.56j+13.1k \text{ rad/s}^2 $$ 
+$$ \begin{aligned}
+4\alpha_x - 2\alpha_y &= 76 &&\Rightarrow\quad \alpha_x = 19 + \frac{1}{2}\alpha_y \\
+\alpha_y + 5\alpha_z &= 60 &&\Rightarrow\quad \alpha_z = 12 - \frac{1}{5}\alpha_y \\
+-2\alpha_x + 3\alpha_y + \alpha_z &= -36 &&\Rightarrow\quad -26 + \frac{9}{5}\alpha_y = -36 \quad\Rightarrow\quad \alpha_y = -\frac{50}{9}
+\end{aligned} $$
+
+Then
+
+$$ \alpha_x = 19 - \frac{25}{9} = \frac{146}{9}, \qquad \alpha_z = 12 + \frac{10}{9} = \frac{118}{9} $$
+
+so
+
+$$ \alpha = \frac{146}{9}i-\frac{50}{9}j+\frac{118}{9}k \approx 16.2i-5.56j+13.1k \text{ rad/s}^2 $$ 
 
 ## Question 5
 
@@ -303,9 +281,9 @@ I_{xx} & -I_{xy} & -I_{xz}\\
 -I_{yx} & I_{yy} & -I_{yz}\\
 -I_{zx} & -I_{zy} & I_{zz}
 \end{bmatrix} = \begin{bmatrix}
-0.5 & 0.667 & 0\\
-0.667 & 2.667 & 0\\
-0 & 0 & 3.167
+\dfrac{1}{2} & \dfrac{2}{3} & 0\\[4pt]
+\dfrac{2}{3} & \dfrac{8}{3} & 0\\[4pt]
+0 & 0 & \dfrac{19}{6}
 \end{bmatrix} \text{ kg m}^2
 $$
 
@@ -324,26 +302,26 @@ The bar is stationary relative to an inertial reference frame when the force F =
 
 The bar is 3 m long and 6 kg, so the 1 m leg is 2 kg and the 2 m leg is 4 kg. Measuring from the corner, with each leg's mass at its midpoint,
 
-$$ x_G = \frac{(2)(0)+(4)(1)}{6} = 0.667 \text{ m}, \qquad y_G = \frac{(2)(0.5)+(4)(0)}{6} = 0.167 \text{ m} $$
+$$ x_G = \frac{(2)(0)+(4)(1)}{6} = \frac{2}{3} \text{ m}, \qquad y_G = \frac{(2)(0.5)+(4)(0)}{6} = \frac{1}{6} \text{ m} $$
 
 F acts out of the page at the right end A, which is 2 m from the corner, so the position of A relative to G is
 
-$$ r_{A/G} = (2-0.667)i - 0.167j = 1.333i - 0.167j \text{ m} $$
+$$ r_{A/G} = \left(2-\frac{2}{3}\right)i - \frac{1}{6}j = \frac{4}{3}i - \frac{1}{6}j \text{ m} $$
 
 No couples act, so the moment about G is
 
 $$ \sum M_G = r_{A/G} \times F = \begin{vmatrix}
-i & j & k\\
-1.333 & -0.167 & 0 \\
+i & j & k\\[4pt]
+\dfrac{4}{3} & -\dfrac{1}{6} & 0 \\[4pt]
 0 & 0 & 12
-\end{vmatrix} = -2i-16j \text{ N m} $$
+\end{vmatrix} = \left(-\frac{1}{6}\right)(12)\,i - \left(\frac{4}{3}\right)(12)\,j = -2i-16j \text{ N m} $$
 
-Then $[I]\alpha = \sum M_G$:
+Then $[I]\alpha = \sum M_G$. Every entry of the inertia matrix is a whole number of sixths, so take out the factor 1/6:
 
-$$ \begin{bmatrix}
-0.5 & 0.667 & 0\\
-0.667 & 2.667 & 0\\
-0 & 0 & 3.167
+$$ \frac{1}{6}\begin{bmatrix}
+3 & 4 & 0\\
+4 & 16 & 0\\
+0 & 0 & 19
 \end{bmatrix} 
 \begin{bmatrix}
 \alpha_x \\
@@ -355,9 +333,17 @@ $$ \begin{bmatrix}
 -16 \\
 0 \end{bmatrix} $$
 
-The third row gives $\alpha_z = 0$, and the first two rows give
+The third row gives $\alpha_z = 0$. Multiplying the first two rows by 6 clears the fractions,
 
-$$ \alpha = 6i-7.5j \text{ rad/s}^2 $$
+$$ \begin{aligned}
+3\alpha_x + 4\alpha_y &= -12 \\
+4\alpha_x + 16\alpha_y &= -96
+\end{aligned} $$
+
+Dividing the second row by 4 gives $\alpha_x + 4\alpha_y = -24$, and subtracting this from the first row gives $2\alpha_x = 12$. So
+
+$$ \alpha_x = 6, \qquad \alpha_y = \frac{-24-6}{4} = -\frac{15}{2} \\
+\alpha = 6i-7.5j \text{ rad/s}^2 $$
 
 **(b)** Newton's second law gives the acceleration of G,
 
@@ -368,10 +354,11 @@ Then use the rigid body acceleration equation from G to A, with $\omega = 0$ at 
 $$
 a_A=a_G+\alpha \times r_{A/G}+\omega \times(\omega \times r_{A/G}) \\
 a_A = 2k+\begin{vmatrix}
-i & j & k\\
-6 & -7.5 & 0\\
-1.333 & -0.167 & 0
-\end{vmatrix} +0 = 2k + 9k \\
+i & j & k\\[4pt]
+6 & -\dfrac{15}{2} & 0\\[4pt]
+\dfrac{4}{3} & -\dfrac{1}{6} & 0
+\end{vmatrix} +0 \\
+a_A = 2k + \left[(6)\left(-\frac{1}{6}\right)-\left(-\frac{15}{2}\right)\left(\frac{4}{3}\right)\right]k = 2k + (-1+10)k \\
 a_A = 11k \text{ m/s}^2
 $$
 
@@ -390,13 +377,13 @@ The plate is stationary, so $\omega = 0$ and only the $[I]\alpha$ term of Euler'
 From the formula sheet (thin rectangular plate, axes through the centre of mass),
 
 $$ [I] = \begin{bmatrix}
-\frac{1}{12}mh^2 & 0 & 0\\
-0 & \frac{1}{12}mb^2 & 0\\
-0 & 0 & \frac{1}{12}m(b^2+h^2)
+\dfrac{1}{12}mh^2 & 0 & 0\\[4pt]
+0 & \dfrac{1}{12}mb^2 & 0\\[4pt]
+0 & 0 & \dfrac{1}{12}m(b^2+h^2)
 \end{bmatrix} = \begin{bmatrix}
-0.267 & 0 & 0\\
-0 & 0.6 & 0\\
-0 & 0 & 0.867
+\dfrac{4}{15} & 0 & 0\\[4pt]
+0 & \dfrac{3}{5} & 0\\[4pt]
+0 & 0 & \dfrac{13}{15}
 \end{bmatrix} \text{ kg m}^2
 $$
 
@@ -410,7 +397,7 @@ i & j & k\\
 
 Then $[I]\alpha = \sum M_G$. The inertia matrix is diagonal, so each row stands on its own:
 
-$$ \alpha_x = \frac{2}{0.267} = 7.5, \qquad \alpha_y = \frac{3}{0.6} = 5, \qquad \alpha_z = 0 \\
+$$ \alpha_x = 2 \times \frac{15}{4} = 7.5, \qquad \alpha_y = 3 \times \frac{5}{3} = 5, \qquad \alpha_z = 0 \\
 \alpha = 7.5i+5j \text{ rad/s}^2
 $$
 
@@ -454,9 +441,9 @@ $$ \sum M_G = C $$
 These axes lie along the disc's axes of symmetry, so the formula sheet (thin circular plate) gives
 
 $$ [I] = \begin{bmatrix}
-\frac{1}{4}mR^2 & 0 & 0\\
-0 & \frac{1}{4}mR^2 & 0\\
-0 & 0 & \frac{1}{2}mR^2
+\dfrac{1}{4}mR^2 & 0 & 0\\[4pt]
+0 & \dfrac{1}{4}mR^2 & 0\\[4pt]
+0 & 0 & \dfrac{1}{2}mR^2
 \end{bmatrix} = \begin{bmatrix}
 0.04 & 0 & 0\\
 0 & 0.04 & 0\\
@@ -464,40 +451,41 @@ $$ [I] = \begin{bmatrix}
 \end{bmatrix} \text{ kg m}^2
 $$
 
-The disc turns with the shaft, about the vertical. The vertical is at $\beta$ to z' and at $90^\circ - \beta$ to y', so in the body axes
+The disc turns with the shaft, about the vertical. The vertical is at $\beta$ to z' and at $90^\circ - \beta$ to y', so in the body axes, keeping $\cos 30^\circ = \sqrt{3}/2$ exact,
 
-$$ \omega = \omega_0\sin\beta\, j' + \omega_0\cos\beta\, k' = 25\sin 30^\circ\, j' + 25\cos 30^\circ\, k' = 12.5j' + 21.65k' \text{ rad/s} $$
+$$ \omega = \omega_0\sin\beta\, j' + \omega_0\cos\beta\, k' = 25\sin 30^\circ\, j' + 25\cos 30^\circ\, k' = \frac{25}{2}j' + \frac{25\sqrt{3}}{2}k' \text{ rad/s} $$
 
 $\omega$ is constant, so $\alpha = 0$ and only the second term of Euler's equation is left. First the angular momentum,
 
 $$ H = [I]\omega = \begin{bmatrix}
-0.04 & 0 & 0\\
-0 & 0.04 & 0\\
+0.04 & 0 & 0\\[4pt]
+0 & 0.04 & 0\\[4pt]
 0 & 0 & 0.08
 \end{bmatrix}
 \begin{bmatrix}
-0 \\
-12.5\\
-21.65
+0 \\[4pt]
+\dfrac{25}{2}\\[4pt]
+\dfrac{25\sqrt{3}}{2}
 \end{bmatrix} 
 = \begin{bmatrix}
-0 \\
-0.5\\
-1.732
+0 \\[4pt]
+\dfrac{1}{2}\\[4pt]
+\sqrt{3}
 \end{bmatrix} \text{ kg m}^2\text{/s}
 $$
 
 then
 
 $$ C = \omega \times H = \begin{vmatrix}
-i' & j' & k'\\
-0 & 12.5 & 21.65\\
-0 & 0.5 & 1.732
-\end{vmatrix} = [(12.5)(1.732)-(21.65)(0.5)]\,i' = 10.8i' \text{ N m} $$
+i' & j' & k'\\[4pt]
+0 & \dfrac{25}{2} & \dfrac{25\sqrt{3}}{2}\\[4pt]
+0 & \dfrac{1}{2} & \sqrt{3}
+\end{vmatrix} = \left[\left(\frac{25}{2}\right)\left(\sqrt{3}\right)-\left(\frac{25\sqrt{3}}{2}\right)\left(\frac{1}{2}\right)\right] i' \\
+C = \left(\frac{25\sqrt{3}}{2} - \frac{25\sqrt{3}}{4}\right) i' = \frac{25\sqrt{3}}{4}\, i' \text{ N m} $$
 
 So the magnitude of the couple is
 
-$$ \lvert C \rvert = 10.8 \text{ N m} $$
+$$ \lvert C \rvert = \frac{25\sqrt{3}}{4} \approx 10.8 \text{ N m} $$
 
 It acts about x', into the page. In the figure it turns the disc clockwise, towards a steeper slope: without it, the spinning disc would turn towards horizontal.
 
@@ -518,9 +506,9 @@ The forces on the plate are its weight W = 44.5 N, acting at the centre of mass 
 First the inertia matrix about O, from the formula sheet (thin rectangular plate, axes at a corner), with $m$ = 44.5/9.81 = 4.536 kg:
 
 $$ [I_O] = \begin{bmatrix}
-\frac{1}{3}mh^2 & -\frac{1}{4}mbh & 0\\
--\frac{1}{4}mbh & \frac{1}{3}mb^2 & 0\\
-0 & 0 & \frac{1}{3}m(b^2+h^2)
+\dfrac{1}{3}mh^2 & -\dfrac{1}{4}mbh & 0\\[4pt]
+-\dfrac{1}{4}mbh & \dfrac{1}{3}mb^2 & 0\\[4pt]
+0 & 0 & \dfrac{1}{3}m(b^2+h^2)
 \end{bmatrix} = \begin{bmatrix}
 0.1453 & -0.2144 & 0\\
 -0.2144 & 0.5626 & 0\\
