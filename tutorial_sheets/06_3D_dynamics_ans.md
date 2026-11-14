@@ -50,41 +50,7 @@ At the present instant, the angular velocity and angular acceleration of the cas
 
 ### Answer
 
-The Euler equation on the formula sheet is
-
-$$ \begin{bmatrix}
-\sum M_x \\
-\sum M_y\\
-\sum M_z
-\end{bmatrix} 
-= \begin{bmatrix}
-I_{xx} & -I_{xy} & -I_{xz}\\
--I_{yx} & I_{yy} & -I_{yz}\\
--I_{zx} & -I_{zy} & I_{zz}
-\end{bmatrix} 
-\begin{bmatrix}
-d\omega_x/dt \\
-d\omega_y/dt\\
-d\omega_z/dt
-\end{bmatrix} 
-+ \begin{bmatrix}
-0 & -\Omega_z & \Omega_y\\
-\Omega_z & 0 & -\Omega_x\\
--\Omega_y & \Omega_x & 0
-\end{bmatrix}
-\begin{bmatrix}
-I_{xx} & -I_{xy} & -I_{xz}\\
--I_{yx} & I_{yy} & -I_{yz}\\
--I_{zx} & -I_{zy} & I_{zz}
-\end{bmatrix}
-\begin{bmatrix}
-\omega_x \\
-\omega_y\\
-\omega_z
-\end{bmatrix}
-$$
-
-The axes are fixed to the casting, so they turn with it: their angular velocity $\Omega$ is the casting's angular velocity $\omega$, and the $d\omega/dt$ terms are the components of $\alpha$. The matrix of $\Omega$ components is just the cross product $\omega \times$ written as a matrix, so the equation reads
+The axes are fixed to the casting, so they turn with it. In Euler's equation on the formula sheet this makes $\Omega = \omega$, and the $d\omega/dt$ terms are the components of $\alpha$, so the equation reads
 
 $$ \sum M = [I]\alpha + \omega \times ([I]\omega) $$
 
