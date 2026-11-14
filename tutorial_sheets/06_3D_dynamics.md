@@ -120,7 +120,7 @@ At the present instant, the rigid body’s angular velocity is $\omega$ = 6i + 6
 
 ### Answer
 
-$$ \alpha = 16.2i-5.56j+13.1k \text{ rad/s}^2 $$ 
+$$ \alpha = \frac{146}{9}i-\frac{50}{9}j+\frac{118}{9}k \approx 16.2i-5.56j+13.1k \text{ rad/s}^2 $$ 
 
 ## Question 5
 
@@ -131,9 +131,9 @@ I_{xx} & -I_{xy} & -I_{xz}\\
 -I_{yx} & I_{yy} & -I_{yz}\\
 -I_{zx} & -I_{zy} & I_{zz}
 \end{bmatrix} = \begin{bmatrix}
-0.5 & 0.667 & 0\\
-0.667 & 2.667 & 0\\
-0 & 0 & 3.167
+\dfrac{1}{2} & \dfrac{2}{3} & 0\\[4pt]
+\dfrac{2}{3} & \dfrac{8}{3} & 0\\[4pt]
+0 & 0 & \dfrac{19}{6}
 \end{bmatrix} \text{ kg m}^2
 $$
 
@@ -176,7 +176,7 @@ Determine the magnitude of the couple exerted on the disc by the shaft.
 
 ### Answer
 
-$$ \lvert C \rvert = 10.8 \text{ N m} $$
+$$ \lvert C \rvert = \frac{25\sqrt{3}}{4} \approx 10.8 \text{ N m} $$
 
 ## Question 8
 
